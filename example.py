@@ -1,15 +1,15 @@
-from lsdscc.dataset import Dataset
+from lsdscc.dataset import EvalDataset
 from lsdscc.metrics import mean_diversity_score
 from lsdscc.metrics import probabilistic_diversity_score
 
 if __name__ == '__main__':
-    dataset = Dataset.create()
+    dataset = EvalDataset.create()
     query = dataset.get_test_query_at(0)
     responses = [
-        "believe in god , why not ?",
-        "yes , there is",
-        "I am not sure , either",
-        "Just forget it",
+        "believe in god , why not ?".split(),
+        "yes , there is".split(),
+        "I am not sure , either".split(),
+        "Just forget it".split(),
     ]
     reference_group = dataset.get_reference_group(0)
     mds = mean_diversity_score(responses, reference_group)

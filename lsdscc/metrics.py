@@ -74,9 +74,6 @@ def max_bleu(response, reference_group):
     :param reference_group: a list of multiple references, each is a list of sentences.
     :return: the index of the group that has the highest semantic relevance to the response.
     """
-    # TODO: make the dataset a split()'ed serialized data.
-    response = response.split()
-    reference_group = [[ref.split() for ref in refs] for refs in reference_group]
     bleu_values = [sentence_bleu(refs, response,
                                  emulate_multibleu=True) for refs in reference_group]
     return np.argmax(bleu_values)

@@ -3,11 +3,13 @@ import os
 import json
 import zipfile
 import collections
+import pickle
 
-__all__ = ["Dataset"]
+__all__ = ["EvalDataset"]
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), 'data')
 GROUP_FILE = os.path.join(DATA_ROOT, 'test.group.json')
+GROUP_PICKLE_FILE = os.path.join(DATA_ROOT, 'eval_dataset.pkl')
 DATASET_ZIP_FILE = os.path.join(DATA_ROOT, 'dataset.zip')
 DATASET_TXT = 'dataset.txt'
 
@@ -16,13 +18,29 @@ _QUERY_RESPONSE_SEPARATOR = '<EOS>#TAB#'
 _TRAIN_PERCENTAGE = 0.85
 
 
+def _process_reference_group(group):
+    """
+    Process a reference_group from *raw* data loaded from json for use in Python.
+    :param group: dict. key is id of a subgroup. value is a list of string as the references of a subgroup.
+    :return: a list of subgroups (members). Each subgroup is a list of sentences.
+    Each sentence is a list of tokens. Every sentence in the raw data is already tokenized so we can
+    simply split it.
+    """
+    new_group = []
+    for member in group.values():
+        new_group.append([ref.split() for ref in member])
+    return new_group
+
+
 def _load_reference_groups():
     """
-    Load the human annotated query-response-groups from json format.
-    :return:
+    Load and process the human annotated query-response-groups from json format.
+    The raw json data is turned into a format for the ease of pythonic use.
+    :return: dict.
     """
     with open(GROUP_FILE) as f:
-        return json.load(f)
+        raw_data = json.load(f)
+    return {query: _process_reference_group(group) for query, group in raw_data.items()}
 
 
 def _load_dialogs():
@@ -38,30 +56,20 @@ def _load_dialogs():
 
 def _split_dialogs(dialogs):
     """
-    Split a list of dialogs into a training set (85%) and a test set (15%).
+    Split a list of dialogs into a training set (85%) and a validation set (15%).
     :param dialogs: a list of query-response pairs.
-    :return: a 2-tuple. Sub list of the dialogs. training_set, test_set.
+    :return: a 2-tuple. Sub list of the dialogs.
     """
     total = len(dialogs)
     for_train = round(total * _TRAIN_PERCENTAGE)
     return dialogs[:for_train - 1], dialogs[for_train:]
 
 
-class Dataset(collections.namedtuple('Dataset', ['dialogs',
-                                                 'training_dialogs',
-                                                 'test_dialogs',
-                                                 'reference_groups',
-                                                 'test_queries'])):
+class EvalDataset(collections.namedtuple('EvalDataset', ['reference_groups', 'test_queries'])):
     """
-    A simple interface to the loaded dataset.
+    The dataset used for evaluation.
 
     Fields:
-        dialogs: A list of query-response pairs. This contains all the pairs loaded from the original dataset.txt.
-
-        training_dialogs: First 85% of the dialogs for training.
-
-        test_dialogs: The remaining pairs of dialogs for validating/testing.
-
         reference_groups: A JSON dict of the human-annotated query-response groups.
         The key is a query. The value is a dict, whose key is the ID of a group and
         value is a list of responses of that group.
@@ -72,21 +80,26 @@ class Dataset(collections.namedtuple('Dataset', ['dialogs',
     @classmethod
     def create(cls):
         """
-        Create a new Dataset by loading disk files.
+        Create a new EvalDataset by constructing from a json file.
         It may takes some time.
-        :return: A new Dataset.
+        :return:
         """
-        dialogs = _load_dialogs()
-        train_dialogs, test_dialogs = _split_dialogs(dialogs)
         reference_groups = _load_reference_groups()
-
         return cls(
-            dialogs=dialogs,
-            training_dialogs=train_dialogs,
-            test_dialogs=test_dialogs,
             reference_groups=reference_groups,
             test_queries=list(reference_groups.keys()),
         )
+
+    @classmethod
+    def create_from_pickle(cls):
+        """
+        Create an EvalDataset instance by loading from a pickle file.
+        :return:
+        """
+        with open(GROUP_PICKLE_FILE, 'rb') as f:
+            obj = pickle.load(f)
+        assert isinstance(obj, cls)
+        return obj
 
     def get_reference_group(self, query):
         """
@@ -97,7 +110,7 @@ class Dataset(collections.namedtuple('Dataset', ['dialogs',
         """
         if isinstance(query, int):
             query = self.get_test_query_at(query)
-        return self.reference_groups[query].values()
+        return self.reference_groups[query]
 
     def __repr__(self):
         return object.__repr__(self)
