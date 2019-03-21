@@ -10,12 +10,30 @@ from nltk.translate.bleu_score import sentence_bleu
 import numpy as np
 
 
+def _extended_argmax(iterable):
+    """
+    Return the max element and its index in an iterable as a 2-tuple.
+
+    >>> _extended_argmax([1, 2, 3])
+    (3, 2)
+
+    >>> _extended_argmax([1])
+    (1, 0)
+
+    :param iterable: an iterable.
+    :return: max_element, index.
+    """
+    sequence = tuple(iterable)
+    items_pack = [(item, i) for i, item in enumerate(sequence)]
+    return max(items_pack)
+
+
 def _compute_alignment(responses, reference_group):
     # The i-th response is aligned to the alignment[i]-th reference group.
     # By *aligned to* we mean in plain words, the response is semantically similar to the group.
     # Note the group is a cluster of semantically similar references.
-    # In other words, ``max_bleu(responses[i], reference_group) == alignment[i]``
-    alignment = set(max_bleu(response, reference_group) for response in responses)
+    # In other words, ``_argmax_multi_bleu(responses[i], reference_group) == alignment[i]``
+    alignment = set(_argmax_multi_bleu(response, reference_group) for response in responses)
     return alignment
 
 
@@ -24,7 +42,7 @@ def mean_diversity_score(responses, reference_group):
     Calculate the MDS (Mean Diversity Score) described by the paper.
 
     MDS is the percentage of members that align to at least one response in a reference_group.
-    A member is said to *align to* a response if the max_bleu of the response and the member yields
+    A member is said to *align to* a response if the _argmax_multi_bleu of the response and the member yields
     the index of the member within its group. In other words, the member *has* the highest semantic relevance
     to the response within the group. Those special members are counted and then divided by the total number
     of member to yield the MDS score.
@@ -50,12 +68,12 @@ def probabilistic_diversity_score(responses, reference_group):
     :return: the PDS score.
     """
     alignment = _compute_alignment(responses, reference_group)
-    numerator = sum(k * len(reference_group[k]) for k in alignment)
+    numerator = sum(len(reference_group[k]) for k in alignment)
     denominator = sum(len(refs) for refs in reference_group)
     return numerator / denominator
 
 
-def max_bleu(response, reference_group):
+def _argmax_multi_bleu(response, reference_group):
     """
     Calculate MaxBLEU described by the paper.
 
@@ -76,7 +94,7 @@ def max_bleu(response, reference_group):
     """
     bleu_values = [sentence_bleu(refs, response,
                                  emulate_multibleu=True) for refs in reference_group]
-    return np.argmax(bleu_values)
+    return _extended_argmax(bleu_values)
 
 
 def cluster_response_sentences(responses, reference_group):
@@ -91,6 +109,6 @@ def cluster_response_sentences(responses, reference_group):
     """
     clusters = {k: [] for k in range(len(reference_group))}
     for response in responses:
-        k = max_bleu(response, reference_group)
+        k = _argmax_multi_bleu(response, reference_group)
         clusters[k].append(response)
     return clusters
