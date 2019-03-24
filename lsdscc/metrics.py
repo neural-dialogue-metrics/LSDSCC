@@ -16,24 +16,6 @@ __all__ = [
 ]
 
 
-def _extended_argmax(iterable):
-    """
-    Return the max element and its index in an iterable as a 2-tuple.
-
-    >>> _extended_argmax([1, 2, 3])
-    (3, 2)
-
-    >>> _extended_argmax([1])
-    (1, 0)
-
-    :param iterable: an iterable.
-    :return: max_element, index.
-    """
-    sequence = tuple(iterable)
-    items_pack = [(item, i) for i, item in enumerate(sequence)]
-    return max(items_pack)
-
-
 def _compute_alignment(responses, reference_group):
     """
     Compute the alignment between the response set and the reference_group.

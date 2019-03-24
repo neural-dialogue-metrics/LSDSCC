@@ -149,15 +149,15 @@ class EvalDataset(collections.namedtuple('EvalDataset', ['reference_groups', 'te
         """
         Return the reference group for this query.
         :param query: Union[int, str] a string used as a key to the query-reference-group mapping.
-        If it is an integer, the query string is first looked by calling `self.get_test_query_at()`.
+        If it is an integer, the query string is first looked by calling `self._get_test_query_at()`.
         :return: a list of reference set. A reference set is a list of reference sentence.
         """
         if isinstance(query, int):
-            query = self.get_test_query_at(query)
+            query = self._get_test_query_at(query)
         return self.reference_groups[query]
 
     # Prevent large print-out.
     __repr__ = object.__repr__
 
-    def get_test_query_at(self, index):
+    def _get_test_query_at(self, index):
         return self.test_queries[index]

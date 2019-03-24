@@ -4,7 +4,7 @@ from lsdscc.metrics import probabilistic_diversity_score
 
 if __name__ == '__main__':
     dataset = EvalDataset.create_from_json()
-    query = dataset.get_test_query_at(0)
+    query = dataset._get_test_query_at(0)
     responses = [
         "believe in god , why not ?".split(),
         "yes , there is".split(),
