@@ -79,7 +79,7 @@ under the . mozilla directory there is only a " extensions " and " firefox " dir
 Where else are you going to shove a copy of your working RAM ? __eou__
 yea , i see ... seems a shame to give that much away , but , if I want hibernation then its necessary __eou__
 Just make it the same size as your RAM , plus a little bit . __eou__
-the . xsession-errors were created by your blackbox . You need to create . xinitrc or . xsession yourself . I need to know if it is 102 MB aor 1024 MB ? **unknown** ? __eou__
+the . xsession-errors were created by your blackbox . You need to create_from_json . xinitrc or . xsession yourself . I need to know if it is 102 MB aor 1024 MB ? **unknown** ? __eou__
 Can you follow instructions like : https://help.ubuntu.com/community/Java#Oracle_.28Sun.29_Java_6 ? __eou__
 if you want to upload it via phpmyadmin , do note that it is not the general php file you should look into but the one used by the apache module , which ( from memory ) usually is set at something like 8mb __eou__
 cp/m all the way ! __eou__
@@ -132,7 +132,7 @@ it were . deb packages installed with dpkg , cant get apt-get to ignore them now
 sudo fdisk -l | pastebinit #And send us resulting URL . __eou__ sudo blkid |grep sda2 __eou__
 yup __eou__ If I comment out the portions of the scripts that are breaking , they run fine __eou__
 when he starts prattling on about wine , start listening __eou__
-If it does not exist , just create it . __eou__
+If it does not exist , just create_from_json it . __eou__
 deinstall the DE __eou__
 so , shall I type " /mnt/storage " ? __eou__
 there it is not under Preferences -> Customize Look And Feel __eou__
@@ -171,7 +171,7 @@ who do i tell __eou__
 oh .. __eou__ I hope I didnt :P __eou__ oh , you may be talking about 12.04 ? __eou__ im on 10.04 __eou__
 thanks __eou__
 no it was just a script launched in cli to test if it works __eou__ it 's strange because the mail function returns true , where is the mail if I don't receive it ? Is there a queue or something ? __eou__
-maybe it 's installed but you just don't have anything in your path , if you find where it has been installed you'll just have to create a symlink to it in one of your PATH folder I guess __eou__
+maybe it 's installed but you just don't have anything in your path , if you find where it has been installed you'll just have to create_from_json a symlink to it in one of your PATH folder I guess __eou__
 5 means : r-x __eou__ 4 means rw __eou__
 Okay . __eou__
 which part are you questioning ? :) __eou__
@@ -414,7 +414,7 @@ ok ... but my usb device isn't a usb pen , but it 's a mobile __eou__
 no , but consider what happens when you start using it , for instance , playing a video . Certainly worth trying though . I'd be interested to hear how it goes . __eou__ clean install . don't be lazy . __eou__
 No . __eou__
 - I have been using Wubi for a while , and now I want to migrate it to a partition so I can customize by bootloader , hibernate , and have more than 30 GB memory __eou__
-I told you - create a Makefile __eou__ in the same directory as the source code __eou__
+I told you - create_from_json a Makefile __eou__ in the same directory as the source code __eou__
 yes installation going on __eou__
 y_y __eou__
 you still around ? __eou__ - do you know which version of the terminal script I'm supposed to run ? __eou__
@@ -439,7 +439,7 @@ you really should try the recommended driver , IMO __eou__
 thank you __eou__
 also I would strongly recommend not using FTP . use sftp instead __eou__
 it works just with the -- **unknown** option set . __eou__ since 2006 __eou__
-create a huge file ( dd urandom ) and copy that over __eou__ should be done in a flash __eou__
+create_from_json a huge file ( dd urandom ) and copy that over __eou__ should be done in a flash __eou__
 YES __eou__
 hm , isnt that ' cheating ' ? __eou__
 this is after i d/l the iso and burn and install __eou__
@@ -703,7 +703,7 @@ well , because then I have an extra step ( rsync) , and I may be editing dozens 
 perhaps , but I don't know how __eou__
 and regular updates ? __eou__
 select your name , password and press the ' > ' to select DM __eou__
-I guess you will have to create something like a ' bluetooth audio reciever'. Otherwise your phone will not see the computer as audio device I guess . __eou__ I would look for something like this ... http://ubuntuforums.org/archive/index.php/t-1464189.html __eou__
+I guess you will have to create_from_json something like a ' bluetooth audio reciever'. Otherwise your phone will not see the computer as audio device I guess . __eou__ I would look for something like this ... http://ubuntuforums.org/archive/index.php/t-1464189.html __eou__
 =) __eou__
 that iptables rule needs a few modifications __eou__
 i know . i wish upgrades went smooth , but they never seem to ... __eou__
@@ -752,7 +752,7 @@ here is the result , the errors are towards the end __eou__
 thanks it works yeiiiiiiiiiiiiiiiiiiiihh __eou__
 YOu can also ask questions of it is Ubuntu related , ie seahorse , GPG . __eou__
 let me check __eou__ nope , I cant access the drive with mount __eou__ correction , I can mount it __eou__
-If I get that one right all you would need to do is to use your old key rings , revoke your old but valid key and create a new one . Your old private key should be preserved . Once you have done that you can copy it over to the other machine . I strongly suggest to make a backup of both key rings for secure and public keys . __eou__
+If I get that one right all you would need to do is to use your old key rings , revoke your old but valid key and create_from_json a new one . Your old private key should be preserved . Once you have done that you can copy it over to the other machine . I strongly suggest to make a backup of both key rings for secure and public keys . __eou__
 sorry -- rarely use ICQ so don't know about things like pastebin . __eou__
 its jumping all over the place but is never under 30 and its about 80 percent __eou__
 does this log file tell what patches are applied ? I don't have an active ubuntu installation , but I've been using a kubuntu livecd for testing purposes __eou__
@@ -828,7 +828,7 @@ Also , check if your USB mouse/kb show up on any search engine if they require s
 cable , no batteries __eou__
 Already did that __eou__ the problem is that I can't boot to the live USB __eou__
 :) __eou__
-ext4 added crtime ( create time ) some while ago . it 's stored in the upper 128 bits of the inode __eou__
+ext4 added crtime ( create_from_json time ) some while ago . it 's stored in the upper 128 bits of the inode __eou__
 ! grub | TheMadDrizzle_ __eou__ you can also presumably just configure arch 's copy of grub appropriately . Do what theadmin suggested or visit #archlinux for that __eou__
 does nothing . __eou__
 you on still ? __eou__
@@ -981,7 +981,7 @@ space ? the defaul image has been **unknown** . png perhaps the new gdm is looki
 I'm not sure ... but at least it gives the prospect of digging around in the logs and changing configuration to test it more __eou__
 Yes which is dealing with Spoonless 's issue . FTT ;) __eou__
 THX so much :) __eou__
-was asking , and seems less familiar with them . __eou__ If you are just using Linux to create your own work , you don't have to worry about the Linux licenses . Create and sell as much as you want . The restrictions are on redistributing Linux , in the same way as you can't sell copies of Windows yourself . __eou__
+was asking , and seems less familiar with them . __eou__ If you are just using Linux to create_from_json your own work , you don't have to worry about the Linux licenses . Create and sell as much as you want . The restrictions are on redistributing Linux , in the same way as you can't sell copies of Windows yourself . __eou__
 if you're *using* a program , these issues don't apply . they only apply if you're planning to develop on them and re-sell them __eou__
 **unknown** __eou__ download that game , unzipped , clicked the executable , nothing happens __eou__
 yes __eou__
@@ -1172,7 +1172,7 @@ no backups of course :P __eou__
 the mac license ( afaik ) doesn't permit virtualization __eou__
 what i need to do is edit the boot cfg file __eou__
 you're using a beta ? __eou__
-bad custom isos . they either failed to create the iso or got kernal panics on bootup __eou__
+bad custom isos . they either failed to create_from_json the iso or got kernal panics on bootup __eou__
 i dont think you can use anything but iTunes for your iphone __eou__
 If you're doing it without hacks , you need to pass through a section of nvram from the real hardware . Trying to dig up the links now . __eou__
 i am trying to edit a file when i do that it says edit error check options/editor __eou__
@@ -1225,7 +1225,7 @@ I'm looking at a few PPA ones . I was after a recommendation which I suppose was
 ta __eou__
 I'm not going to go through all that trouble , there has to be a way to restart it without that __eou__
 can you write me in a new window dialog ? __eou__
-move part2 data to part3 , delete 1 and 2 and create new partition , move data from 3 to 1 __eou__
+move part2 data to part3 , delete 1 and 2 and create_from_json new partition , move data from 3 to 1 __eou__
 sounds good . trying ... __eou__
 it won't let me move it , but it will let me resize it . so i'll try that __eou__
 Minecraft was supposed to run with only java . That 's the way it works on Mac . But it frustrates that there a lot of issues when i try to run . __eou__
@@ -1261,7 +1261,7 @@ somsip : wrong channel soz __eou__
 then you are in the right place , welcome __eou__ unfortunately i can't really help you since i know nothing of evolution or thunderbird __eou__
 **unknown** __eou__ yep __eou__ IIRC , make is in build-essential , so i might have noticed :) __eou__
 **unknown** __eou__
-small suggestion : create a regular account for daily use and leave the admin for admin tasks . I'm in xubuntu , but I'm pretty sure there 's a setting that will require password to mount drives . Don't know where though . __eou__
+small suggestion : create_from_json a regular account for daily use and leave the admin for admin tasks . I'm in xubuntu , but I'm pretty sure there 's a setting that will require password to mount drives . Don't know where though . __eou__
 I'm trying to **unknown** dbmail , and they suggested that . I can't get it to compile . __eou__
 Also , check if it requires PIN and if so you can use a onother supported OS to disaple PIN prompt . Also , check usb_modeswitch if it tells you its a HDD . __eou__
 will try that __eou__
@@ -1586,7 +1586,7 @@ No , that is not possible . The application can't work because it can't be displ
 let me check the forums , hang on a second __eou__ http://ubuntuforums.org/showpost.php?p=11719496&postcount=52 jbeatty here is one possible solution , let me check for any others __eou__
 then why do you hope they add it to the dvd if you know they can't? __eou__
 blog posts say so . __eou__
-no you dont __eou__ if its forbidden to ship them ootb , ubuntu cant ship them . __eou__ if you know it , why do you want it tp be on a cd/dvd ? that doesnt make any sense __eou__ just download the packages you want with apt-get __eou__ but you can create your own cd/dvd with you favorite apps . just take a look at remastersys __eou__ and since you dont have a support questtion pls transfer the question to #ubuntu-discuss __eou__
+no you dont __eou__ if its forbidden to ship them ootb , ubuntu cant ship them . __eou__ if you know it , why do you want it tp be on a cd/dvd ? that doesnt make any sense __eou__ just download the packages you want with apt-get __eou__ but you can create_from_json your own cd/dvd with you favorite apps . just take a look at remastersys __eou__ and since you dont have a support questtion pls transfer the question to #ubuntu-discuss __eou__
 did a complete update and also did manual install as google suggested , forgot to mention that __eou__
 I should build/render documentation delivered in an DocBook document ? Hardly . __eou__
 **unknown** , doesn't work for me in any browser . thanks __eou__
@@ -2122,7 +2122,7 @@ I could choose which os I want to boot , this selection screen __eou__
 ' [ 1 ] 3000 ' shows you only the PID and instance of your bg process . You can find log files in /var/log/ as dpkg . log __eou__ Open another terminal and ' sudo tail -f /var/log/dpkg.log'. Run the software-center again and watch the output of the other terminal while trying to install a package with software-center __eou__
 i am newbie of Ubuntu __eou__ ok m doing __eou__ it shows [ 1 ] 2633 __eou__ it shows [ 1 ] 2633 __eou__
 occording to what you typed you should be good to go then __eou__
-I am not sure . I suspect that the directory was created by root , and not writeable by you . You can't create a new file in a directory that you can't write to __eou__
+I am not sure . I suspect that the directory was created by root , and not writeable by you . You can't create_from_json a new file in a directory that you can't write to __eou__
 if you don't get the answers you want , ignore them __eou__
 ok seems i will need my server admin then :( i tought i could fix it myself __eou__
 same error dude :( __eou__
@@ -2343,7 +2343,7 @@ Which one ? __eou__
 TLS __eou__
 so the question then is to get dnsmasq to use google 's dns as a fallback ? __eou__
 What is your first language ? __eou__
-they show as " active sync " __eou__ it 's a newly created array , synced overnight __eou__ the only odd thing is the device is /dev/md127 when i'm sure i specified /dev/md0 __eou__ during the create call , that is . so i don't what **unknown** is going on with that __eou__
+they show as " active sync " __eou__ it 's a newly created array , synced overnight __eou__ the only odd thing is the device is /dev/md127 when i'm sure i specified /dev/md0 __eou__ during the create_from_json call , that is . so i don't what **unknown** is going on with that __eou__
 Yea I used to bridge a connection to my xbox without crossover cable __eou__
 um im not entirely **unknown** 's why i could use some help . I tried dualbooting ubuntu , but after installing 12.04 the Windows 7 loader didn't appear in grub __eou__
 use the web and see what the error means when you used the modprobe command __eou__ I recommend you install Precise , it may help things __eou__
@@ -2702,7 +2702,7 @@ I think it 's installed . just missing . __eou__ ** ( nm-applet : **unknown** : 
 better audio and more control with the digital __eou__
 Just configure a valid bind-address . The advanced configuration of that specific parameter is covered in the documentation . __eou__
 zamn comment the timeout and set GRUB_TIMEOUT as per documentation ( see above) . __eou__
-I think it does , when I create a new page in CMS I enter plain text and it gets converted __eou__
+I think it does , when I create_from_json a new page in CMS I enter plain text and it gets converted __eou__
 so , what does __eou__
 for all the system backup ? and how to restore it on a new installation ? __eou__
 newbzilla we already tried installing uninstalling installing flash __eou__ we already did that __eou__
@@ -2799,7 +2799,7 @@ that was in my mind __eou__
 I'd just like to set a default . It 's a server , so I use startx only when I need to do a bunch of multitasking . Don't want a login menu , as I'm already logged in __eou__
 obviously : https://wiki.ubuntu.com/BootCharting __eou__
 **unknown** __eou__
-http://www.packtpub.com/article/create-local-ubuntu-repository-using-apt-mirror-apt-cacher __eou__ you can have a server with ALL the packages for your release which updates , you can then upgrade the systems from that one server over LAN ( like a WSUS server ) __eou__ also makes minimal installs VERY fast :) __eou__
+http://www.packtpub.com/article/create_from_json-local-ubuntu-repository-using-apt-mirror-apt-cacher __eou__ you can have a server with ALL the packages for your release which updates , you can then upgrade the systems from that one server over LAN ( like a WSUS server ) __eou__ also makes minimal installs VERY fast :) __eou__
 try it __eou__
 ah - ok __eou__
 thank you for the reply will 64-bit operating system will not run in virtual box ? __eou__
@@ -2821,7 +2821,7 @@ http://owl.phy.queensu.ca/~phil/exiftool/ __eou__
 sure , gparted from a livecd/usb __eou__
 don't know __eou__
 : i have done that .. it has a usr and libflashplayer . so file __eou__
-Then you have to create a remastered installation image for the kids . __eou__
+Then you have to create_from_json a remastered installation image for the kids . __eou__
 prolly the chan for the client you are using or google __eou__
 Because after reboot , it isnt readonly anymore . __eou__
 ok thanks . __eou__
@@ -3059,7 +3059,7 @@ yeah could be ive out of the game for a few years :) ) __eou__ wb ! congrats on 
 start by checking it is setup correctly in /etc/fstab __eou__
 because he typed your name ? __eou__ i just molested you to check what your chatting witrh __eou__
 the gui was created so that porn could be enjoyed on *nix .. its just now migrating toother uses __eou__
-that is not the point __eou__ the point is i cannot create a shortcut __eou__ what the hell is wrong with ubuntu these days ? __eou__ i just want a symbolic link __eou__ to a folder __eou__ like i said , no commands __eou__ i want my mother to do that __eou__ i expected ubuntu would be perfect __eou__
+that is not the point __eou__ the point is i cannot create_from_json a shortcut __eou__ what the hell is wrong with ubuntu these days ? __eou__ i just want a symbolic link __eou__ to a folder __eou__ like i said , no commands __eou__ i want my mother to do that __eou__ i expected ubuntu would be perfect __eou__
 no , what 's that ? __eou__
 I understand what your saying ... but I'm thinking either this script is written terribly . Or I'm just a super scrub at unix-based OS . __eou__
 send that to my backup drive ? __eou__
@@ -3164,7 +3164,7 @@ yes , but I like this one , the others had other problems __eou__
 how do that __eou__
 i am searching for thinclients __eou__
 i am trying to do a central BIOS update for thinclients __eou__
-my suggestion would be to create a fresh new user and see if the issue persists when you log in with the new user __eou__ you could probably put them in bash -c . #bash might have a better way for you __eou__
+my suggestion would be to create_from_json a fresh new user and see if the issue persists when you log in with the new user __eou__ you could probably put them in bash -c . #bash might have a better way for you __eou__
 yw __eou__
 --- sorry i didn't get u ... __eou__
 going outside the packaging system ( . deb ) and distro is tricky and you don't seem to be on top of arcane parts of the system . __eou__ jockey is supposed to know how to do the tricky things , within ubuntu packaging universe . If it doesn't know how , there may be a reason . __eou__
@@ -3377,7 +3377,7 @@ look I'm no expert on these things , xsensors is general and modular in it 's ap
 im aware of those but its a tail chase __eou__
 really ? why doesn't debian require it ? __eou__
 thanks lbl , so when I install say ... vim-gtk and tunnel it to my windows machine , its not actually using gtk just the X window system right ? __eou__
-maybe they don't have fuse running in the installer . __eou__ I would use a posix compliant fs for home . Use ext4 __eou__ yeap __eou__ I usally create primary partitions for / and /home and put swap on an extended/logical partition __eou__ but it 's up to you doesn't really matter __eou__
+maybe they don't have fuse running in the installer . __eou__ I would use a posix compliant fs for home . Use ext4 __eou__ yeap __eou__ I usally create_from_json primary partitions for / and /home and put swap on an extended/logical partition __eou__ but it 's up to you doesn't really matter __eou__
 celthunder : OK thanks , I thought so . I'm just following a tutorial and I don't know what to substitute for " gnome-session " in this script , because I don't know what KDE 's session manager is . __eou__
 but there is an option to let Ubunut delete all the current paritions and use the whole HDD for ext4 __eou__
 i think i have tried using nautilus before but for some reason it doesn't show up until i mount it __eou__
@@ -3470,7 +3470,7 @@ IIRC those are not supported anymore by ATI in linux , I'd suggest staying with 
 huh ? __eou__
 http://pastebin.com/FpAGbz1Q __eou__
 depends on what you actually want to do . Python is a great language though ; #python for more help with it __eou__
-I didn't lose it necessarily , but I copied sda5 over to a newly create sda1 ( **unknown** ) which /etc/grub is the computer using ? __eou__
+I didn't lose it necessarily , but I copied sda5 over to a newly create_from_json sda1 ( **unknown** ) which /etc/grub is the computer using ? __eou__
 not the latest version __eou__
 see ubottu 's message to you __eou__
 sorry my bad , misread : $ __eou__
@@ -3494,7 +3494,7 @@ no I just put the dvd in the ROM and then in greyish screen What language ? I hi
 see the line PME# d1 d2 ect repeating .. thats your error message i bet __eou__ the webcam is throwing errors also it seems its a external usb one ? __eou__
 lemme see __eou__ now went on blinking blak page __eou__
 http://imageshack.us/photo/my-images/62/36519035.png/ __eou__
-true , that might be a problem . You might install Windows on a larger parition , then install Ubuntu and install the gparted package and use it to reduce the Windows partition and create a brand new NTFS one __eou__
+true , that might be a problem . You might install Windows on a larger parition , then install Ubuntu and install the gparted package and use it to reduce the Windows partition and create_from_json a brand new NTFS one __eou__
 yep , it seems that firefox will be updated with every new release , odd why they chose to do that , most likely because of the frequent updates and wide-spread usage of the browser I'm guessing __eou__
 ok __eou__
 haha __eou__ Ok hang on __eou__ http://imageshack.us/photo/my-images/62/36519035.png/ __eou__
@@ -3576,7 +3576,7 @@ The onboard audio , the Creative sound card have seperate output jacks . The Wir
 games is fun .. but not for me right now . __eou__
 I created the symlink but the subdomain isn't showing up __eou__
 open software center , to to edit , sources and in Other Software tab make sure partner is eabled ; it should appear then __eou__
-you can't encrypt something that isn't originally encrypted . but when you can do is create a locker ' folder ' thru truecrypt and move the stuff over . This is the only way you can accomplish your task __eou__
+you can't encrypt something that isn't originally encrypted . but when you can do is create_from_json a locker ' folder ' thru truecrypt and move the stuff over . This is the only way you can accomplish your task __eou__
 yea but it 's likely easier to get it from the printer if applicable __eou__
 your welcome __eou__
 i never heard of it __eou__
@@ -3655,7 +3655,7 @@ Very much agreed . I use RHEL personally on my desktop at work . Very clean . __
 cheers ! __eou__
 you cant just log out of enlightment ? __eou__
 any ideas ? __eou__
-ok , I'd advise you to slow down and work this through __eou__ you're going to have quite tight restrictions and access control on a shared platform . __eou__ you need to talk to you hosting provider . __eou__ if you are not using your bandwifth limit , then what 's the problem ? __eou__ just ask them if they will allow you to install an IRC server and what the restrictions/limitatoins are __eou__ do you actually need an IRC server ? __eou__ most IRC network will allow you to create a channel __eou__
+ok , I'd advise you to slow down and work this through __eou__ you're going to have quite tight restrictions and access control on a shared platform . __eou__ you need to talk to you hosting provider . __eou__ if you are not using your bandwifth limit , then what 's the problem ? __eou__ just ask them if they will allow you to install an IRC server and what the restrictions/limitatoins are __eou__ do you actually need an IRC server ? __eou__ most IRC network will allow you to create_from_json a channel __eou__
 no __eou__
 Thanks ! __eou__
 how do i list the partitions ? __eou__
@@ -3896,7 +3896,7 @@ They aren't replying __eou__
 I realize that ; I was asking whether there was a tentative target for full support , and if that target happened to be the next release __eou__
 does manually mounting it work ? __eou__
 so controllers simply don't work in wine ? __eou__
-i'm trying to install centos ( asking here because on #centos registered nick is required) . During install process , i try to use the free space to automatically create partitions but got that error __eou__ well if i try to create for example just the /boot partition same error appears __eou__
+i'm trying to install centos ( asking here because on #centos registered nick is required) . During install process , i try to use the free space to automatically create_from_json partitions but got that error __eou__ well if i try to create_from_json for example just the /boot partition same error appears __eou__
 exim4 I want it to use the default path the source version would normally use /etc/exim4 . conf oir **unknown** . conf __eou__
 i like lucid layout better __eou__
 logroatate is configurable ... then use a cron job once aday to upload the . gz versions logrotate has created __eou__
@@ -3909,7 +3909,7 @@ Yes , thanks for the pointers ... ;) __eou__
 for the sake of testing try it but if package after package fail .. then someting else is the problem __eou__ are you using apt-get upgrade ? or soemthing else ? __eou__ if you ssh in get root and run apt-get update && apt-get upgrade does it work ? __eou__
 nobody attacked you __eou__
 sudo restart ssh __eou__ did you save the changes to the configuration file ? __eou__ can you pastebin the config file and the output of netstat -tan __eou__ yes you need to edit sshd_config __eou__ idd you change it to 2277 ? __eou__ it kept it open cuz you're still connected on 22 __eou__ if you exit your session it should no longer be listening __eou__ disconnect from 22 then connect on 2277 and restart ssh __eou__ How do you have the network configured ? __eou__ can you ping the box prior to logging in ? __eou__
-I can't tell from that what 's primary and what 's extended __eou__ you could extend the logical container to take up the free space and create more parttitions in there . I recomend using gparted of the live cd and getting out of windows thouhg . __eou__
+I can't tell from that what 's primary and what 's extended __eou__ you could extend the logical container to take up the free space and create_from_json more parttitions in there . I recomend using gparted of the live cd and getting out of windows thouhg . __eou__
 wilee-nilee , lidar : my real doubt is : what make more trash : install a totally different " old " release and upgrade it or go ahead and install the new unstable OS and update it every day __eou__
 wilee-nilee , lidar : my real doubt is : what make more trash : install a totally different " old " release and upgrade it or go ahead and install the new unstable OS and update it every day __eou__
 i dont think there is much diffrence .. apt just nbeeds cleaned out sometimes __eou__
@@ -3921,7 +3921,7 @@ well it 's all one word you are typing two __eou__ sudo apt-get install ubuntu-r
 like I picked another random file off the internet , wget < file> , it immediately work . __eou__
 hw would I go about doing that and still having it be bootable ? __eou__
 yes __eou__
-hmm I get ' group dns does not exist ' anyway to force it to create it with useradd __eou__
+hmm I get ' group dns does not exist ' anyway to force it to create_from_json it with useradd __eou__
 you can also see their bug tracker __eou__
 reading the website i would assume they are not focusing on replacing xorg __eou__
 Ubuntu Server __eou__ The RAID1 array is what takes up 99% CPU , as a note __eou__ CPU ? I/O __eou__
@@ -4331,7 +4331,7 @@ yes there is a key , it tried it and no luck __eou__
 that just gives me a blank screen , then when I go back to the tty it shows " Waiting for X server to begin connections " and " No protocol specified " __eou__
 /dev/mapper means your running in a RAID format . That 's your devices __eou__
 fakeraid is what a lot of vendors use on their motherboards as " raid " functionality .. it 's not real hardware raid , kinda like a sudo software raid __eou__ it 's different from linux md software raid __eou__
-It 's not a lot of settings , it 's changing exactly one setting in the ethernet settings pane saying " this interface should be used for sharing internet ". And if you get something wrong you can simply create a new connection and everything will be automagic . __eou__
+It 's not a lot of settings , it 's changing exactly one setting in the ethernet settings pane saying " this interface should be used for sharing internet ". And if you get something wrong you can simply create_from_json a new connection and everything will be automagic . __eou__
 ok if you want to computers to access shared connection through ethernet you'll need to modify UFW __eou__ it 's the Uncomplicated Fire Wall __eou__ try that then . should be really easy . __eou__ https://help.ubuntu.com/community/Internet/ConnectionSharing#GUI_Method_via_Network_Manager_.28Ubuntu_9.10_and_up.29 __eou__
 nah i seem to be set . thanks mate . __eou__
 i have absolutely no idea __eou__
@@ -4342,7 +4342,7 @@ mmm :) ? __eou__
 how is not disabling network manager crippling the machine ? __eou__
 yes ... 15 years __eou__
 start the job at 2:17 , and then repeat every 3 hours afterwards . __eou__
-create a list of the element names in a text file , and do something like " for i in `cat **unknown** ; do cp mytemplate $i . element ; done __eou__ that'll create your list of files but it won't populate them __eou__
+create_from_json a list of the element names in a text file , and do something like " for i in `cat **unknown** ; do cp mytemplate $i . element ; done __eou__ that'll create_from_json your list of files but it won't populate them __eou__
 is it supported as well as the 32bit packages ? __eou__
 it 's a fork from 11.10 - called XMBCbuntu __eou__
 how will it know where to find " wall "? __eou__ you could try that __eou__ echo might be a built-in command __eou__ that 's true of all OSes ;-) __eou__
@@ -4403,7 +4403,7 @@ okie 1 min __eou__
 Okay , apparently something changed within the USB after the install , I'm formatting it and trying again . Thanks for the help ! __eou__
 mom and dad aren't clever enough __eou__
 no such option , I have seached every piece of it __eou__ wilee-nilee one question , how should I set the partitions on this disk . One for the current windows , and one for the iso of the linux .... __eou__ I know , __eou__
-yes , and where does it say it 's released , or you can buy it , in actually anything about it __eou__ **unknown** 's not released __eou__ it 's a concept canonical are working on / trying to create __eou__
+yes , and where does it say it 's released , or you can buy it , in actually anything about it __eou__ **unknown** 's not released __eou__ it 's a concept canonical are working on / trying to create_from_json __eou__
 cool . __eou__
 http://imageshack.us/content_round.php?page=done&id=4tHclZ2olZ2wlKuSz-bJnKmUrZjZ3cqa49Tc __eou__ sorry but the max size was 2 mb __eou__ http://imageshack.us/photo/my-images/225/dsc00085njd.jpg/ __eou__
 it is what is called a " fork bomb " __eou__ it will keep spawning new copies of itself __eou__
@@ -4744,7 +4744,7 @@ despite how irrelevant ? .. Even If I did have the answers . Turning my question
 what app ? __eou__
 I used . **unknown** . sh to open it , and : __eou__ **unknown** :/ **unknown** . **unknown** . sh __eou__
 **unknown** __eou__
-I don't really want it in the desktop , just at the sidebar of Unity , how can I create an installer ? ( Or where can I learn that ? ) __eou__ The problem isn't what , but how __eou__
+I don't really want it in the desktop , just at the sidebar of Unity , how can I create_from_json an installer ? ( Or where can I learn that ? ) __eou__ The problem isn't what , but how __eou__
 It 's a common requirement for those of us using multi-monitor multi-GPU setups __eou__
 then upgrade your software __eou__
 a space between . and the rest __eou__ just a . not with ' music ' following __eou__
@@ -4762,7 +4762,7 @@ also there i see no errors related to my problem http://pastebin.ca/2200929 __eo
 does it have channels available to it ? like say a channel that plays a style of music __eou__
 yes , soon after the download the installation aborted __eou__
 i dont come here with questions , i help people __eou__
-so the bottom line is that the groups are important for the system and its security , but you don't generally need to add users to them individually in general __eou__ I think your best approach is to create a dummy user , and test its access to see if you're happy with it __eou__
+so the bottom line is that the groups are important for the system and its security , but you don't generally need to add users to them individually in general __eou__ I think your best approach is to create_from_json a dummy user , and test its access to see if you're happy with it __eou__
 it 's a USB device that I plugged a SSD drive into , and it makes it appear as a USB device on my system __eou__ after installing ubuntu on it , I'll remove the ssd and install it into a netbook __eou__ can I mount the ubuntu cd , then run the installer from ubuntu __eou__ and install it to another hard disk ? __eou__
 **unknown** __eou__
 well don't use xampp __eou__ use the packages in the /official/ repositories __eou__
@@ -4770,7 +4770,7 @@ you might just want to use the gui based user management if available , it shoul
 thanks __eou__
 i need to make a copy of Floppix for a VERY old laptop __eou__
 the boot-repair live cd is also handy for that __eou__
-if grub is thinking it sees a file-system that may be because it 's looking further than just the first sector __eou__ Did you create a partition within one of the partitions ? I'm a little hazy on the exact state of the device . __eou__
+if grub is thinking it sees a file-system that may be because it 's looking further than just the first sector __eou__ Did you create_from_json a partition within one of the partitions ? I'm a little hazy on the exact state of the device . __eou__
 thanks __eou__
 use gparted to partition the drive in question than just install ubu via iso or usb ? .. Is this what ur asking __eou__
 hehehe :) __eou__
@@ -4981,7 +4981,7 @@ can't seem to do that .. Unable __eou__
 nothing wrong with the disk .. i could easily vgchange -ay from busybox .. i think it has more to do with my somewhat unusual setup .. the machine in question is a 16 core OpenStack server __eou__
 there is no unused space anywhere . But when I select to make win part smaller I get a grey **unknown** space in the middle . ... __eou__
 noted ... well so it says startx isnt installed __eou__ is that normal ? __eou__ hilo __eou__ ^^ __eou__
-what if you create another user id for the task , and add it to the sudo'ers group with the " -a ", the kill the first user id altogether ? __eou__
+what if you create_from_json another user id for the task , and add it to the sudo'ers group with the " -a ", the kill the first user id altogether ? __eou__
 after installing ubuntu-desktop ... I've run " sudo ubuntu-desktop " and im getting " command not found " .. mind you this is after installing it __eou__
 I did the windows easy install , cuz I was lazy __eou__
 " Are you sure you want to delete the selected 1000 files ( **unknown** ?" __eou__ easy __eou__
@@ -5157,7 +5157,7 @@ look at the files .. most are not tmux related .. they got tmux in the name ....
 its not for you . Sorry bro ! __eou__
 type vimtutor in a shell __eou__ it 's a way to learn vim ;P __eou__
 theres are only vi and vim here . No nano :-( __eou__
-how do u create bootable disk from the existing ubuntu 12.04 __eou__ i dont have the image __eou__ and i'm in need __eou__
+how do u create_from_json bootable disk from the existing ubuntu 12.04 __eou__ i dont have the image __eou__ and i'm in need __eou__
 about 25 people in #bpython __eou__
 i belive so __eou__
 Can you elaborate ? I don't fully understand why x number of sectors waiting to be remapped causes the OS not to boot in the first place . __eou__
@@ -5175,7 +5175,7 @@ ssh -X username@server instead of : ssh username@server __eou__ notice the X is 
 lvm snapshots tend to be expensive __eou__ I don't think I would do it every day __eou__ I would probably do an xfs snapshot and then back that up __eou__
 Ubuntu can run on touchscreen devices . __eou__
 : ll try n tell ya __eou__
-I'm not try to create a directory . after mounting my ext4 partition . I'm try to create a folder inside it .. __eou__ create folder option is not active inside the mounted folder . __eou__
+I'm not try to create_from_json a directory . after mounting my ext4 partition . I'm try to create_from_json a folder inside it .. __eou__ create_from_json folder option is not active inside the mounted folder . __eou__
 h22turbo these look like its going to take some time ... is there a command line command I can issue to simply shut down the GUI ... and go to CLI only ? __eou__
 no problem __eou__
 the postinst scripts are there usually for good reasons , if a package has them , you should not remove them unless absolutely necessary , and you can only remove them by removing them from the package . That 's part of dpkg 's processes , and the format of packages ... __eou__
@@ -5264,7 +5264,7 @@ glad to help __eou__ " Kernel driver not installed " suggests the **unknown** . 
 any way to prevent problems ? __eou__
 so you mean if I install ubuntu I can upload " _ " buntu and wouldnt have to do some lenghty install like you would have to do with windows ? __eou__
 yes __eou__
-the ' p ' tells it to preserve permissions __eou__ that may only be technically be default for creating a tar and only necessary when extracting it like tar xvpf backup . tar or whatever ... not sure but wont hurt during the create __eou__
+the ' p ' tells it to preserve permissions __eou__ that may only be technically be default for creating a tar and only necessary when extracting it like tar xvpf backup . tar or whatever ... not sure but wont hurt during the create_from_json __eou__
 but as i said , it works fine under Mac OS __eou__
 what do you mean ? __eou__
 i guess people just don't want to have to reconfigure their entire PC again __eou__
@@ -5775,7 +5775,7 @@ hmm ok thanks __eou__
 http://forum.avast.com/index.php?topic=23529.0 __eou__ http://www.linuxforums.org/forum/ubuntu-linux/167600-avast-command-line.html __eou__
 Oops ! Now I got it ! Thanks __eou__
 I look many changes in **unknown** __eou__ I try " echo 0 > **unknown** " and it is resolv problem with kworker :-) __eou__ What did I do ? :-) __eou__ I hurt you ? Sorry , I didn't understand why . __eou__
-why ...? __eou__ here 's a question about win7 : http://superuser.com/questions/223560/how-to-create-a-windows-7-installation-usb-from-linux-or-mac __eou__
+why ...? __eou__ here 's a question about win7 : http://superuser.com/questions/223560/how-to-create_from_json-a-windows-7-installation-usb-from-linux-or-mac __eou__
 i guess so i can't even launch it . __eou__
 try " sudo update-grub " and see if it get automatically added __eou__
 you should be able to just right click on the jar and there should be a " Run with java 6 " or " Run with java 7 " option or something like that __eou__ or use java -jar from the command line __eou__
@@ -6047,7 +6047,7 @@ Cool ! Thanks for you help :) ... I'm actually a Unity refugee , running a highl
 thanks . right now i am stuck with fallback , because my gfx card does not work wit gnome shell __eou__
 no , not even . __eou__
 if you drop the @ character , it will highlight me , this isn't twitter __eou__
-So you installed it as a windows app ( the Wubi installer ? ) __eou__ for dual booting you would pick that option during the Ubuntu installation ( the advanced partitioning stuff ) and create an ext4 ( or 3 ) partition for Ubuntu , and a partition for the swap ( ext2 ) __eou__ If Windows currently takes the entire drive , then you may need to shrink that partition , which can take a while __eou__ oh , so you're not using the Wubi installer __eou__
+So you installed it as a windows app ( the Wubi installer ? ) __eou__ for dual booting you would pick that option during the Ubuntu installation ( the advanced partitioning stuff ) and create_from_json an ext4 ( or 3 ) partition for Ubuntu , and a partition for the swap ( ext2 ) __eou__ If Windows currently takes the entire drive , then you may need to shrink that partition , which can take a while __eou__ oh , so you're not using the Wubi installer __eou__
 you would really fsck for a large file moved onto the disk from an hfs+ drive ? I would expect the file to have problems , but not the filesystem . __eou__
 But I have to use java I dont have a choice . How do I use it so it can't **unknown** my stuff ? __eou__
 : fonts are blurry in firefox or chrome __eou__
@@ -6619,7 +6619,7 @@ how did you fix it ? __eou__
 I said " s**** this , I'm moving to KDE ..." and then " s**** this , I'm moving to Arch " ^^ __eou__
 ok let me try it __eou__
 I looked in an Ubuntu forum and found this : __eou__
-is it possible to create an array ( using mdadm or whatever ) without obliterating the data already on the drives ? __eou__
+is it possible to create_from_json an array ( using mdadm or whatever ) without obliterating the data already on the drives ? __eou__
 thank you __eou__
 that 's really unfortunate , i'm sorry to hear that didn't work automatically . you'll have to install the drivers , are you able to find them ? __eou__
 May I PM you ? __eou__
@@ -6647,7 +6647,7 @@ I have that hw ! ^^ __eou__
 no , that was archlinux __eou__
 doesn't have that . Using Honeycomb android 3.1 __eou__
 unless you have it to open up ports and backdoors , nothing :) __eou__
-buhman : i'm not exactly sure what belongs in this new asound . conf file i had to create . __eou__
+buhman : i'm not exactly sure what belongs in this new asound . conf file i had to create_from_json . __eou__
 if it doesn't work you're doing it wrong __eou__ it is unlikely you have hardware that is completely unsupported and/or are encountering a legitimate alsa bug . __eou__ ( with the exception of those winmodem sound card pieces of crap from 1997 ) __eou__ ( but nobody has that hardware anymore ) __eou__
 their wiki is god-like : 3 __eou__
 ok thank you very much sir . You are a gentleman and a scholar ! __eou__
@@ -6657,7 +6657,7 @@ close all program that might be using the card before trying to remove the modul
 check it again ;) __eou__ If it says " no signal " then it finds the card ... __eou__
 **unknown** __eou__
 thanks __eou__
-There isn't any such icon on the screen . It is the " Installation Type " screen . It has options to create new partition table , add , change , delete , revert , as well as boot loader installation choice . But none of the new/add/change buttons work __eou__
+There isn't any such icon on the screen . It is the " Installation Type " screen . It has options to create_from_json new partition table , add , change , delete , revert , as well as boot loader installation choice . But none of the new/add/change buttons work __eou__
 Best thing is to use git from the official repos . __eou__
 then i think we found the problem :) __eou__
 cute_bettong : maybe kernel msges about audio card __eou__ cute_bettong :d id you take a look in ' additional drivers ' if your audio card got an alternate driver ? __eou__
@@ -7076,7 +7076,7 @@ I found out about it , but I don't have Perl on this embedded system __eou__
 SORRY i 1 ) don't know this specifics and 2 ) don't know how multi-arch plays a part . i'm no help , sorry . __eou__
 **unknown** not sure what you mean , I have a fsta **unknown** folder in etc but it is empty __eou__
 i have no play with it before , but you should ensure your wifi driver loaded by kernel __eou__
-apport should run automatically when applications crash , it creates crash files in /var/crash , apport can create unpack back into separate files __eou__
+apport should run automatically when applications crash , it creates crash files in /var/crash , apport can create_from_json unpack back into separate files __eou__
 Really , Oracle doesn't allow distribution in the distros ? : | __eou__
 I hate using ide for c __eou__
 It 's not funny that , with access to all kinds of huge IDEs I use a simple text-editor called Kate ? __eou__
@@ -7190,7 +7190,7 @@ another loader ? do you mean , instead of unetbootin ? __eou__
 ping -s __eou__
 Is the link your question it is regarding the use of menu . list that is grub-legacy , grub 2 is now used . __eou__
 I want it to be mountable via another Linux box . __eou__
-when i do sudo - i get : cp : cannot create regular file `/media/TOSHIBA EXT/Var/lib/dpkg/info/libdc1394-22:amd64.md5sums': Invalid argumen __eou__
+when i do sudo - i get : cp : cannot create_from_json regular file `/media/TOSHIBA EXT/Var/lib/dpkg/info/libdc1394-22:amd64.md5sums': Invalid argumen __eou__
 thanks v much : ) __eou__
 I've found the usr/shar/applications/ and there are all the launcher but not the . destkop file . __eou__
 i guess defaults just means read/write ... there 's also noatime etc , don't know exactly __eou__ https://help.ubuntu.com/community/Fstab __eou__
@@ -7285,7 +7285,7 @@ I remember the password __eou__
 No , I said " Document Viewer and Okular " __eou__
 yes , you know of any other issues with it __eou__
 you could try adding an older repo ( i.e. lucid ) but I wouldn't recommend it __eou__ what he said ^^^ __eou__
-You create a ' bare ' repository then __eou__ I wrote an article on doing it some time ago ; it may be useful to you . http://tjworld.net/wiki/Howto/GitPublicRepositoryInstallAndConfigure __eou__
+You create_from_json a ' bare ' repository then __eou__ I wrote an article on doing it some time ago ; it may be useful to you . http://tjworld.net/wiki/Howto/GitPublicRepositoryInstallAndConfigure __eou__
 well that solution works for me , why not for you ? __eou__
 i am not migrating :) __eou__
 What exactly are you trying to do ? __eou__ Are you trying to connect to and access a network printer ? __eou__ If so , direct your browser ( firefox preferrably ) to localhost : 631 __eou__ localhost : 631 __eou__ Cups will more-than-likely find it for you . __eou__
@@ -7418,8 +7418,8 @@ newer ubuntu using lightdm __eou__ last version using lightdm __eou__
 there should be an option to start x11vnc as a server . From the pastebin , it seems that it might have already been running ( which may be because of the ' **unknown** but I don't know for sure) . Yes , start a vnc client on the laptp __eou__
 , blackshirt thanks guys ;) __eou__
 thanks **unknown** __eou__
-that makes sense . A mount point is the directory that you specify to use as the base for the file system on the USB ( or **unknown** . The GUI automatically creates a direecdtory under /media for the device . On server , you need to create /mnt to use as the mount point , and specify that in the mount command __eou__
-I had this - it wouldn't recognise inserted USB drives in 12.04 64bit ? I got it working , so I'll see if I can remind myself what I did ... __eou__ any error message - like ' Not **unknown** ' when you try to access it ? __eou__ sorry - different problem to what I had then __eou__ From what you say , automount is not working __eou__ then that 's why you need to create a mountpoint __eou__
+that makes sense . A mount point is the directory that you specify to use as the base for the file system on the USB ( or **unknown** . The GUI automatically creates a direecdtory under /media for the device . On server , you need to create_from_json /mnt to use as the mount point , and specify that in the mount command __eou__
+I had this - it wouldn't recognise inserted USB drives in 12.04 64bit ? I got it working , so I'll see if I can remind myself what I did ... __eou__ any error message - like ' Not **unknown** ' when you try to access it ? __eou__ sorry - different problem to what I had then __eou__ From what you say , automount is not working __eou__ then that 's why you need to create_from_json a mountpoint __eou__
 windows first , then linux __eou__
 to customise the layout . __eou__ *gparted __eou__
 no , it 's refusing that . If I partition it using gparted then install windows it 's complaining about not supporting gpt partition tables __eou__
@@ -7441,7 +7441,7 @@ I believe it is simply unmaintained as the Ubuntu Lebanon team is no longer acti
 **unknown** __eou__ if you just want to send the translations upstream , I think that should be sufficient __eou__ also , assuming you have the dependencies , poedit seems to have binaries available __eou__
 used to work for me in 11.10 __eou__ doesn't work either and I only need r as it is a remote :P __eou__
 Windows isn ? t booting and the problem only occured after I installed Ubuntu so I guess Ubuntu somehow messed with the windows files . __eou__ yes thats right but it did boot completely before I installed Ubuntu __eou__
-if you don't mind starting over ( seeing as you already re-installed windows) , then why not create a new partition table for your master disk & re-install both the OS ? __eou__
+if you don't mind starting over ( seeing as you already re-installed windows) , then why not create_from_json a new partition table for your master disk & re-install both the OS ? __eou__
 which file does dpkg -- status reads to show the package status ? __eou__ **unknown** , I am from New Delhi __eou__
 but if i do " git branch -a " the I can't see the quantal branch , only master . __eou__
 yes i know acct but again ... it can be override by user enviroment __eou__
@@ -7461,11 +7461,11 @@ doubt that IQ has much to do with it , knowledge fro experience is usually the c
 can i not uset this HDMI output to stream a nother oudio __eou__
 ok __eou__
 are you not in Ubuntu ? __eou__ so what OS are you on ? __eou__
-I had to do some work , available for a few minutes now . The file you want to edit/create is **unknown** . conf ... the relevant entry would be : APT :: Install-Recommends " 0 "; If you additionally wanted you can put too : APT :: **unknown** " 0 "; __eou__
+I had to do some work , available for a few minutes now . The file you want to edit/create_from_json is **unknown** . conf ... the relevant entry would be : APT :: Install-Recommends " 0 "; If you additionally wanted you can put too : APT :: **unknown** " 0 "; __eou__
 lol __eou__
 thanks __eou__ when i open phpmyadmin .... and type the username and password it says " #2002 Cannot log in to the MySQL server " how to solve the problem ?? __eou__
 so , what 's the best then ? __eou__
-that 's out of box , but i can create a directory or file __eou__
+that 's out of box , but i can create_from_json a directory or file __eou__
 k __eou__
 how to check that ?? im jst a beginner so dont hab much idea __eou__
 well you'd pass each list of sums to md5sum ( from /) , eg : " cd / ; md5sum -c **unknown** . md5sums " __eou__
@@ -7616,7 +7616,7 @@ thank you __eou__
 yes . I don't know much about programming ( i learnt C++ a long time ago ) but i think i could build one . I'm just looking somewhere if it exists . I don't want to waste time if there 's a much better software already done by someone . Why did you recomment to *not* speed read to your students ? __eou__
 Let me try that , thanks . __eou__
 when i try to change the password , i get message " authentication token manipulation error " __eou__
-I'm not sure why you would create a user called " administrator ", what 's the thinking behind that ? __eou__
+I'm not sure why you would create_from_json a user called " administrator ", what 's the thinking behind that ? __eou__
 I do __eou__ people don't bruteforce anymore __eou__ they all know people use normal words as passwords __eou__
 people don't bruteforce anymore __eou__ they all know people use normal words as passwords __eou__ WORDS , not phrases __eou__ today 's dictionary attacks can assemble words __eou__ not with today 's GPUs __eou__
 reboot , choose recovery mode , get a root shell , enter the command **unknown** adduser name_of_your_new_user_here **unknown** , then to give the new user admin rights , **unknown** adduser name_of_new_user_here admin **unknown** __eou__
@@ -7751,7 +7751,7 @@ the size of the log files __eou__
 how big is your root partition ? __eou__
 i am glad to see it =) __eou__
 what does your machine tell you ? __eou__
-try it and see , if you are using software from outside the repos that will likely create problems though __eou__
+try it and see , if you are using software from outside the repos that will likely create_from_json problems though __eou__
 I see , however I think it originally had in osx __eou__ I keep getting conflicting info __eou__ it`s not so much the acceleration and 3D effects , but more actual activation of graphics card __eou__
 do you think that was some kind of rare hickup and i could forget about it ? __eou__ thx __eou__
 does not work __eou__ autodetection of a filesystem failed __eou__
@@ -7806,7 +7806,7 @@ is the **unknown** . 0 Ethernet controller [ **unknown** : Atheros Communication
 the thing is i'm using the 2.2 version of psad , which is not a problem atm , it 's just that iptables isn't logging at the default locations it **unknown** __eou__ seems* __eou__
 I use qemu-kvm , and manage the vms with virt-manager . I dont do any hardware passthrough , and Im not sure it even works with kvm 1.0 __eou__ the best vdeo performance Ive seen is using virtualbox . I havent used xen in years , but maybe its better . dont know __eou__
 32 bit installer for the nvidia drivers or Ubuntu ? __eou__
-to create any simple image from **unknown** .... this kind __eou__ bmp , jpg , etc ... __eou__
+to create_from_json any simple image from **unknown** .... this kind __eou__ bmp , jpg , etc ... __eou__
 you are Welcome __eou__
 If this is the only install you will need to hold the shift key down after powering on to see grub if it is 12.04 . __eou__
 i also think it might be kernel : [ **unknown** ] hp_wmi : Unknown event_id - 10 - 0x1 __eou__
@@ -8269,7 +8269,7 @@ wouldnt we all ? :P __eou__ Yeah , the chroot/virtual is never as good __eou__
 ah , yeah . __eou__
 Tried that multiple flavors from net install to mini . Still no dice . __eou__
 thanks for that , much appreciated __eou__ so **unknown** **unknown** s is 395 minutes , and **unknown** seconds ? or 6 seconds . 208 ms ? __eou__
-OK , so , get a free Amazon Web Services virtual server instance ( minimal profile) , install openvpn into it . Configure it and your PC to use openvpn to create an IP tunnel ( " tun " not " tap " interface) , configure the AWS instance for IP masquerading , and set a route on your local PC that sends all traffic for the US sites via the tunnel . That way , the destination site sees a US-based public IP address accessing it . __eou__
+OK , so , get a free Amazon Web Services virtual server instance ( minimal profile) , install openvpn into it . Configure it and your PC to use openvpn to create_from_json an IP tunnel ( " tun " not " tap " interface) , configure the AWS instance for IP masquerading , and set a route on your local PC that sends all traffic for the US sites via the tunnel . That way , the destination site sees a US-based public IP address accessing it . __eou__
 this is the uni 's network , can't change them __eou__
 that 's why " recovery " mode would be beneficial . __eou__
 ok , a gui would probably help me . :) __eou__
@@ -8279,7 +8279,7 @@ so ? __eou__ he can tell you what type of encyption he used . __eou__ ok - then 
 blueman , for manager __eou__
 i don't understand why I need to wait __eou__
 jordan , compdoc , I don't have my own server , a friend of mine uses openvpn for windows and it has a interface and connect to vpn server I guess that it owned by Openvpn . org people , can I do something smiler in ubuntu ? __eou__
-Yes but i plan on putting all of the make imgs on rasppi sd card __eou__ I took the template folder where i was trying to create the make file and copied it to the GNU tools location ... different error now __eou__
+Yes but i plan on putting all of the make imgs on rasppi sd card __eou__ I took the template folder where i was trying to create_from_json the make file and copied it to the GNU tools location ... different error now __eou__
 lol i need to learn badly xD and TJ i will get them in pastebin in a sec __eou__
 yeah __eou__ I found a nice tutorial teaching little bits and pieces of the assembly for it and the compiler shot back the code saying no input files __eou__ im so new to assembly i have no clue how to fix __eou__
 a lot of choices when searching term " proxy " , any suggestion ? __eou__
@@ -8339,7 +8339,7 @@ yeah ... i dont think i ever saw my swap being used ... and i just have 2 gigs _
 you wouldnt know any servers would you ? all i found was **unknown** ... __eou__ **unknown** __eou__
 **unknown** __eou__
 BCM4306/2 adapter __eou__
-right , disper is the only thing I know about . I think you can pass something like -- **unknown** to nvidia-settings ( and you could create the config file by saving your settings after using the gui one time) . But I've never used nvidia-settings this way and I've only used disper to do something very simple __eou__
+right , disper is the only thing I know about . I think you can pass something like -- **unknown** to nvidia-settings ( and you could create_from_json the config file by saving your settings after using the gui one time) . But I've never used nvidia-settings this way and I've only used disper to do something very simple __eou__
 is it viable to use FAT as extended for storage ? or is there a security risk if its not a native linux partition ? __eou__
 lspci just shows that the hardware exists , but it doesn't mean the OS knows anything about it . you need to load the drivers __eou__
 do one thing , type jocke in terminal and then press tab , you'll get all the available options . __eou__ mine is jockey-kde , yours must me something similar __eou__
@@ -8427,7 +8427,7 @@ why suggest to use something that you know he won't get support for ? __eou__ at
 let me check ... how would i know ? __eou__
 i am trying to find them __eou__
 according to **unknown** copying . iso is what I should do in order to get bootable USB stick __eou__
-you can't make bootable systems like that . __eou__ there should be instructions on ubuntu.com on how to create a bootable USB from windows __eou__
+you can't make bootable systems like that . __eou__ there should be instructions on ubuntu.com on how to create_from_json a bootable USB from windows __eou__
 you can use ccsm , myunity or ubuntu-tweak to change stuff __eou__ yes , ubuntu-tweak is 3rd party so you'll need a ppa __eou__ log off and select the Ubuntu session in lightdm __eou__
 It suddenly stopped . __eou__
 Thank you __eou__
@@ -8982,7 +8982,7 @@ Try #ubuntu+1 and see if they can help you , if not you will have to reinstall w
 im browsing in the link you referred and i cant see the alternate cd __eou__
 im using 8.04 for my servers :P __eou__
 in theory yes . __eou__
-You dont create physical devices . Your harddisk is a physical device , thats all . __eou__ Partitions always are created on physical devices . __eou__
+You dont create_from_json physical devices . Your harddisk is a physical device , thats all . __eou__ Partitions always are created on physical devices . __eou__
 dont expect triviality , you well get further =) __eou__ too much expectancy culture problemb __eou__
 Can I PM you ? I dont want to flood this place with usenet chat especially cause my next question to you might be sensitive lol __eou__
 yes Im on ubuntu latest one __eou__
@@ -9028,7 +9028,7 @@ thx __eou__
 I'm running 12.04 LTS , using virsh and deployed the VMs with ubuntu-vm-builder .. __eou__
 thanks __eou__ is it possible to set up tor for terminal ? __eou__ ? __eou__
 are you bot ? __eou__
-I don't want to create a package , I want to compile a patched package for xorg so that my drawing tablet works properly . __eou__
+I don't want to create_from_json a package , I want to compile a patched package for xorg so that my drawing tablet works properly . __eou__
 no , i don't have this __eou__
 good to know . just like to know what works so I can pass it on to the next person . best of luck ! __eou__
 i am good , i was kinda hoping i could be of some service . thanks though __eou__
@@ -9417,7 +9417,7 @@ very much appreciated , thanks :) - I wasn't sure whether there are some dotfile
 have you purge it ? __eou__
 Excellent , big thanks . Will look into it . __eou__
 thanks , that looks very helpful . __eou__
-i need it with custom umask so when it create folders its set without php doing anything __eou__
+i need it with custom umask so when it create_from_json folders its set without php doing anything __eou__
 ls -l shows drwxr-xr-x __eou__ wols_ it works lol , I forgot the slash x ) __eou__
 the warning is gone ! __eou__ thank you very much ! __eou__
 i don't remember , i am using 12.04 LTS __eou__
@@ -9589,7 +9589,7 @@ analog is what you want if you have traditional sound output ( read : no digital
 this works for me , without any errors : echo 2 > /sys/block/sdb/queue/nr_requests __eou__
 well lxde is lighter but i must say neither is really light enough when compared to ubuntu __eou__
 there has to be a way to modify the command that is invoked __eou__
-so if i want to do create bootable disk , this would be correct right ? dd if =p **unknown** . iso of =/ dev/sdb1 bs=1M __eou__
+so if i want to do create_from_json bootable disk , this would be correct right ? dd if =p **unknown** . iso of =/ dev/sdb1 bs=1M __eou__
 i think so ... __eou__ any ideas why i get that error ? __eou__
 what about gmusicbrowser __eou__
 buglyjoe TJ- ok bye ! Have to go for Work . Thanks for valuable time ! __eou__
@@ -9770,7 +9770,7 @@ thanks - how can I prevent it building up ( not seen it before - been using Ubun
 i see , thank you , i am reading __eou__
 2 minutes ago you told us its not available ;) __eou__ is the availabilty your issue - or the fact that you cant install during your live-cd session ? __eou__
 you can't do that you'll loose the buttons . __eou__
-Are you using 12.04 and Unity , or another desktop environment ? __eou__ OK . Not got LXDE installed on this one . But program launchers should all be using XDG free-desktop properties files . Have you surrounded the program-name and parameters with double-quote marks ? __eou__ usually , you'd create a . desktop file in ~/ . **unknown** for the application __eou__ And that isn't working ? I'd have thought it should , too ! __eou__ Is it a default system-created shortcut ? Or one you originally created that is now not working as expected ? __eou__
+Are you using 12.04 and Unity , or another desktop environment ? __eou__ OK . Not got LXDE installed on this one . But program launchers should all be using XDG free-desktop properties files . Have you surrounded the program-name and parameters with double-quote marks ? __eou__ usually , you'd create_from_json a . desktop file in ~/ . **unknown** for the application __eou__ And that isn't working ? I'd have thought it should , too ! __eou__ Is it a default system-created shortcut ? Or one you originally created that is now not working as expected ? __eou__
 there is a #c++ channel . __eou__
 - im trying to do the -- incognito thing , so that it always starts in incognito , but that doesnt work with just the link anymore i guess __eou__
 so how can i do to have synaptic and apt-file installed ? __eou__
@@ -9933,7 +9933,7 @@ yes __eou__ ok si i got another issue ( not related ) can't ping public IP __eou
 xournal ? next on my list to try ^^ __eou__
 he can do that after the install anyway .. unless he got a ton of stuff in it .. **unknown** __eou__
 in which case ' fetchmail ' is designed to do what you describe . it downloads from pop3 server and then puts into local **unknown** . __eou__ which can then , of course , deliver to maildir . __eou__
-ok first off ... sudo fdisk -uc /dev/sda then do ' p ' and chcek the list again __eou__ we can try to delete the swap and it ought to be able to create a new one on reinstall __eou__ does the list still have ' sda3 ' as the swap ? __eou__
+ok first off ... sudo fdisk -uc /dev/sda then do ' p ' and chcek the list again __eou__ we can try to delete the swap and it ought to be able to create_from_json a new one on reinstall __eou__ does the list still have ' sda3 ' as the swap ? __eou__
 you can ' scp username@servername : remotefile localfile ' etc . __eou__ its worth going past the '' i will only deal with things that seem easy '' barrier you get further that way . expand your mind . ;-) . __eou__
 So I can't just change the ending sector from 34420 to **unknown** ? __eou__
 ah , got it , this one seems easier . thanks __eou__
@@ -9985,7 +9985,7 @@ i thought it was using joli ? __eou__
 how did you add it ? __eou__ also can you point out the ppa link so I can look ? __eou__
 I noticed in his mount , he has " **unknown** , **unknown** " Would those be the mount permissions for accessing the device ? __eou__
 " lspci -vv " command should do it __eou__
-well Im running mysql as the mysql user , it doesn't have access to create the pid file in /var/run .. so I created a /var/run/mysqld and gave it chown mysql : mysql **unknown** __eou__ well what would you suggest I do then ? __eou__ would you rather have mysqld run as root so it will have the right write permissions on /var/run ? __eou__
+well Im running mysql as the mysql user , it doesn't have access to create_from_json the pid file in /var/run .. so I created a /var/run/mysqld and gave it chown mysql : mysql **unknown** __eou__ well what would you suggest I do then ? __eou__ would you rather have mysqld run as root so it will have the right write permissions on /var/run ? __eou__
 ok , I'll try , but do I get a direct link using youtube-dl __eou__
 I don't mind . __eou__
 Add the wine-beta repo , and then apt-get update && apt-get install wine 1.5 __eou__
@@ -10321,7 +10321,7 @@ your usecase is not that of a typical ubuntu user __eou__
 2 reasons , firstly , the automatically created user is likely to conflict in UID with my existing users and 2 , deleteing the user is an extra step __eou__
 not once the system is configured , i have a daemon that manages my users and config files , once its running it disabled ssh root login , though i still like to have a root poassword for console login __eou__
 : ok that extra space will remain there as unformatted . __eou__ that 's the point right ? __eou__
-what about people who wish to use nis , or those ( like me ) who have automated scripts to create and maintain their user accounts __eou__
+what about people who wish to use nis , or those ( like me ) who have automated scripts to create_from_json and maintain their user accounts __eou__
 we can turn on admin rights for them , they're paying for the server , if they mess it up , it 's their server that gets hosed __eou__
 no , i want to chroot a user to a homedir but gives me this message : 500 OOPS : vsftpd : refusing to run with writable root inside chroot () __eou__
 sorry , I can't help with Windows as I haven't used it in ten years __eou__
@@ -10401,7 +10401,7 @@ okay . I'm trying now __eou__ are you a java pro ? __eou__ still error : http://
 **unknown** : *nod* it 's likely some sort of issue with the image __eou__
 thanks __eou__
 Of course , you can enable pubkey authentication for user dimas and disable the ssh password login for that user . __eou__ In that case , you still will have to enter the _password_ when using sudo as user dimas . __eou__
-i had never heard of a jumpdrive , but there 's this ( learned something new myself ) http://www.makeuseof.com/tag/create-usb-ubuntu-linux-boot-jump-drive/ __eou__
+i had never heard of a jumpdrive , but there 's this ( learned something new myself ) http://www.makeuseof.com/tag/create_from_json-usb-ubuntu-linux-boot-jump-drive/ __eou__
 Yes ... **unknown** 3.1 would store a secondary boot loader in the boot sector of that partition , which would in turn be able to read the " command.com " executable from the root directory of the file-system __eou__
 **unknown** __eou__ looking at the manual there isn't. But I was wondering if there was a cli trick ? __eou__
 we are talking about backup solutions __eou__
@@ -10466,7 +10466,7 @@ are you trying to confuse me or flirt with me ? __eou__
 ! patience | OnlyMAJ __eou__ if you can put the files/directories you want that user to access inside the /data00/ directory hierarchy , and linking from the original locations to the location under **unknown** , that may solve the problem __eou__
 hpow do i add my name to the list of users bedevilled by this ? __eou__
 Awesome , that worked ! __eou__
-my question is to create bootable usb do we need an addition software why don't just dd command do the job __eou__
+my question is to create_from_json bootable usb do we need an addition software why don't just dd command do the job __eou__
 thanks __eou__
 right now I can't even access the data00 directory with that user , it is drwxr-xr-x 2 root root 4096 Oct 9 01:59 data00 __eou__
 that problem , what is that . try uninstall firefox and install it back . but i suggest using google chromium lol __eou__
@@ -10516,7 +10516,7 @@ imag . run __eou__
 I use apt-get all of the time .. but lets say I want to install NetBeans .. what directory would you guys install it ? __eou__
 thanks that makes me feel better , but what about programs like NetBeans that have to be manually downloaded and installed ? __eou__
 **unknown** , thats common mistakes for new user in linux world :d __eou__ **unknown** , yes , you can use samba __eou__ **unknown** , yes , samba can do that , with samba 4 you can build AD __eou__ **unknown** , i'm so forgotten , maybe this help you , wiki , samba.org or wiki.samba4.org __eou__
-hi is trying to create bootable use in ubuntu ... whats the iso is the other question __eou__
+hi is trying to create_from_json bootable use in ubuntu ... whats the iso is the other question __eou__
 couldn't get more commandliny on this chat eh .. __eou__
 Thank you , fidel_ ! I'll look through tablet options on there ... __eou__
 my account works without a password .. in unity login i can just click on " login " without a password and sudo su does not prompt me to prompt a password __eou__ but the unity pw prompt is a problem for me __eou__
@@ -10549,7 +10549,7 @@ trying the easy route first . go . __eou__
 well it was already compiled i was trying to run the program __eou__
 ah , I was talking to **unknown** , but looks like he 's gone __eou__
 Ahhh . You may be able to use a USB serial link but that will depend on whether the EFI has configured a port __eou__ Sometimes in these cases I aim a video camcorder at the screen , and afterwards play it back in slow-motion __eou__
-if you check out the ones already in that directory you should get the general idea , or if you have gnome-panel install you can use gnome-desktop-item-edit to create one __eou__ in software-properties-gtk Switch to the Updates tab and set Notify me of a new Ubuntu version to For any new version , then try again __eou__
+if you check out the ones already in that directory you should get the general idea , or if you have gnome-panel install you can use gnome-desktop-item-edit to create_from_json one __eou__ in software-properties-gtk Switch to the Updates tab and set Notify me of a new Ubuntu version to For any new version , then try again __eou__
 That should work . if not , there 's something else on that system/network causing issues . __eou__
 Thanks ! __eou__
 I want to copy something and then to write it in a file but without choosing it with the mouse , instead writing it into it using bash __eou__
@@ -11052,7 +11052,7 @@ That 's nothing . :-) __eou__
 was hoping for free :-p __eou__
 this : **unknown** __eou__
 yes . i downloaded the . tar . bz2 file from blender.org and i can only install . deb packages . __eou__
-so can i create a shared library which can do all required tasks and a small executable to invole the activities in the library ? Will that reduce the load when task is finished ? __eou__
+so can i create_from_json a shared library which can do all required tasks and a small executable to invole the activities in the library ? Will that reduce the load when task is finished ? __eou__
 that only applies to the command line __eou__ which is useless as far as getting me into their desktop session via lightdm __eou__
 https://help.ubuntu.com/community/AddUsersHowto#Command-line you will need to log out totally after doing it for it to take __eou__
 you need to use sudo obviously __eou__
@@ -11093,7 +11093,7 @@ yea ok i understand it ... but whats the use when the card is already corrupted 
 is it compiled with integrated fuse support ? __eou__ if not then you'll need to compile it yourself __eou__
 it will ensure the NTFS is in order __eou__
 I won't help you break your system even more than it already is __eou__ and it 's not a crash which did this but probably a command you ran __eou__
-i know this isent ubuntu **unknown** , but its alot of peps here , maby this gonna be some more ubuntu related , how to create a script in ubuntu that allows you to click on the vote button and afther the click it changes **unknown** from a list ? __eou__
+i know this isent ubuntu **unknown** , but its alot of peps here , maby this gonna be some more ubuntu related , how to create_from_json a script in ubuntu that allows you to click on the vote button and afther the click it changes **unknown** from a list ? __eou__
 It is not decompressed completely at boot ? __eou__
 It is for me __eou__ It 's a VPS __eou__
 this run ubuntu instead of windows 7 __eou__ I think the problem from ip __eou__ ip of ubuntu such as windows 7 __eou__
@@ -11209,7 +11209,7 @@ open a terminal type " lspci " ( lowercase L ) no quotes , and hit enter . find 
 thank you ! __eou__
 yes , which only people with experience know how to look at __eou__
 not sure how you got there , or why ... __eou__
-I'd just create a new user and use that one . __eou__
+I'd just create_from_json a new user and use that one . __eou__
 thanks , but I was hoping for a desktop-environment-agnostic solution . I'm working with ubuntu server =) __eou__
 Unfortunately not ... __eou__
 ah . thanks for the info . __eou__
@@ -11320,7 +11320,7 @@ yup , i use kde on one of my boxes . __eou__ haha __eou__
 I'll recreate it and print the output in a second . __eou__
 I thought I had , so I went and double checked . There are indeed no options in system-config-printer for choosing **unknown** . __eou__
 i did but synpatic continues with BIG fonts __eou__
-long time since I installed ubuntu , so I don't know the specifics . can't you create a partition ? __eou__
+long time since I installed ubuntu , so I don't know the specifics . can't you create_from_json a partition ? __eou__
 I already answered your dumb question . Read it properly again . __eou__ american ? __eou__
 why not simply change your Mac address to whatever , download the torrent , then change it back ? Does it have to mimic another computer on the network ? __eou__
 great __eou__
@@ -11352,7 +11352,7 @@ no idea .. maybe the kernel thinks there 's a ghost file but i can't see it on d
 Okay ... how do I do that ? __eou__ log , loop0 through loop7 and loop-control __eou__
 yeah , but for serious cloud storage you cannot rely on ubuntu to encrypt your data . __eou__
 the then needs to be before the rm line __eou__ http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-6.html __eou__
-Will not create swap . Have 16GB __eou__
+Will not create_from_json swap . Have 16GB __eou__
 log , loop0 through loop7 and loop-control __eou__
 Therefore I want to choose dmcrypt because my CPU supports AES_NI and it is rather fast in general __eou__
 i have no idea :D just tried the " beep " command and heard nothing so i assumed i have no spkr __eou__
@@ -11488,7 +11488,7 @@ I can ? __eou__ How ? __eou__
 thank you !!! __eou__
 filter - tcp - define new filter __eou__ iirc iptraf logs to /var/log/something __eou__
 i am trying to use wakeonlan ... i made some changes on rc6 and rc0 .... if i do a sudo poweroff ... i can wakeonlan that computer .... if i shudown using the menu entry ... it does not wake __eou__ why is it **unknown** differenty then ? __eou__
-i mind , there is an option which can choose how to computer boot with . and i want to boot ubuntu with cd/dvd __eou__ can i create the cd/dvd which can boot the ubuntu . because i don't want to buy it __eou__ hehehe __eou__
+i mind , there is an option which can choose how to computer boot with . and i want to boot ubuntu with cd/dvd __eou__ can i create_from_json the cd/dvd which can boot the ubuntu . because i don't want to buy it __eou__ hehehe __eou__
 dont belive so , i installed it a few min ago on my 64bit dedi though that was debian but i dont think that will matter : S __eou__
 there 's also e.g. sudo shutdown -h now explore the shutdown command __eou__
 look that ==> http://dl.dropbox.com/u/7570113/linux-kernel-3.6.1 __eou__
@@ -11811,7 +11811,7 @@ hehe , linking arch 's website in ubuntu huh __eou__
 nice , thanks __eou__
 yes ? __eou__ In LIBS of makefile you should be writing , -lxrandr __eou__
 I'm seeing that Modes should be within SubSection " Display ", but no luck for me : S __eou__
-You can create " **unknown** " and add specific variables to it which will be used by that script to set " search " __eou__
+You can create_from_json " **unknown** " and add specific variables to it which will be used by that script to set " search " __eou__
 oh , I thought it was released , as I just read an article at Ars Technica __eou__
 thanks a lot I should see it there __eou__
 oh yea , #ubuntu xX __eou__
@@ -11975,7 +11975,7 @@ Word .. I'll check out the installer from the repo , I usually just copy them to
 problems with my connection __eou__ good try but it doesn't reload group members __eou__
 with or without x ? you could ' tail /var/log/syslog ' in terminal __eou__ you might also consider the issue is hardware related , try another usb keyboard/mouse to check __eou__
 I'm currently running 8-9 VM 's on virtualbox __eou__ i want to provide my team of devs to provision their own test machines __eou__
-you tell it what sort of persistence file to create in the startup disk creator , you can restart and just tell it not to if you want to __eou__
+you tell it what sort of persistence file to create_from_json in the startup disk creator , you can restart and just tell it not to if you want to __eou__
 check pm at the top __eou__
 alexfpms : that was my next option , i'll just skip straight to it . __eou__
 you use that do-release-upgrade that people have been saying i belive __eou__ under privacy settings somewhere i recall . or you can remove the shopping lens __eou__ webupd8 has info on it __eou__
@@ -12013,7 +12013,7 @@ echo " options snd-hda-intel model=thinkpad " | sudo tee -a /etc/modprobe . **un
 yeah but it seems that the only reason why ubuntu is going forward is because the devs are now taking it as a fulltime job and it 's paid with all those donations , shops , advertising __eou__
 cool !! __eou__
 lts should upgrade to non-lts 12.10 versions by default . something MUST be changed first . __eou__
-i'll install another OS which deserves primary partition , and it 's issues with bootloader __eou__ i got it , thank you for response __eou__ should I create on primary extended partition and add /boot , / , swap over there into slices ? __eou__
+i'll install another OS which deserves primary partition , and it 's issues with bootloader __eou__ i got it , thank you for response __eou__ should I create_from_json on primary extended partition and add /boot , / , swap over there into slices ? __eou__
 do you use mplayer with medibuntu 's **unknown** or **unknown** ? that 's a real test ;) __eou__
 what command gets my home folder permissions back ? __eou__
 thanks for the help . I'm logging back in __eou__
@@ -12093,7 +12093,7 @@ well , it 's up to you :) for unity , use " sudo apt-get install ubuntu-desktop 
 **unknown** : yep . only with xcfe , on this machine . not with gnome/unity , not in other machines running xubuntu 12.04 __eou__ i used the same repo in my previous installation for ubuntu 1.04 and for my other 2 notebooks . is ti possible that somenthing changed in couple of days ? __eou__
 correct , I found it in a lifehacker post :/ __eou__
 ll /home/of1/Documents/alert ( or whatever the alert file name/path is ) __eou__
-each user or server you create has a file with . pem stored there if u deleted the pem the user or server wont be able to connect to the vpn server its the certificate for the user or server __eou__ it is used but but **unknown** its not __eou__ for e.g if u made a client and u want to delete him from the vpn so he cant access it u have to do some thing that is going to use the pem files ( i dont remember exactly what it was but this is what i use the pem files for ) __eou__
+each user or server you create_from_json has a file with . pem stored there if u deleted the pem the user or server wont be able to connect to the vpn server its the certificate for the user or server __eou__ it is used but but **unknown** its not __eou__ for e.g if u made a client and u want to delete him from the vpn so he cant access it u have to do some thing that is going to use the pem files ( i dont remember exactly what it was but this is what i use the pem files for ) __eou__
 : thanks __eou__
 just log out and back in . If you only need the variable set for a particular instance of a shell , then you can just source the file __eou__
 **unknown** __eou__
@@ -12405,7 +12405,7 @@ then it'll be all over the partition , not just the first 100gig . __eou__ corre
 is syslog server also responsible for php logs ? __eou__
 there 's 12 of them . **unknown** __eou__
 change settings __eou__ you want upgrade ? __eou__ update-manager -d __eou__ sudo do-release-upgrade __eou__
-is there another utility that will allow me clone the drive like ghost ? I don't want to make an exactly of one drive to another - i want to create a back of an entire drive . __eou__
+is there another utility that will allow me clone the drive like ghost ? I don't want to make an exactly of one drive to another - i want to create_from_json a back of an entire drive . __eou__
 the pointer on using ip should be enough to help me troubleshoot ... I really appreciate it . Would like to PM you real quick ... that ok ? __eou__
 if you did the name should be in the Download window in Firefox __eou__ if it 's dropping down to tty then your Display Manager isn't getting called on boot to run __eou__ try to run it manually __eou__
 no idea . the one that came with Win8 __eou__
@@ -12648,7 +12648,7 @@ the server is in france __eou__ I am in austria __eou__
 what is that nice tweaks program that lets you customize your desktop / gui ? __eou__
 isnt the same since ubuntu changed the settings interface . From where should I tell it the ipaddress . I have it locally setup on one computer and on a wireless network on another . The local device see the printer but will not set it as default . Both find the printer on the network __eou__ isnt the same since ubuntu changed the settings interface . From where should I tell it the ipaddress . I have it locally setup on one computer and on a wireless network on another . The local device see the printer but will not set it as default . Both find the printer on the network __eou__
 yes __eou__
-" panel ". And there is no way I am aware of moving it . __eou__ create a . desktop file for it ( I never needed to do so ) __eou__ Most likely , they are lost . __eou__
+" panel ". And there is no way I am aware of moving it . __eou__ create_from_json a . desktop file for it ( I never needed to do so ) __eou__ Most likely , they are lost . __eou__
 so i guess its /etc/ssh/sshd __eou__
 I dont want them to see folders above * __eou__
 it has like DHCP server and LAMP i think __eou__
@@ -12798,7 +12798,7 @@ ah .... never used it . I've only used TASM , MASM , 6502/6510 assemblers __eou_
 sorry...I'm talking about bugs.launchpad.net , specifically __eou__
 thanks ...: ) __eou__
 are you kidding me ? __eou__ i have no idea how to make any of that do anything useful __eou__
-why not create one yourself ? __eou__
+why not create_from_json one yourself ? __eou__
 That 's pretty cool , **unknown** __eou__ Oh maybe pavucontrol is what I used , iunno . I just search in the K **unknown** __eou__ Yes . An ad built-into your operating system .. " **unknown** " is the only thing that comes to mind :P __eou__
 about an hour and a half now __eou__
 also used these commands http://pastebin.com/VSxLztf1 __eou__
@@ -13392,7 +13392,7 @@ i would guess they are looking at /dev/cdrom not cdron2 __eou__
 so what happens if you just run synaptic as a user and then try to install a package ? __eou__
 you should do it carefully when you using third party repository __eou__
 yes , but root is special __eou__
-mkisofs will create an hybrid ISO-9660/JOLIET/HFS/UDF filesystem-image __eou__ From a USB , right ? All of it or just one dir ? __eou__
+mkisofs will create_from_json an hybrid ISO-9660/JOLIET/HFS/UDF filesystem-image __eou__ From a USB , right ? All of it or just one dir ? __eou__
 It 's perfectly safe . The journal speeds recovery in the event of a failure , and increases the chances of full recovery ( in some situations) . __eou__
 i used to use it , but i want something local on my OS . something about google tracking all my reads makes me **unknown** . __eou__ also , a lot of my feeds have audio attached to them , it would be nice to dl the audio within the same app __eou__
 luckily tho i just need this disk as the go-between from the source to the destination . so the risk there is a little lower as it 's not an installed OS . __eou__
@@ -13511,7 +13511,7 @@ so " sudo do-release-upgrade " ? __eou__
 when the computer shutdown e.g. #~ shutdown now __eou__
 Will that enable it to ? __eou__ was the restricted manager removed ? __eou__
 yes __eou__
-i was looking for that respawn , but do i have to create a conf file inside /etc/init ? __eou__
+i was looking for that respawn , but do i have to create_from_json a conf file inside /etc/init ? __eou__
 The term partner tell me that it 's not . But it 's worth adding because Ubuntu consider it as a partner . :) __eou__
 try with man -k setupterm to search __eou__
 curl https://raw.github.com/carlhuda/janus/master/bootstrap.sh|bash __eou__
@@ -13645,7 +13645,7 @@ thanks \ yes please __eou__ Thanks __eou__
 When I separated the disk in two partitions , I created one of 700gb ( for windows ) and the other 200gb ( for ubuntu) , why is that windows took the 200gb partition as windows 7 loader ? __eou__ and PatrickDickey , Really thanks for all your help __eou__
 doesn't mean they won't produce the **unknown** ) for Java 7 anyways . __eou__ " not producing . debs " isnt " not producing Linux-compatible tarballs " __eou__
 it is more about what can be different ... one moment , I am finding you a link . __eou__ I can't find what I am looking for , but point releases basically have a bunch of bug fixes like a service pack in win , and support a lot more hardware and bring with it the infrastructure to handle those changes , while simply upgrading might not have all of the pieces together ... is my understanding . __eou__
-because it needed a partition for it 's bootloader , and somewhere along the lines , it decided that was a good one to use . __eou__ you need to create a small partition for the loader . __eou__
+because it needed a partition for it 's bootloader , and somewhere along the lines , it decided that was a good one to use . __eou__ you need to create_from_json a small partition for the loader . __eou__
 thank you __eou__
 It sounds like a driver didn't load . __eou__ look up the specifications for your computer to find out which bluetooth it uses . then google that bluetooth and ubuntu . It should give you advice on how to get it working . __eou__
 that may be , but it works good on my hardware . __eou__
@@ -13941,7 +13941,7 @@ no , i'm not . I've never actually tried quemu or kvm . I always use third party
 Got it Fuchs , so for and it would be grep -E " **unknown** " file ? __eou__
 its 12.10 __eou__
 so it actually is searching all 3 ? __eou__
-so create some small toy example so you can understand better __eou__
+so create_from_json some small toy example so you can understand better __eou__
 lol that was the wront thing i already have 12.10 on my computer just wontdering if there is a way to put the UE 3.4 cd in and get the programs off of that instead of having to download them from the net that was about putting it on a netbook basicly __eou__
 im running lubuntu . so no search there ;D __eou__
 I'd give it a shot , open your sound preferences and see if it 's registering any input there __eou__
@@ -14625,7 +14625,7 @@ now my prompt is " **unknown** ;\ **unknown** : **unknown** :\ w$ " __eou__
 **unknown** __eou__
 how ? im on oneiric now , but do-release-upgrade does not offer that option __eou__
 I can appreciate your argument but it just a assumption . ;) __eou__
-this is what i installed " **unknown** " sudo apt-get install gparted __eou__ : here is what i used http://askubuntu.com/questions/192096/which-software-should-i-use-on-ubuntu-to-create-a-windows-xp-liveusb __eou__
+this is what i installed " **unknown** " sudo apt-get install gparted __eou__ : here is what i used http://askubuntu.com/questions/192096/which-software-should-i-use-on-ubuntu-to-create_from_json-a-windows-xp-liveusb __eou__
 No idea , sorry :/ __eou__
 This description This package provides kernel header files for version 3.4 . 0 on 32 bit x86 SMP . i am on 32bit ? __eou__
 okay , thanks a lot ! :) __eou__
@@ -14723,7 +14723,7 @@ this is exactly what I want . good . thanks __eou__ how do I install this superv
 can't open synaptic getting error __eou__
 it installed some packages .. but same issue __eou__
 yeah , i'll do :) __eou__
-there are plenty of ways to do that . one would be to have each process create a pid file in a directory , and then write a script to collect process information for each pid file in the directory . __eou__
+there are plenty of ways to do that . one would be to have each process create_from_json a pid file in a directory , and then write a script to collect process information for each pid file in the directory . __eou__
 can also right click > paste . __eou__
 I recommend a liveCD . __eou__
 i erase all previous kernel , sorry i dont __eou__
@@ -14904,7 +14904,7 @@ that is my boot partition __eou__ doesnt photorec replicate my entire /home user
 arch isn't. __eou__ it installs **unknown** , but no dialog or wpa_supplicant __eou__
 thanks . I'll go check with the disk usage analyzer . I'm fairly certain that 's a good estimate .. thanks __eou__
 It says " quantal ". But when I login initially it always shows 12.04 . I believe I am in some weird partial-upgrade hell . System is usable , I just can't install or remove anything via apt-get . __eou__
-Then why dont you use it ? __eou__ There is NO default xorg . conf since ages . If you need it , create it . __eou__
+Then why dont you use it ? __eou__ There is NO default xorg . conf since ages . If you need it , create_from_json it . __eou__
 great __eou__ no luck __eou__
 dude , check my karma on Launchpad . I help about 50 users a day on there with their issues . I'm quite patient :) __eou__ https://launchpad.net/ubuntu/+topcontributors all by posting solutions for new users . I've been around the block a while :) __eou__
 as are grub 's menu . lst , and working Ubuntu releases . __eou__
@@ -15009,7 +15009,7 @@ just checking if it 's actually installed __eou__
 thanks __eou__ all I really needed to know was whether there is any good reason to use the proprietary one __eou__
 run mprime , or cpuburn and measure again . it will go up __eou__
 i see , thank you __eou__ i have an actual question i have been thinking about , lets say you have a server running an older version of ubuntu , is it consider good practise to distro-upgrade ? or would it be better to have a clean slate ? __eou__
-that doesn't explain it . you can write your mouse config there without doing X -configure to create a full blown config __eou__
+that doesn't explain it . you can write your mouse config there without doing X -configure to create_from_json a full blown config __eou__
 ubuntu 12.10 __eou__
 OK sorry __eou__
 So those errors would show up like that on any platform ? __eou__
@@ -15131,7 +15131,7 @@ No . __eou__ Just use another desktop environment . __eou__
 Easy like that :o __eou__
 It is __eou__
 You're welcome . __eou__
-what device name exactly has " increased "? __eou__ that number at the end cannot increase __eou__ sure . if you create a new partition only __eou__
+what device name exactly has " increased "? __eou__ that number at the end cannot increase __eou__ sure . if you create_from_json a new partition only __eou__
 is for local server for the user **unknown** or from my prompt I also use the same **unknown** ... __eou__
 MasterOfDisaster : whe the rc . local is executed , there is no environment , and no $PATH set . __eou__ Use /usr/bin/python instead of python . Use the full path . __eou__ correct . __eou__
 thanks for the tip :) __eou__
@@ -15341,7 +15341,7 @@ ok , thanks , then I need to find what packages are guaranteed to exists on whic
 were you able to try peppermint OS as suggested ? and lubuntu > __eou__
 Its very early days , but I'm playing around with embedded lisp so its a nice platform for me __eou__ yup , certainly is __eou__ its definitely just for dev at the moment , but I'm still having plenty of fun with it . Just wondered if anyone knew much about netusb as I havent really messed with it before __eou__ I'm getting the feeling i may have to do a kernel recompile to enable it though __eou__
 i believe so __eou__
-you can create a file **unknown** . conf . **unknown** and add entries there I believe . __eou__
+you can create_from_json a file **unknown** . conf . **unknown** and add entries there I believe . __eou__
 thanks , I disabled the HUD in ubuntu tweak . __eou__
 1 network card , virtual machine , it 's plugged in :) __eou__
 Nah , it depends on your configuration . I'm using **unknown** , personally __eou__
@@ -15396,7 +15396,7 @@ a linux snob ... does anybody else follow this guys logic ? i just stated to eve
 not sure then . you can try stracing the apt-get process for clues __eou__
 I only see one on the website . Did you check your hash after downloading ? __eou__
 are these plugins ? i don't think i'm running anything __eou__
-**unknown** , dr_willis , snoozie , so what is final conclusion in my case , If i have laptop with 8gb ddr3 1600MHZ ram & i am going to install ubuntu 12.10 as a dual boot , should i need to create swat if yes then how much space i should assign 8gb swap or more ? __eou__
+**unknown** , dr_willis , snoozie , so what is final conclusion in my case , If i have laptop with 8gb ddr3 1600MHZ ram & i am going to install ubuntu 12.10 as a dual boot , should i need to create_from_json swat if yes then how much space i should assign 8gb swap or more ? __eou__
 it might be wise to learn basic linux with a book or something __eou__
 ok thanks __eou__
 and the video chipset us ? __eou__ ran the ' additional-drivers ' tool yet ? __eou__
@@ -15686,7 +15686,7 @@ did you not search the web . I don't use Mate and found that link in seconds ...
 It does __eou__ I gave up on trying to make it work __eou__ So I gave root a password , and elevated with su __eou__ Then ran the command again and it worked __eou__ Then i noticed what was wrong __eou__
 my /var/lib/dpkg got broken and I'm nearly finished rebuilding it but I need apt-get to reinstall everything that 's already installed ( thus the ls /usr/share/doc ) to let it know what 's already installed __eou__
 Then May i conitnue with the installation then ? __eou__
-thanks for the suggestion . unfortunately ddrescue seems to only do whole disks ( too big disk and I only need some of the files) . Also it seems to create img that would still need fixining before one can mount and browse it . __eou__ can you recommend some direct fix ? __eou__
+thanks for the suggestion . unfortunately ddrescue seems to only do whole disks ( too big disk and I only need some of the files) . Also it seems to create_from_json img that would still need fixining before one can mount and browse it . __eou__ can you recommend some direct fix ? __eou__
 pastebin the command you entered and the error , verbatim __eou__
 ablyss : thanks __eou__
 Give it a try ! __eou__
@@ -15712,7 +15712,7 @@ any info in any of the other logs ? ( syslog , kern . log , etc . ) __eou__
 I'm everywhere . __eou__
 Uh I have a seprate encrypted partiton so i dont really mind :P __eou__
 yw :) __eou__ so link O gave to you **unknown** work ? __eou__
-bash has a utility called " script " that creates a **unknown** that writes to file . For example : " script **unknown** . txt " It will create a new bash prompt , and all input and output will be stored in the file **unknown** . txt . do the install again , then cat ubuntu . txt | pastebinit __eou__
+bash has a utility called " script " that creates a **unknown** that writes to file . For example : " script **unknown** . txt " It will create_from_json a new bash prompt , and all input and output will be stored in the file **unknown** . txt . do the install again , then cat ubuntu . txt | pastebinit __eou__
 type in terminal sudo dpkg -- configure -a __eou__
 I tried that didnt work __eou__
 this PC is having issues installing Ubuntu , and the disk is EFI ( Whatever that is ) __eou__
@@ -15755,7 +15755,7 @@ I see , thanks __eou__
 thanks , I'll take a look __eou__
 it started after the upgrade from 12.04 to 12.10 __eou__
 it should not be in a new document , since I have to scan the front pages first and later the back pages __eou__ if I use " New " in SimpleScan I still can't scan . I have to close and restart the program __eou__
-Yes . I'm using the md driver . __eou__ The install appeared to go ok for me , but it won't boot . I get just a blank screen with a blinking text cursor . __eou__ Several minutes . __eou__ That web page you gave me starts with , " Ubuntu installer does not come with Software RAID support ." But that seems to be false : RAID was right there in the ( manual ) partitioning menu . __eou__ So what I did was create two partitions on the disk , both set to " use as RAID physical volume " in the installer . One has an ext4 mounted on /boot , the other an LVM with /root and swap in it . ( This is what I did back in the 8.04 days , where that all seemed to work fine . ) __eou__ Oh , hm , it does occur to me that , since I'm not using encryption , I could just do one LVM with root and swap , and not have a separate /boot . Does that seem like a better idea ? __eou__
+Yes . I'm using the md driver . __eou__ The install appeared to go ok for me , but it won't boot . I get just a blank screen with a blinking text cursor . __eou__ Several minutes . __eou__ That web page you gave me starts with , " Ubuntu installer does not come with Software RAID support ." But that seems to be false : RAID was right there in the ( manual ) partitioning menu . __eou__ So what I did was create_from_json two partitions on the disk , both set to " use as RAID physical volume " in the installer . One has an ext4 mounted on /boot , the other an LVM with /root and swap in it . ( This is what I did back in the 8.04 days , where that all seemed to work fine . ) __eou__ Oh , hm , it does occur to me that , since I'm not using encryption , I could just do one LVM with root and swap , and not have a separate /boot . Does that seem like a better idea ? __eou__
 you can install them all at once __eou__
 is there any great resource to start learning iptables __eou__
 what processor and ram __eou__
@@ -15769,7 +15769,7 @@ I see ... So I'll get the 64-bit then . :) __eou__
 apparently sudo unity reset did the job __eou__
 also in the alternate installer ? __eou__
 there 's no need for chroot to backup your things . just mount your old installations /home and copy it somewhere __eou__
-Can I tell firefox in the config not to create such a . lock file ? __eou__
+Can I tell firefox in the config not to create_from_json such a . lock file ? __eou__
 thanks . ! ics ? I'm happy to set it up in /etc/network/interfaces , but I have to write in the static IP there , and it 's kinda hairy to keep track of that in two places __eou__ thanks , that wasn't what I was trying though . But I found my answer here , which was " disable network-manager ": https://help.ubuntu.com/community/Xen#Network_Configuration __eou__ a bridge actually makes two ( or more ) separate networks work as a single LAN , by forwarding broadcasts and doing all sorts of stuff . most people don't use it , but it 's great for xen and vpns __eou__
 so I'm trying to figure out where ruby installed sass on my box ... make sure that this gives you a list of dirs that looks about right : ruby -e ' puts $ :' __eou__ ok , ruby has installed sass to /var/lib/gems/ 1.9 . **unknown** 3.2 . 2 for me ... __eou__ even though I don't have that in my $ : list . : | __eou__ so presumably some other part of ruby adds that in . __eou__
 oh , sorry , I didn't read your paste carefully enough ... those scripts that you source are tailored for specific shells . so , for example , you should source cshrc if you're actually running cshrc . __eou__
@@ -15820,7 +15820,7 @@ yeah great news ... __eou__
 Both . __eou__
 i would ping 192.168 . 0.1 and see if the tx/rx counters in ifconfig are increasing for eth0 __eou__ i would ping 192.168 . 0.1 and see if the tx/rx counters in ifconfig are increasing for eth0 __eou__ or pint -I eth0 192.168 . 0.1 __eou__ actually that -I has to be an address so its 192.168 . **unknown** for you eth0 ? __eou__ yeah ping -I 192.168 . **unknown** 192.168 . 0.1 will go out whatever interface it likes but should come back on eth0 __eou__
 unity ? unity 2d ? classic ? or what __eou__
-yes ... you need the i386 if you have a 32bit x86 system __eou__ the amd64 is because amd came up with the instruction set modifications that intel then copied __eou__ you are not the first person to be confused by all this __eou__ depends on if you want LVM ... what is your use case and what are you installing onto ? __eou__ then LVM is probably unnecessary . LVM abstracts away the whole partitioning thing so you can easily create and remove partitions and resize partitions without worrying about the physical layout of the partitions . probably not needed for a single disk server like that __eou__
+yes ... you need the i386 if you have a 32bit x86 system __eou__ the amd64 is because amd came up with the instruction set modifications that intel then copied __eou__ you are not the first person to be confused by all this __eou__ depends on if you want LVM ... what is your use case and what are you installing onto ? __eou__ then LVM is probably unnecessary . LVM abstracts away the whole partitioning thing so you can easily create_from_json and remove partitions and resize partitions without worrying about the physical layout of the partitions . probably not needed for a single disk server like that __eou__
 Thanks . __eou__
 I am using 12.10 and unity without a lot of custom things installed . But it seems that after about an hour , compiz goes to 40% cpu and never gives it up __eou__ unfortunately , I am unable to form a better question that , what can I do ? or how can I troubleshoot ? __eou__ ( I think I messed up some IRC fu , reposting my question ) I am using 12.10 and unity without a lot of custom things installed . But it seems that after about an hour , compiz goes to 40% cpu and never gives it up . My question is either how do I stop this or how do I troubleshoot ? __eou__
 newb ;-) __eou__
@@ -15889,7 +15889,7 @@ ah .. i was afraid of that .. __eou__ im 100% screwed now .. I was hoping it was
 no __eou__
 i'm wondering wt is difference between oracle java and openjdk __eou__
 **unknown** : By right-click " rename " is greyed out . Do I need admin rights for that possibly ? __eou__
-Sorry , I don't know . Mine says 0 used . __eou__ Sorry then I don't know what can be wrong . This is perhaps not the recommended solution , but in your case I would try renaming my home directory and create a new one . Perhaps it is something in your configuration that renders the **unknown** . __eou__ Look at dr_willis answer . It might be . Xauthority . __eou__
+Sorry , I don't know . Mine says 0 used . __eou__ Sorry then I don't know what can be wrong . This is perhaps not the recommended solution , but in your case I would try renaming my home directory and create_from_json a new one . Perhaps it is something in your configuration that renders the **unknown** . __eou__ Look at dr_willis answer . It might be . Xauthority . __eou__
 mist of the time i see that here its due to . Xauthority __eou__
 what log files in particular , any in /var/log you mean ? __eou__
 Loading all of those made no difference . Now I'm really confused __eou__
@@ -16200,7 +16200,7 @@ don't know . I keep b43 driver files which I would if anything happened ( one da
 that was totally unreadable to me __eou__
 when I start from terminal , it merely says " Segmentation fault ( core dumped ) " __eou__
 then use the inf-file with ndiswrapper to install the windows drivers __eou__
-create a new user __eou__
+create_from_json a new user __eou__
 i'm on ubuntu 12.10 , and i've installed the driver but i can't get it working __eou__
 you can only su to root if you've set a root password . One isn't set by default . It 's also not necessary and not recommended __eou__
 I have . gnome2 is dead __eou__
@@ -16358,7 +16358,7 @@ that wasnt my question ... __eou__ is this your system , or a free shell ? i din
 ah __eou__ i appologize __eou__ running the command you gave , before mount it shows root : root as owner , afterwards its my user __eou__
 Thanks ; it'll take a few moments , my typing sucks and I want to be concise .. __eou__
 You should be able to choose Unity 2D from somewhere like the top or bottom screen __eou__ At the login screen , I mean __eou__
-I will give this a try thanks . __eou__ when I run the command I get this " mkdir : cannot create directory **unknown** File exists " __eou__
+I will give this a try thanks . __eou__ when I run the command I get this " mkdir : cannot create_from_json directory **unknown** File exists " __eou__
 you don't have to do picture pastes , but it works . try : `sudo apt-get install **unknown** and see what that says __eou__
 interesting .. what live cd did you do it with ? __eou__
 yes , why not ? __eou__ if an application needs ram , it can easily be droped __eou__
@@ -16452,7 +16452,7 @@ when you type " java -version " what does it say ? __eou__
 it doesn't want me to run unity -- reset within a tty __eou__
 thanks __eou__
 tried ps -e | greping for both and had no luck __eou__
-thats a keybinding , setting gui_url_mod to 0 should create clickable links . __eou__
+thats a keybinding , setting gui_url_mod to 0 should create_from_json clickable links . __eou__
 When I check the version of Libreoffice , it currently shows 3.6 . 2 . It asks me to update to 3.6 . 3 by downloading the 170MB tarball from LibreOffice web site . I downloaded it , extracted it , installed it . I check the version and it still shows me 3.6 . 2 . __eou__
 check this out : **unknown** __eou__
 you cant fix what they released .. they labeled the 3.6 . 2 as 3.6 . 3 .. __eou__
@@ -16601,7 +16601,7 @@ change server to main maybe that help __eou__
 i am wondering if the distro upgrade is what messed up the associated libraries . i am one of those guys who really does not like distro upgrades via command line .. __eou__ was there any error messages when you re-installed it in 12.10 ? __eou__
 no idea really , i use the same ppa but only installed the the pirate bay lens __eou__
 minecraft blackscreens , virtualbox vms is stuck at 0% starting __eou__
-thanks , I found the . sh and started it . how can I create a hardlink to the . sh to the desktop ? __eou__
+thanks , I found the . sh and started it . how can I create_from_json a hardlink to the . sh to the desktop ? __eou__
 ubuntu 12.04 , Broadcom Corporation BCM4312 - how do i find out drivers ? __eou__
 sorry , waasn't meant for you __eou__
 i got some problems getting some new lens to work , installed the wiki lens and i dont figure out how to use it , when i type somehting nothing shows __eou__
@@ -17277,7 +17277,7 @@ Thank you . __eou__
 ah ok . Thanks . I just wanted to make sure I wasn't sitting here unnecessarily long . __eou__ what if I changed the partition to fat32 about how long would you say it would take to transfer 950 gigs to it/ __eou__
 i get download link for 12.04 only and i am using 64 bit 12.10 __eou__
 I've tried both the gui disktool and fdisk from command line __eou__ might if you used xfe as yer desktop but still __eou__ use it as a lilttle server for something/ __eou__ any idea why it would be confussing the CD drive with the HDD ? __eou__
-I belive theres some way to set up ~/ . **unknown** entries for specific desktops via editing the . desktop file for the entry __eou__ the /etc/xdg/autostart/ files may show some examples of doing this . ivbe noticed it for kde and gnome __eou__ or you may be able to create your own mate+docky session for the login maanger __eou__
+I belive theres some way to set up ~/ . **unknown** entries for specific desktops via editing the . desktop file for the entry __eou__ the /etc/xdg/autostart/ files may show some examples of doing this . ivbe noticed it for kde and gnome __eou__ or you may be able to create_from_json your own mate+docky session for the login maanger __eou__
 are there commercial boxes/safes available like that ? __eou__
 from what ive seen . either a webcam works .. or is totally unsupported with no drivers . its possible theres some experimental drivers for it . or somthing comming up in newer kernels . __eou__
 but , i have a full bucket of fish here for the dayly feeding session :) __eou__
@@ -17773,7 +17773,7 @@ wrong , they are allways lovely , specially because they make nervous the so cal
 I am trying to install proftpd , but every time I install in hangs dpkg __eou__
 10.04 does not download too __eou__ 10.04 does not download either __eou__
 well it looks like 10.04 is not dead , but netinstaller does not download any installer components __eou__
-hm , at the moment the installer is doing nothing after selecting the mirror __eou__ the repo is still up http://de.archive.ubuntu.com/ubuntu/dists/lucid/ __eou__ could you send me that log ? __eou__ i will create a bug on launchpad __eou__ i started the normal installer __eou__ but ok i will do later today __eou__ but as i said , its a bug and not " only the last lts is designed to work with netinstall " __eou__ i know how to do it , thx __eou__ i am just busy at the moment to restart the installation __eou__
+hm , at the moment the installer is doing nothing after selecting the mirror __eou__ the repo is still up http://de.archive.ubuntu.com/ubuntu/dists/lucid/ __eou__ could you send me that log ? __eou__ i will create_from_json a bug on launchpad __eou__ i started the normal installer __eou__ but ok i will do later today __eou__ but as i said , its a bug and not " only the last lts is designed to work with netinstall " __eou__ i know how to do it , thx __eou__ i am just busy at the moment to restart the installation __eou__
 yeah .. that was it __eou__
 because only 3 things are certain in life : death , taxes and ftpd exploits __eou__
 what did you do before this occured ? did you update ? or did you install additinal drivers ? __eou__
@@ -17816,7 +17816,7 @@ mate isn't supported __eou__
 companion , ethernet __eou__ , ethernet __eou__
 glad that worked keep in mind llutz is probably more familar __eou__
 official LTS you mean . __eou__ is more senior on that than I . __eou__
-anyone knows a mirror for that ? __eou__ unetbootin can create persistent os ? __eou__
+anyone knows a mirror for that ? __eou__ unetbootin can create_from_json persistent os ? __eou__
 That 's a great idea , hadn't thought of that :) __eou__
 uh ... what ? __eou__ **unknown** might be one place to put stuff __eou__
 regular usage , as was promised in 12.10 __eou__
@@ -17870,7 +17870,7 @@ the only feature i realy need is to show me a preview while i'm edit html , that
 Keep in mind that I'm using the unity display as it is Ubuntu 12.10 __eou__
 http://news.softpedia.com/news/Canonical-Drops-Alternate-CDs-from-Ubuntu-12-10-289338.shtml __eou__
 no code , locations maybe __eou__
-not everyone understands ' create a partition ' __eou__
+not everyone understands ' create_from_json a partition ' __eou__
 you can use python-gtk2 , pygtk2 does not exist in ubuntu . __eou__
 Sorry wrong button __eou__
 same response here , nevermind my comment __eou__
@@ -17925,7 +17925,7 @@ no idea .. check in #debian __eou__
 thank you . :) __eou__
 the text mode keeps a DM from starting __eou__
 that 's probly the wrong module name __eou__
-I upgraded from 3.2 . 0-29 to 3.2 . **unknown** __eou__ I got it to create the device files by running " sudo nvidia-smi -a " following some forum instructions __eou__ I'm not sure what this actually did . __eou__
+I upgraded from 3.2 . 0-29 to 3.2 . **unknown** __eou__ I got it to create_from_json the device files by running " sudo nvidia-smi -a " following some forum instructions __eou__ I'm not sure what this actually did . __eou__
 oh ! __eou__ so what did you do to get youtube working ? __eou__ as sounds like I might have the same problem as you __eou__
 I did rfkill list it says : 0 : acer-wireless : Wireless LAN Soft blocked : no Hard blocked : no __eou__ it was softblocked before but i did rfkill unblock all __eou__
 Says you are away xD __eou__ so when are you going to read your pm 's __eou__ the internet police can't read his own pm 's when telling someone to read the ones he sent < bazhang > hi __eou__
@@ -18361,7 +18361,7 @@ any way to locate this particular dependency ? __eou__
 thanks __eou__
 ok thanks .... must be something else then __eou__
 so , you probably can't avoid it under the apt-get method __eou__
-i have a cd drive its not an issue i just want to create and ultimate portable install __eou__
+i have a cd drive its not an issue i just want to create_from_json and ultimate portable install __eou__
 i would imagine its some apci/power saveing feature thats bugged .. __eou__
 how do i do that ? __eou__ from terminal ? __eou__
 no __eou__
@@ -18617,7 +18617,7 @@ did he even mention that product ? __eou__ blender < 3 but that is for 3D stuff 
 If by local address you mean like 192.168 . 1.1 then that 's what we were attempting to connect to __eou__
 always make sure to backup , before you start experimenting __eou__
 Oh , right , I'm thinking of the ~/ . bashrc __eou__ My . bashrc in /etc/skel/ . bashrc is 4 lines __eou__
-what would be the reason it didnt create it right in the first place any ideas ? there is a . bashrc and home DIR etc , would tab completion be something stored in . bashrc too ? __eou__
+what would be the reason it didnt create_from_json it right in the first place any ideas ? there is a . bashrc and home DIR etc , would tab completion be something stored in . bashrc too ? __eou__
 you from argentina ? __eou__
 np __eou__
 does that mean I should leave since I'm on debian , or can I still stick around to provide assistance and educate myself ? __eou__
@@ -18698,7 +18698,7 @@ question was what port firefox uses to establish a **unknown** . and that is a p
 Just making sure I'm not doing anything that ubuntu/linux would dislike . __eou__
 dmesg reported some ATA read errors . but that was a one time thing , almost a month ago . What I'm not sure about now is , should I replace the disk ( which will cost me a lot since it 's a dedicated server hosted by a company ) or are the errors kind of fixed **unknown** __eou__ the RAID has done a complete rebuild since the read errors . does that mean I'm out of danger or am I just prolonging the inevitable ? __eou__
 **unknown** , crimsonmane , but shouldn't aspell at least behave properly ? It used to ... until a few months ago . Now it insists that all my Z 's become S 's and that I speak in Queen 's English . This is utter rubbish ! ( Indeed ) __eou__
-I mean , what app would I use to create the deb from the src files ? __eou__ Alright , you suggest checkinstall as well . __eou__
+I mean , what app would I use to create_from_json the deb from the src files ? __eou__ Alright , you suggest checkinstall as well . __eou__
 no it uses kde , xcfe but you can install the base http://kxstudio.sourceforge.net/Documentation:Ubuntu:Upgrade < -- full gruide __eou__
 which part ? __eou__
 that is odd .. id remove the account and change the ssh passwd __eou__

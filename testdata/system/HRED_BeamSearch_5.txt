@@ -5,7 +5,7 @@ yeah , but i dont know how to do that ... __eou__
 I don't have a printer , I just want to know if there is a way to get the printer working __eou__
 **unknown** __eou__
 **unknown** __eou__
-you need to create a new partition , and create a new partition . __eou__
+you need to create_from_json a new partition , and create_from_json a new partition . __eou__
 I don't know how to do that , but I don't know how to do that . __eou__
 I know , but I don't know how to turn it off . I have a laptop , and I don't know how to turn it off . __eou__
 I don't know about that , but I don't know how to do that , sorry . __eou__
@@ -54,7 +54,7 @@ Did you install the nvidia drivers ? __eou__
 thanks a lot ! __eou__
 I don't know what you're talking about , but I don't know what you're talking about __eou__
 **unknown** : I have a dual monitor setup and I want to set it to 1440x900 , but I don't know how to configure it . __eou__
-if you want to install ubuntu on a separate partition , you can create a new partition and create a new partition __eou__
+if you want to install ubuntu on a separate partition , you can create_from_json a new partition and create_from_json a new partition __eou__
 I have no idea how to do that , but I don't know how to do that . __eou__
 I want to change the resolution of my monitor , but I cant seem to get it to work __eou__
 I have no idea what your problem is , but I have no idea what your problem is . __eou__
@@ -404,7 +404,7 @@ I don't know what you mean . I just want to know how to do it . __eou__
 how do i do that ? __eou__
 i don't know how to do that , but i don't know how to do that , but i don't know how to do that . __eou__
 I don't think so , but I don't think it 's a bug , but I don't think it 's a bug __eou__
-if you want to do it with useradd , you can create a user called " adduser " and use the adduser command __eou__
+if you want to do it with useradd , you can create_from_json a user called " adduser " and use the adduser command __eou__
 how do I do that ? __eou__
 ok , thanks for your help . __eou__
 Thanks . I was just wondering if there was a way to do it . __eou__
@@ -452,7 +452,7 @@ i dont know how to do that __eou__
 then you need to enable the universe repository __eou__
 i did that .. but i still get the same error __eou__
 I'm trying to connect to a wireless network , but I can't seem to connect to it . __eou__
-so i have to create a new partition , and then create a new partition , and then create a new partition ? __eou__
+so i have to create_from_json a new partition , and then create_from_json a new partition , and then create_from_json a new partition ? __eou__
 yes , but I want to be able to share files between two computers on the same network . __eou__
 I know , but I don't know how to do that . I just want to be able to share files between them . __eou__
 ok , thanks for the help __eou__
@@ -659,7 +659,7 @@ ok , thanks . __eou__
 ah , ok __eou__
 **unknown** **unknown** **unknown** **unknown** **unknown** __eou__
 **unknown** __eou__
-I have a /boot partition , and I want to create a /boot partition , but I don't know how to do that __eou__
+I have a /boot partition , and I want to create_from_json a /boot partition , but I don't know how to do that __eou__
 I don't have a network manager , I don't know how to set it up . __eou__
 well , you can install the PAE kernel , but it 's not a good idea to use the PAE kernel __eou__
 ok , thanks for the help __eou__
@@ -909,7 +909,7 @@ yeah I know , I was just trying to figure out how to do that __eou__
 if you have physical access to the system , you have to use the alternate cd __eou__
 is it free ? __eou__
 thanks __eou__
-if you have a raid array you can use mdadm to create a raid array __eou__
+if you have a raid array you can use mdadm to create_from_json a raid array __eou__
 well , i was just wondering if there was a way to do it in ubuntu __eou__
 yes __eou__
 I agree with jedit , but I don't know what jedit is , but I don't know how to use it . __eou__
@@ -1181,7 +1181,7 @@ how do i find out ? __eou__
 ok , thanks . __eou__
 thanks , I'll try that __eou__
 **unknown** __eou__
-If you want to do a clean install , you can create a new partition and create a new partition . __eou__
+If you want to do a clean install , you can create_from_json a new partition and create_from_json a new partition . __eou__
 I have no idea what you are talking about __eou__
 what is lubuntu ? __eou__
 no , it 's not __eou__
@@ -1204,7 +1204,7 @@ I don't think so , but I don't know how to do that . I have a Mac Mini , but I d
 No , it 's not . __eou__
 I know , but I don't know how to use it . __eou__
 it 's not supported by the kernel , but it 's not supported by the kernel __eou__
-you can use unetbootin to create a bootable usb stick __eou__
+you can use unetbootin to create_from_json a bootable usb stick __eou__
 how do i do that ? __eou__
 I have no idea what you are talking about , I just want to know if there is a way to do that __eou__
 **unknown** : **unknown** : No such file or directory __eou__
@@ -1613,7 +1613,7 @@ i know , but i dont know how to use it __eou__
 how do i do that ? __eou__
 ok .. thanks .. I'll give it a shot __eou__
 yes __eou__
-you can use unetbootin to create a bootable usb stick . __eou__
+you can use unetbootin to create_from_json a bootable usb stick . __eou__
 you should be able to recover the data from the drive , but you should be able to recover the data from there __eou__
 Can you pastebin the output of " sudo fdisk -l "? __eou__
 that 's what I thought , but I don't know how to fix it . __eou__
@@ -1934,7 +1934,7 @@ thanks , i'll try that __eou__
 that 's what I was looking for , thanks __eou__
 I have a dual boot system , and I want to install Ubuntu on a virtual machine , but I don't want to have to install Windows XP on it . __eou__
 thanks __eou__
-I don't think you can do that , but you can create a new partition and create a new one . __eou__
+I don't think you can do that , but you can create_from_json a new partition and create_from_json a new one . __eou__
 i know , but i don't know how to use it __eou__
 I am not a person , but I have no idea what you are talking about . __eou__
 I don't know what you're talking about . __eou__
@@ -2054,7 +2054,7 @@ I think you need to use **unknown** or something like that __eou__
 I don't know what that means . __eou__
 I don't know how to do that , but I don't know how to do that . __eou__
 I know , but I don't know how to do that . __eou__
-I think you need to create a symlink to **unknown** . conf __eou__
+I think you need to create_from_json a symlink to **unknown** . conf __eou__
 You need to mount it manually . __eou__
 you can boot into windows recovery mode and type fixmbr __eou__
 That 's what I was thinking . __eou__
@@ -2110,7 +2110,7 @@ well , if you want to do a fresh install , you can do a fresh install , but i do
 yes , i have a wireless card , but i don't know how to use it __eou__
 do you know how to do that ? __eou__
 ok , thanks for the help __eou__
-i want to create a new partition , but i want to create a new partition , and i want to create a new partition , but i want to create a new partition , and i want to create a new partition , but i want to create a new partition , and i want to create a new partition , but i want to create a new partition and create a new partition , and then create a new partition , and then create a new partition , and then create a new partition . __eou__
+i want to create_from_json a new partition , but i want to create_from_json a new partition , and i want to create_from_json a new partition , but i want to create_from_json a new partition , and i want to create_from_json a new partition , but i want to create_from_json a new partition , and i want to create_from_json a new partition , but i want to create_from_json a new partition and create_from_json a new partition , and then create_from_json a new partition , and then create_from_json a new partition , and then create_from_json a new partition . __eou__
 I have 4GB RAM , and I have 4GB of RAM , and I have 4GB of RAM , and I have 4GB of RAM . __eou__
 I don't know about compiz , but I think it 's a compiz issue __eou__
 try this : cat /proc/asound/cards && amixer -c0 __eou__
@@ -2972,7 +2972,7 @@ ok , thanks . __eou__
 thanks __eou__
 **unknown** __eou__
 **unknown** __eou__
-So you have a separate /home partition , and you want to create a new one ? __eou__
+So you have a separate /home partition , and you want to create_from_json a new one ? __eou__
 **unknown** , **unknown** , **unknown** , **unknown** , **unknown** , **unknown** __eou__
 yes __eou__
 sorry , I don't know how to do that , sorry . __eou__
@@ -3198,7 +3198,7 @@ ok , thanks for your help __eou__
 I did , but it didn't work . __eou__
 you can use xchat or xchat-gnome __eou__
 there is no such file or directory __eou__
-I have a swap partition and I want to create a swap partition , but I don't know how to do that __eou__
+I have a swap partition and I want to create_from_json a swap partition , but I don't know how to do that __eou__
 i have installed wine , but i get this error when i try to install wine __eou__
 no , it 's just a blank screen __eou__
 how do I do that ? __eou__
@@ -3243,7 +3243,7 @@ sudo apt-get install rar __eou__
 thanks , I'll try that . __eou__
 no , but I don't know what you're talking about __eou__
 then you should be able to do it with wine __eou__
-you can create a new user and create a new user __eou__
+you can create_from_json a new user and create_from_json a new user __eou__
 thanks , i will try that . __eou__
 yeah , but I don't know how to do that , I just don't know how to do that __eou__
 what is the output of " ls -l " ? __eou__
@@ -3377,7 +3377,7 @@ I think it 's called " **unknown** ", but I don't know what it 's called . __eou
 i don't understand what you mean by " upstart " __eou__
 ok , thanks __eou__
 I know , but I want to be able to control the **unknown** of my desktop , so that I can use the desktop , but I want to be able to drag and drop the window to the desktop . __eou__
-if you want to keep /home on a separate partition , you will need to create a separate partition for /home __eou__
+if you want to keep /home on a separate partition , you will need to create_from_json a separate partition for /home __eou__
 thanks . I'll look into that . __eou__
 I just want to make sure I have the option to install the base system __eou__
 how do i do that ? __eou__
@@ -3456,7 +3456,7 @@ no , it 's a laptop , not a fan __eou__
 **unknown** __eou__
 that 's what i thought , but i don't know how to do that . __eou__
 I want to install **unknown** __eou__
-you can use unetbootin to create a bootable usb stick , but I don't know how to do it __eou__
+you can use unetbootin to create_from_json a bootable usb stick , but I don't know how to do it __eou__
 Do you have an Ubuntu CD ? __eou__
 i have a video card and i want to play a video file , but i don't know how to use it __eou__
 how do I find out ? __eou__
@@ -3494,11 +3494,11 @@ I upgraded from 10.10 to 10.10 __eou__
 looks like you have a module loaded , you might need to blacklist the module __eou__
 I don't know how to do that , I just want to know how to do it __eou__
 **unknown** __eou__
-I don't think so , but if you want to write to NTFS , you can create a NTFS partition , but I don't know how to do that . __eou__
+I don't think so , but if you want to write to NTFS , you can create_from_json a NTFS partition , but I don't know how to do that . __eou__
 yeah , that 's what I was thinking , but it 's been a while since I used it , so I was wondering if there was a way to get rid of it __eou__
 thanks __eou__
 no , I don't know how to do that . __eou__
-that 's what i want to do , but i want to be able to create a new partition , but i don't know how to do that __eou__
+that 's what i want to do , but i want to be able to create_from_json a new partition , but i don't know how to do that __eou__
 ok , so you need to boot from a live cd and install ubuntu on it __eou__
 I don't know how to do that , but I don't know how to do that . __eou__
 no , i don't think so ... __eou__
@@ -3896,7 +3896,7 @@ ok , thanks __eou__
 Thanks . __eou__
 I don't know , I don't know how to fix it , but I don't know how to fix it __eou__
 i know , but i want to know if there is a way to do it __eou__
-I have two partitions , one for the rest of the rest of the unallocated space . I want to create a new partition , but I want to create a new partition , and I want to create a new partition . __eou__
+I have two partitions , one for the rest of the rest of the unallocated space . I want to create_from_json a new partition , but I want to create_from_json a new partition , and I want to create_from_json a new partition . __eou__
 I want to know how to add a custom script to a script so I can put it in a script so I can put it in a script so I can put it in a script __eou__
 ok , thanks __eou__
 I don't know how to do that , but I don't know how to do that __eou__
@@ -3975,7 +3975,7 @@ I don't know what you're talking about . __eou__
 Thanks . I'll check it out . __eou__
 well , if you want to mount a partition , you need to unmount the drive , and unmount the drive , and unmount it . __eou__
 I have no idea what you mean by that . __eou__
-i want to create a folder in my home folder .. i want to create a folder in my home folder .. i want to create a folder in my home folder .. __eou__
+i want to create_from_json a folder in my home folder .. i want to create_from_json a folder in my home folder .. i want to create_from_json a folder in my home folder .. __eou__
 I know , but I want to know if there is a way to do it ? __eou__
 thanks __eou__
 what 's the problem ? __eou__
@@ -4151,7 +4151,7 @@ I don't think so , but it 's a bit of a **unknown** __eou__
 no problem . __eou__
 I know , but I don't know how to fix it , but I don't know how to fix it __eou__
 I don't think it 's possible to do that , but I don't know how to do it , but I don't know how to do it __eou__
-i want to create a symbolic link to a directory __eou__
+i want to create_from_json a symbolic link to a directory __eou__
 I did , but it didn't work __eou__
 that 's what i thought , but i don't know how to do that __eou__
 do you have a DHCP server ? __eou__
@@ -4776,7 +4776,7 @@ how do I do that ? __eou__
 thanks for the advice , I will try that , thanks for the help __eou__
 I know , but I don't know how to do that , I just want to know how to do it __eou__
 thanks __eou__
-if you want to make a new partition , you can create a new partition and create a new partition for it __eou__
+if you want to make a new partition , you can create_from_json a new partition and create_from_json a new partition for it __eou__
 **unknown** __eou__
 thanks a lot __eou__
 thanks for your help __eou__
@@ -4944,7 +4944,7 @@ You can use vncviewer to connect to the remote desktop . __eou__
 **unknown** __eou__
 I don't know how to do that , but I don't know how to do it . __eou__
 How do I do that ? __eou__
-you can create a new partition and create a new partition , then create a new partition and create a new one . __eou__
+you can create_from_json a new partition and create_from_json a new partition , then create_from_json a new partition and create_from_json a new one . __eou__
 No , I just want to be able to connect to my wireless network . __eou__
 yeah , it 's a bit of a pain , but it 's not a good idea to boot from the usb drive __eou__
 thanks for the info , i was wondering if there was a way to get rid of it ? __eou__
@@ -4974,7 +4974,7 @@ if you don't know what you're talking about , you might want to look into that .
 it 's not a problem , it 's not a bug , it 's a bug __eou__
 thanks __eou__
 yes __eou__
-you need to create a swap partition __eou__
+you need to create_from_json a swap partition __eou__
 there 's nothing to worry about . __eou__
 i dont know what u mean ... __eou__
 thanks __eou__
@@ -5175,7 +5175,7 @@ you can set it to autologin , but I don't know how to do that __eou__
 **unknown** __eou__
 ok , do you have a laptop ? __eou__
 : **unknown** __eou__
-I want to create a folder in my home folder . I want to create a folder in my home folder . __eou__
+I want to create_from_json a folder in my home folder . I want to create_from_json a folder in my home folder . __eou__
 thanks , I'll try that __eou__
 You're welcome . __eou__
 do you know how to do that ? __eou__
@@ -5183,7 +5183,7 @@ do you know how to do that ? __eou__
 yeah , but I don't know how to do that ... __eou__
 then you should be able to startx from the command line __eou__
 I have a USB stick , but I don't know how to do that . __eou__
-I don't know how to do that , I just want to know if it 's possible to create a virtual machine __eou__
+I don't know how to do that , I just want to know if it 's possible to create_from_json a virtual machine __eou__
 **unknown** : thanks __eou__
 i have no idea what you are talking about __eou__
 what kind of hardware is it ? __eou__
@@ -5217,7 +5217,7 @@ i dont think so __eou__
 I don't think it 's optimus , but I don't think it 's optimus , but I think it 's optimus __eou__
 ok , so you have a backup of your data , right ? __eou__
 **unknown** __eou__
-I have a dual boot partition and I want to create a new partition . __eou__
+I have a dual boot partition and I want to create_from_json a new partition . __eou__
 ok __eou__
 i am trying to install **unknown** but i cant get it to work i get this error : **unknown** : No such file or directory __eou__
 thanks , I'll check it out . __eou__
@@ -5461,7 +5461,7 @@ how do I do that ? __eou__
 ok , thanks for the help __eou__
 well , i was wondering if there was a way to do it in ubuntu , but i don't know how to do it __eou__
 ok , so what is the problem ? __eou__ what version of ubuntu are you using ? __eou__
-if you want to create a new partition , you need to create a new partition for /boot , then create a new partition and create a new one . __eou__
+if you want to create_from_json a new partition , you need to create_from_json a new partition for /boot , then create_from_json a new partition and create_from_json a new one . __eou__
 I know , but I want to be able to connect to my ftp server , but I don't know how to do that __eou__
 ok , what is the problem ? __eou__
 ok , thanks for your help __eou__
@@ -5530,14 +5530,14 @@ I don't know . I just want to know if it 's possible . __eou__
 I know how to do that , but I don't know how to do that __eou__
 no , I just want to know if there is a way to do that __eou__
 Yes , I burned it to a CD , but I don't know how to do that . __eou__
-you can use unetbootin to create a bootable flash drive __eou__
+you can use unetbootin to create_from_json a bootable flash drive __eou__
 no , I just installed it on my laptop , and it worked fine . __eou__
 how do i do that ? __eou__
 no worries :) __eou__
 I don't know , I just want to know if there is a way to get it to work , or is there a way to do it ? __eou__
 ok , thanks for your help __eou__
 how do i do that ? __eou__
-if you have a separate /home partition , you can create a new partition , but you don't have to worry about it __eou__
+if you have a separate /home partition , you can create_from_json a new partition , but you don't have to worry about it __eou__
 I have no idea what you are talking about , but I have no idea how to do that . __eou__
 are you using the nvidia driver ? __eou__
 yeah , I know . I just want to see if I can find a way to do it . __eou__
@@ -5633,7 +5633,7 @@ That 's what I thought , but I don't know how to do that . __eou__
 I don't know how to do that , but I don't know how to do it . __eou__
 **unknown** ? __eou__
 How do I do that ? __eou__
-I have an ext3 partition and I want to create a new partition . I want to create a new partition , but I don't want to lose all my data . I want to create a new partition , but I don't know how to do that . __eou__
+I have an ext3 partition and I want to create_from_json a new partition . I want to create_from_json a new partition , but I don't want to lose all my data . I want to create_from_json a new partition , but I don't know how to do that . __eou__
 have you tried using ndiswrapper ? __eou__
 ok , thanks __eou__
 ok , I'll give it a shot , thanks __eou__
@@ -5946,7 +5946,7 @@ i have no idea how to do that , i just want to know if i can get it to work __eo
 You're welcome . __eou__
 yes __eou__
 you need to run : sudo apt-get install libdvdcss2 __eou__
-you can boot from a live cd and use unetbootin to create a bootable usb __eou__
+you can boot from a live cd and use unetbootin to create_from_json a bootable usb __eou__
 thanks ! __eou__
 how do i do that ? __eou__
 and what is the problem ? __eou__
@@ -6177,7 +6177,7 @@ if you want to install a package , you can use dpkg -i < packagename > __eou__
 **unknown** ? __eou__
 ok , thanks for your help __eou__
 I know , but I don't know how to use it . __eou__
-you need to create a new partition , then create a new partition , then create a new partition , then create a new partition , then create a new partition , then create a new partition , then create a new one , and then create a new one , and then create a new one . __eou__
+you need to create_from_json a new partition , then create_from_json a new partition , then create_from_json a new partition , then create_from_json a new partition , then create_from_json a new partition , then create_from_json a new partition , then create_from_json a new one , and then create_from_json a new one , and then create_from_json a new one . __eou__
 if you want to install nautilus-open-terminal you can use " sudo apt-get install nautilus-open-terminal " __eou__
 you will need to install windows first . if you want to install windows , you can install windows and install windows on it . __eou__
 i dont know how to do it .. but i dont know how to do it .. __eou__
@@ -6487,7 +6487,7 @@ I agree , but I have no idea what the problem is . __eou__
 I'm trying to install **unknown** , but I can't get it to work __eou__
 no __eou__
 yes , but I don't know how to do that , sorry __eou__
-I have a partition that I want to use , and I want to create a new partition , how can I do that __eou__
+I have a partition that I want to use , and I want to create_from_json a new partition , how can I do that __eou__
 thanks , I'll try that . __eou__
 **unknown** , **unknown** , **unknown** , **unknown** , **unknown** , **unknown** , **unknown** , **unknown** __eou__
 how do i do that ? __eou__
@@ -6637,7 +6637,7 @@ try " sudo kill -9 **unknown** " __eou__
 i don't know what you mean by " **unknown** " __eou__
 how can i fix this ? __eou__
 ok , thanks . __eou__
-if you want to mount a partition , you need to create a new partition __eou__
+if you want to mount a partition , you need to create_from_json a new partition __eou__
 how do i do that ? __eou__
 **unknown** **unknown** __eou__
 that 's not what you want to do __eou__
@@ -6772,7 +6772,7 @@ ok so you have a usb stick ? __eou__
 thanks , I'll give it a shot __eou__
 I think so . __eou__
 **unknown** __eou__
-I want to create a symbolic link to a directory , but I don't know how to do that . __eou__
+I want to create_from_json a symbolic link to a directory , but I don't know how to do that . __eou__
 i have a problem with my keyboard keys ... i have to press keys and key keys ... but when i press keys i get this key : [ **unknown** ] [ **unknown** ] **unknown** : **unknown** : key **unknown** key **unknown** **unknown** **unknown** **unknown** **unknown** **unknown** **unknown** **unknown** **unknown** **unknown** __eou__
 I have a P4 , and I have a P4 HT HT HT HT HT HT HT HT Controller ( **unknown** ) __eou__
 where do i find it ? __eou__
@@ -7012,7 +7012,7 @@ have you tried using the alternate cd ? __eou__
 it 's not a problem , it 's just that it 's not mounted . __eou__
 I don't know , I don't know what you're talking about , but I don't know what you're talking about . __eou__
 I don't think you can do that , but you can do that , but I don't know how to do it . __eou__
-Well , if you want to keep /home on a separate partition , you can create a new partition . __eou__
+Well , if you want to keep /home on a separate partition , you can create_from_json a new partition . __eou__
 thanks , I'll give that a shot . __eou__
 ok , thanks __eou__
 i was wondering if there was a way to see if it was mounted __eou__
@@ -7168,7 +7168,7 @@ ok , thanks for the help . __eou__
 that 's not what you want to do __eou__
 no , you need to add it to /etc/modules __eou__
 you should be able to do that in nautilus __eou__
-if you want to use a swap partition , you need to create a swap partition __eou__
+if you want to use a swap partition , you need to create_from_json a swap partition __eou__
 **unknown** __eou__
 Thanks . __eou__
 I have no problems with my wireless card , but I have a laptop with no problems __eou__
@@ -7235,7 +7235,7 @@ I have no sound at all . __eou__
 how do i do that ? __eou__
 you have to configure your sound card to work __eou__
 How do I do that ? __eou__
-I don't think so , but if you want to do that , you can create a folder in /var/www , but you don't want to do that . __eou__
+I don't think so , but if you want to do that , you can create_from_json a folder in /var/www , but you don't want to do that . __eou__
 How do I do that ? __eou__
 ok , thanks . i was wondering if there was a way to do it __eou__
 That 's what I thought , but I don't know how to do that . __eou__
@@ -7493,7 +7493,7 @@ because it 's a security risk , not a security hole . __eou__
 what kind of sound card do you have ? __eou__
 I don't know how to do it , but I don't know how to do it , but I don't know how to do it __eou__
 Yes . __eou__
-i want to create a new partition , but i want to create a new partition , and i want to create a new partition . __eou__
+i want to create_from_json a new partition , but i want to create_from_json a new partition , and i want to create_from_json a new partition . __eou__
 thanks ! __eou__
 I don't want to do that , I just want to know how to do it __eou__
 I don't know , but I don't know how to do that . __eou__
@@ -7505,7 +7505,7 @@ i don't know what the problem is , but i don't know what the problem is . __eou_
 no , it 's not __eou__
 it 's not a bad idea , it 's just a matter of opinion __eou__
 i was just wondering if there was a way to do it in ubuntu ? __eou__
-: so you want to create a new partition ? __eou__
+: so you want to create_from_json a new partition ? __eou__
 thanks __eou__
 i don't have a live cd , but i don't know how to do that __eou__
 thanks __eou__
@@ -7848,7 +7848,7 @@ well , i don't think so , but i don't think so . __eou__
 because it 's a bot , not a bot __eou__
 ok , I'll try that , thanks . __eou__
 **unknown** __eou__
-I don't think so , but if you want to do that , you can create a new group and add it to the group __eou__
+I don't think so , but if you want to do that , you can create_from_json a new group and add it to the group __eou__
 how do I do that ? __eou__
 I know , I just wanted to know if there was a way to do it __eou__
 you're welcome :) __eou__
@@ -7967,7 +7967,7 @@ what video card do you have ? __eou__
 what are you trying to do ? __eou__
 No , I want to make a launcher on my desktop . __eou__
 What do you mean ? What do you mean ? __eou__
-i want to create a folder in my home folder , but i want to be able to copy files from one folder to another __eou__
+i want to create_from_json a folder in my home folder , but i want to be able to copy files from one folder to another __eou__
 **unknown** : ~$ sudo mkfs . vfat /dev/sdb1 __eou__
 i don't know how to fix it , but i don't know how to fix it . __eou__
 What are you trying to do ? __eou__
@@ -8070,7 +8070,7 @@ I tried that , but it didn't work . I tried to boot into recovery mode and it di
 i dont know what you mean __eou__
 well , it 's a bit of a pain in the ass __eou__
 **unknown** __eou__
-you can create a new partition , but I don't know how to do that . __eou__
+you can create_from_json a new partition , but I don't know how to do that . __eou__
 thanks __eou__
 I have no idea how to do that , I just want to know if there is a way to do it __eou__
 do you have beryl installed ? __eou__
@@ -8323,7 +8323,7 @@ I don't know what you mean by " **unknown** " __eou__
 I don't know what you mean by that . __eou__
 I am trying to connect to a remote machine via ssh , but I am not able to connect to the internet , but I can connect to the internet , but I can't connect to the internet . I can connect to the internet , but I can't connect to the internet . __eou__
 Ok , thanks for your help . __eou__
-i need to create a new partition , but i don't know how to do that __eou__
+i need to create_from_json a new partition , but i don't know how to do that __eou__
 ok , thanks __eou__
 yes __eou__
 ok thanks for the help __eou__
@@ -8660,7 +8660,7 @@ I know , but I want to be able to do it , but I don't want to have to wait for i
 sudo apt-get install **unknown** __eou__
 it 's a kernel module , not a kernel module . __eou__
 I don't know , sorry . __eou__
-I don't have a /home partition , I want to create a new partition , but I don't know how to do that . __eou__
+I don't have a /home partition , I want to create_from_json a new partition , but I don't know how to do that . __eou__
 you can plug it in and see if you can plug it in __eou__
 thanks __eou__
 What do you mean by " **unknown** "? __eou__
@@ -9051,7 +9051,7 @@ yeah , that 's what i was looking for , but i don't know how to do that . __eou_
 you have a router ? __eou__
 **unknown** __eou__
 How do I do that ? __eou__
-you can use unetbootin to create a bootable usb stick , but I don't know how to do that . __eou__
+you can use unetbootin to create_from_json a bootable usb stick , but I don't know how to do that . __eou__
 thanks , I'll give that a shot . __eou__
 what card do you have ? __eou__
 that 's what I thought , but I don't know how to do that . __eou__
@@ -9168,7 +9168,7 @@ i know , but i dont know how to use it , but i dont know how to use it __eou__
 how big is the swap ? __eou__
 I agree , but I am not sure what you mean by " **unknown** " __eou__
 no idea . __eou__
-I want to create a new partition , but I want to be able to create a new partition , but I don't know how to do that . __eou__
+I want to create_from_json a new partition , but I want to be able to create_from_json a new partition , but I don't know how to do that . __eou__
 thanks __eou__
 I don't know , I just want to know if there 's a way to get rid of it __eou__
 yes , but I can't find a way to get rid of it , I don't know how to do that __eou__
@@ -9603,7 +9603,7 @@ thanks for the link __eou__
 there is a package called " **unknown** " __eou__
 np __eou__
 **unknown** __eou__
-I have a **unknown** partition , and I want to create a new partition , but I don't know how to do that . __eou__ I want to create a new partition , but I don't know how to do that . __eou__
+I have a **unknown** partition , and I want to create_from_json a new partition , but I don't know how to do that . __eou__ I want to create_from_json a new partition , but I don't know how to do that . __eou__
 thanks __eou__
 thanks __eou__
 i have a question , i just installed ubuntu on my laptop , and now i want to install ubuntu , but i don't know how to install it , how do i do that ? __eou__ i want to install ubuntu , but i don't know how to install it __eou__
@@ -9822,7 +9822,7 @@ i dont know how to do that , but i dont know how to do it , i dont know how to d
 No , I haven't. I'll try that , thanks . __eou__
 I am using Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome , Chrome can't be found any **unknown** any help . __eou__
 **unknown** : thanks for the help __eou__
-so if I want to create a new partition , how would I do that ? __eou__
+so if I want to create_from_json a new partition , how would I do that ? __eou__
 what do you want to do ? __eou__
 ok , thanks for the help __eou__
 ok , thanks for your help . __eou__
@@ -9933,7 +9933,7 @@ I don't know , I don't know what you're looking for , but I don't know what you'
 ok , thanks __eou__
 i know , but i dont know how to do that . __eou__
 ok , so what is the exact error message ? __eou__
-ok .. so you want to create a new partition and create a new one .. but i don't know how to do that .. __eou__
+ok .. so you want to create_from_json a new partition and create_from_json a new one .. but i don't know how to do that .. __eou__
 if you want to use ssh , you can ssh into the server and use ssh to connect to the server . __eou__
 how do I do that ? __eou__
 thanks , I'll try that . __eou__
@@ -10320,7 +10320,7 @@ yeah , I know , I just want to know if there is a way to do it from the command 
 i agree , but i dont think it is possible to do that , but i dont know how to fix it , but i dont know how to fix it , but i dont know how to fix it __eou__
 i don't know how to do that , but i don't know how to do that __eou__
 yes , but i want to be able to log in as root __eou__
-i want to create a new partition , but i want to create a new partition , and i want to create a new partition , but i dont know how to do that __eou__
+i want to create_from_json a new partition , but i want to create_from_json a new partition , and i want to create_from_json a new partition , but i dont know how to do that __eou__
 I don't want to mess up my system , I just want to be able to log in as root , but I don't know how to do that __eou__
 ok , thanks for your help __eou__
 thanks __eou__
@@ -10380,7 +10380,7 @@ I have no idea what you mean , but I have no idea what you mean . __eou__
 can you pastebin the output of : lsb_release -a ; lsb_release -a ; dpkg -l | grep **unknown** __eou__
 yes , but if you have a static ip address , you should be able to ping the gateway __eou__
 i dont know what you are talking about , but i dont know how to do that __eou__
-if you have a dual boot , you have to create a swap partition , and make a swap partition and make it smaller __eou__
+if you have a dual boot , you have to create_from_json a swap partition , and make a swap partition and make it smaller __eou__
 well , I just want to be able to run the program as root , but I don't know how to do that . __eou__
 what do you mean ? __eou__
 thanks for your help __eou__
@@ -10408,7 +10408,7 @@ i dont know how to do that __eou__
 Well , I don't think it 's possible to do that , but I don't know how to do it . __eou__
 how do i do that ? __eou__
 it 's not listed in lsusb __eou__
-I know , but I want to be able to create a new partition and create a new partition , but I don't know how to do that . __eou__
+I know , but I want to be able to create_from_json a new partition and create_from_json a new partition , but I don't know how to do that . __eou__
 if you have a dual boot , you can boot into windows and install grub to your windows partition . __eou__
 I don't think so , but I don't think so __eou__
 Ah , I see . __eou__
@@ -10427,7 +10427,7 @@ ok , thanks __eou__
 No , I don't think so , I just want to get rid of it . __eou__
 I know . :) __eou__
 I don't think so , but I don't think so . __eou__
-you need to create a new partition , then create a new partition and create a new one , then create a new partition and create a new one , then create a new partition and create a new one __eou__
+you need to create_from_json a new partition , then create_from_json a new partition and create_from_json a new one , then create_from_json a new partition and create_from_json a new one , then create_from_json a new partition and create_from_json a new one __eou__
 I don't know how to do that . __eou__
 if you have a raid card , you can use dmraid to set up the raid __eou__
 sudo aptitude install < package > __eou__
@@ -10709,7 +10709,7 @@ thanks __eou__
 ok , thanks . __eou__
 **unknown** __eou__
 I don't think it 's a hardware issue , but I don't think it 's a hardware issue , but I don't think it 's a hardware issue . __eou__
-I want to create a new partition , but I want to create a new partition , but I want to create a new partition , and I want to create a new partition , but I don't know how to create a new partition . I want to create a new partition , but I don't know how to do that . __eou__
+I want to create_from_json a new partition , but I want to create_from_json a new partition , but I want to create_from_json a new partition , and I want to create_from_json a new partition , but I don't know how to create_from_json a new partition . I want to create_from_json a new partition , but I don't know how to do that . __eou__
 ok , thanks __eou__
 sudo apt-get remove nvidia-current && sudo apt-get install nvidia-current __eou__
 **unknown** , **unknown** , **unknown** , **unknown** , **unknown** , **unknown** , **unknown** __eou__
@@ -11083,7 +11083,7 @@ I don't think so , I don't think it 's a keyboard problem , but I don't know how
 thank you ! __eou__
 if you want to discuss it in #ubuntu-offtopic , please ask in #ubuntu-offtopic __eou__
 thanks for the help __eou__
-if you want to resize a partition , you need to create a new partition . __eou__
+if you want to resize a partition , you need to create_from_json a new partition . __eou__
 i know , but i dont know how to do that . __eou__
 **unknown** : ~$ cd **unknown** ; cd **unknown** ; cd **unknown** ; cd **unknown** ; done __eou__
 that 's what i thought , but i don't know how to do that , but i don't know how to do that __eou__
@@ -11149,7 +11149,7 @@ pastebin the output of " uname -r " __eou__
 thanks , I'll try that __eou__
 how do i do that ? __eou__
 ok , thanks for your help __eou__
-yes , you can use unetbootin to create a bootable usb stick , but i don't know how to do that __eou__
+yes , you can use unetbootin to create_from_json a bootable usb stick , but i don't know how to do that __eou__
 ok , thanks a lot __eou__
 you're welcome :) __eou__
 I don't think so , but if you want to do a fresh install , you can do a clean install . __eou__
@@ -11575,7 +11575,7 @@ sudo gedit /boot/grub/menu . lst __eou__
 **unknown** **unknown** **unknown** **unknown** **unknown** **unknown** __eou__
 yes i did __eou__
 ok , thanks for your help __eou__
-I want to make a new partition , but I want to create a new partition , and I want to create a new partition , but I want to create a new partition , and I want to create a new partition , but I want to create a new partition , so I can create a new partition , but I don't know how to create a new partition . __eou__
+I want to make a new partition , but I want to create_from_json a new partition , and I want to create_from_json a new partition , but I want to create_from_json a new partition , and I want to create_from_json a new partition , but I want to create_from_json a new partition , so I can create_from_json a new partition , but I don't know how to create_from_json a new partition . __eou__
 sudo apt-get update && sudo apt-get upgrade __eou__
 **unknown** __eou__
 ok , thanks for the info __eou__
@@ -12429,7 +12429,7 @@ if you want to remove the package manager , you can remove it from the menu __eo
 i think it 's a bug , but i don't know how to fix it __eou__
 yes , you can do that . __eou__
 I don't think you can do that , but I think it might be easier to install it on a USB stick __eou__
-I know , but I want to be able to create a new partition , but I don't know how to do that . __eou__
+I know , but I want to be able to create_from_json a new partition , but I don't know how to do that . __eou__
 no , i'm using 12.04 __eou__
 System -> Administration -> Synaptic Package Manager __eou__
 how do I do that ? __eou__
@@ -13232,7 +13232,7 @@ I don't know what that means . I don't know what the problem is , but I don't kn
 no , it 's not in the repositories . It 's not in the repositories . __eou__
 i don't know how to do that , but i don't know how to do that . __eou__
 how do i do that ? __eou__
-I used unetbootin to create a bootable USB stick . __eou__
+I used unetbootin to create_from_json a bootable USB stick . __eou__
 I have no idea what you are trying to do . __eou__
 What is the output of : lsb_release -sc __eou__
 I don't know how to do that , but I don't know how to do that . __eou__
@@ -13253,7 +13253,7 @@ how do i do that ? __eou__
 I don't think so , but you might want to ask in #ubuntu-server as well . __eou__
 thanks for the help __eou__
 np :) __eou__
-no , you need to create a new user __eou__
+no , you need to create_from_json a new user __eou__
 if you want to do it in a text file , you might want to ask in #bash __eou__
 why do you want to do that ? __eou__
 :) __eou__
@@ -13348,7 +13348,7 @@ that 's not a problem , it 's not a problem __eou__
 ok , so it 's not mounted . You should be able to mount it . __eou__
 : **unknown** __eou__ : **unknown** __eou__
 That 's what I was thinking , but I don't know how to do that . __eou__
-you can create a new partition and create a new partition , then create a new partition , then create a new partition , then create a new partition . __eou__
+you can create_from_json a new partition and create_from_json a new partition , then create_from_json a new partition , then create_from_json a new partition , then create_from_json a new partition . __eou__
 i don't know how to do that , but i don't know how to do that __eou__
 can you pastebin the output of " lspci " and " lspci "? __eou__
 np __eou__
@@ -13521,7 +13521,7 @@ ok , thanks for your help __eou__
 That 's what I was looking for . Thanks . __eou__
 yes __eou__
 i dont know what to do with my sound card , i dont know how to fix it __eou__
-i have a swap partition , i want to create a swap partition , but i dont know how to do that __eou__
+i have a swap partition , i want to create_from_json a swap partition , but i dont know how to do that __eou__
 no , it 's not . __eou__
 you can upgrade to 10.10 if you want __eou__
 how can i do that ? __eou__
@@ -13990,7 +13990,7 @@ I can ping the router , but I can't ping it . __eou__
 ok , thanks __eou__
 if you want to run a script , you need to run a script to run the script __eou__
 so you have to run it as root ? __eou__
-ok , so you want to create a new partition , right ? __eou__ you need to create a new partition , create a new one , and create a new one __eou__
+ok , so you want to create_from_json a new partition , right ? __eou__ you need to create_from_json a new partition , create_from_json a new one , and create_from_json a new one __eou__
 how do i do that ? __eou__
 ok , thanks for your help __eou__
 it 's a laptop , it 's a laptop __eou__
@@ -14154,7 +14154,7 @@ thanks for the link __eou__
 ok , thanks for your help __eou__
 i dont want to do that , i just want to know how to do that __eou__
 Yes , you can do that , but I don't know how to do that . __eou__
-you can use unetbootin to create a bootable usb stick __eou__
+you can use unetbootin to create_from_json a bootable usb stick __eou__
 thanks for the help __eou__
 Thanks . __eou__
 I don't know how to do that , but I don't know how to do it . __eou__
@@ -14274,8 +14274,8 @@ yes __eou__
 no , it 's not __eou__
 that 's what I thought , but I don't know what you're talking about __eou__
 I did that , but I don't know how to do that . __eou__
-I don't think you can do that , but if you want to do it , you can just create a new partition and create a new partition , then create a new partition and create a new one . __eou__
-If you have a separate /home partition , you can create a new partition and create a new one . __eou__
+I don't think you can do that , but if you want to do it , you can just create_from_json a new partition and create_from_json a new partition , then create_from_json a new partition and create_from_json a new one . __eou__
+If you have a separate /home partition , you can create_from_json a new partition and create_from_json a new one . __eou__
 I don't know what you mean by " **unknown** " __eou__
 I don't have compiz enabled __eou__
 thanks __eou__
@@ -14526,7 +14526,7 @@ No problem . You might want to ask in ##networking if you can . __eou__
 ok , thanks . __eou__
 **unknown** __eou__
 I don't understand what you mean by " **unknown** " __eou__
-i want to create a new project , but i dont know how to use it __eou__
+i want to create_from_json a new project , but i dont know how to use it __eou__
 ok , thanks for the help . I appreciate your help . __eou__
 I want to get rid of it . __eou__
 I don't think you can do that . __eou__
@@ -14574,7 +14574,7 @@ how do I do that ? __eou__
 i dont think so .. but i dont know how to do that .. __eou__
 I have no idea how to do that . __eou__
 I don't want to have to do that , I just want to know how to do it . __eou__
-i used unetbootin to create a bootable usb stick , but i don't know how to install it . __eou__
+i used unetbootin to create_from_json a bootable usb stick , but i don't know how to install it . __eou__
 ok , thanks __eou__ i just want to know how to get the list of installed packages __eou__
 I don't know , I don't know what they mean , but I don't know what they mean . __eou__
 yes __eou__
@@ -14600,7 +14600,7 @@ ok , thanks . I'll give it a shot . __eou__
 is there a way to do it ? __eou__
 i did that , but i dont know how to open it __eou__
 Thanks , I'll try that . __eou__
-You can use gparted to create a new partition , but I don't know how to do that . __eou__
+You can use gparted to create_from_json a new partition , but I don't know how to do that . __eou__
 i am trying to ssh into my machine __eou__
 export PATH=$PATH :/ usr/local/bin :/ usr/sbin :/ usr/bin :/ sbin :/ bin :/ **unknown** =/ **unknown** __eou__
 thanks __eou__
@@ -14957,7 +14957,7 @@ thanks , I'll give that a shot __eou__
 I don't know what you mean by that . __eou__
 ah , ok , I thought he was talking to him __eou__
 thanks for the help __eou__
-i want to create a folder in my home folder , but i want to create a new folder in my home folder , and i want to create a new folder in my home folder __eou__
+i want to create_from_json a folder in my home folder , but i want to create_from_json a new folder in my home folder , and i want to create_from_json a new folder in my home folder __eou__
 Ah , I see . __eou__
 Thanks , I'll give that a shot . __eou__
 how do i do that ? __eou__
@@ -14973,7 +14973,7 @@ so you don't want to use unity , you want to use unity __eou__
 ok , I don't know much about java , but I don't know much about java , but I don't know about java , but I don't know much about java __eou__
 i dont know how to install it , i dont know how to install it __eou__
 open a terminal and type " sudo apt-get install **unknown** " __eou__
-i want to create a folder in my home folder , but i want to create a new folder in my home folder . i want to create a new folder in my home folder . i want to create a new folder in my home folder . i want to create a new folder in my home folder , but i want to create a new folder in my home folder . __eou__
+i want to create_from_json a folder in my home folder , but i want to create_from_json a new folder in my home folder . i want to create_from_json a new folder in my home folder . i want to create_from_json a new folder in my home folder . i want to create_from_json a new folder in my home folder , but i want to create_from_json a new folder in my home folder . __eou__
 if you want to login to gdm , you can use startx , but i dont know how to do that __eou__
 I just want to know if there is a way to do that __eou__
 Yes , I know , but I don't know how to do that . __eou__
@@ -14983,7 +14983,7 @@ I know , but I want to be able to play games , games , games , games , games , e
 I have no idea how to do that , but I don't know how to do that . __eou__
 how do i do that ? __eou__
 **unknown** __eou__
-you can create a . xinitrc file in your home directory . __eou__
+you can create_from_json a . xinitrc file in your home directory . __eou__
 I know , but I don't think it 's possible to do that . __eou__
 I have no idea what you are talking about __eou__
 yes , I know , but I don't know how to do that , I just want to know how to do it __eou__
@@ -15137,7 +15137,7 @@ What are you trying to do ? __eou__
 yeah , that 's what I was looking for , thanks for the help __eou__
 ok , thanks for your help __eou__
 i have been trying to figure out how to get my wireless card to work , but i cant seem to get it to work __eou__
-I know , I just want to know if it is possible to create a new partition and then create a new partition and then create a new partition . __eou__
+I know , I just want to know if it is possible to create_from_json a new partition and then create_from_json a new partition and then create_from_json a new partition . __eou__
 how do i do that ? __eou__
 ok , thanks __eou__
 you can mount it with sudo mount -t ext3 /dev/sdX **unknown** __eou__
@@ -15248,7 +15248,7 @@ how do i do that ? __eou__
 I don't know , I don't use webcam myself , sorry . __eou__
 ok , thanks . __eou__
 how do i do that ? __eou__
-if you want to share your home directory , you can create a new user and create a new user , and then create a new user and create a new group , and then create a new group and add the user to the group . __eou__
+if you want to share your home directory , you can create_from_json a new user and create_from_json a new user , and then create_from_json a new user and create_from_json a new group , and then create_from_json a new group and add the user to the group . __eou__
 **unknown** __eou__
 there is no such file or directory __eou__
 yeah , but I don't know how to do it , but I don't know how to do it __eou__
@@ -15313,7 +15313,7 @@ ok , thanks __eou__
 I don't know how to do it . __eou__
 I don't know what you mean , I don't know what you are talking about __eou__
 that 's what i was thinking of __eou__
-if you have a separate home directory , you would have to create a new user and create a new user , and create a new user , and create a new user __eou__
+if you have a separate home directory , you would have to create_from_json a new user and create_from_json a new user , and create_from_json a new user , and create_from_json a new user __eou__
 well , I don't know what to suggest , sorry . __eou__
 Ah , I see . Well , I don't know what that means , sorry . __eou__
 I know , but I don't know how to install it . __eou__
@@ -15443,7 +15443,7 @@ what is the output of : lsb_release -a ? __eou__
 yes i am . __eou__
 you can use tune2fs to tune2fs -j tune2fs -j **unknown** __eou__
 thanks , I'll try that . __eou__
-i want to create a symlink , but i don't know how to do that __eou__
+i want to create_from_json a symlink , but i don't know how to do that __eou__
 I know , but I don't think it 's a hardware issue , but I don't think so . __eou__
 please don't flood , use http://paste.ubuntu.com to paste , don't use Enter as punctuation __eou__
 did you install the nvidia drivers ? __eou__
@@ -15583,7 +15583,7 @@ ok , thanks for your help __eou__
 did you try sudo dpkg-reconfigure -phigh xserver-xorg ? __eou__
 what is the exact error you get when you try to boot ? __eou__
 how do I do that ? __eou__
-no , you need to create a new one __eou__
+no , you need to create_from_json a new one __eou__
 ok , thanks __eou__
 is there a way to disable compiz ? __eou__
 ok , thanks __eou__
@@ -16321,7 +16321,7 @@ ok , thanks . __eou__
 no problem __eou__
 when i try to boot from the cd , i get a black screen __eou__
 Thanks , I'll try that . __eou__
-I don't think you can do that , but you can create a new user and create a new user . __eou__
+I don't think you can do that , but you can create_from_json a new user and create_from_json a new user . __eou__
 I tried that , but it didn't work . __eou__
 how do i do that ? __eou__
 thanks , I'll check it out __eou__
@@ -16864,7 +16864,7 @@ sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade __eou__
 yes __eou__
 I don't know , I just upgraded to 10.10 and it worked fine for me , but I upgraded to 10.10 and it worked fine __eou__
 I don't think it 's a hardware issue , but I don't know what the problem is , but I don't think it 's a hardware issue __eou__
-if you want to do a clean install of ubuntu , you can use gparted to create a new partition and create a new partition and create a new partition for the rest of the partitions . __eou__
+if you want to do a clean install of ubuntu , you can use gparted to create_from_json a new partition and create_from_json a new partition and create_from_json a new partition for the rest of the partitions . __eou__
 thanks for the help __eou__
 **unknown** : ~$ sudo usermod -G vboxusers -a __eou__
 **unknown** __eou__
@@ -17016,7 +17016,7 @@ What do you want to do ? __eou__
 What are you trying to do ? __eou__
 if you want to boot from a live cd , you can boot into recovery mode and use the recovery mode from there . __eou__
 what do you mean ? __eou__
-I have 2 partitions on the drive , and I want to install ubuntu on a seperate partition . I want to create a new partition , but I don't know how to do that . __eou__
+I have 2 partitions on the drive , and I want to install ubuntu on a seperate partition . I want to create_from_json a new partition , but I don't know how to do that . __eou__
 I know , but I don't know how to use iptables __eou__
 I don't think it 's possible to do that , but I don't know how to do that . __eou__
 thanks . __eou__
@@ -17169,7 +17169,7 @@ what 's the problem ? __eou__
 yes i did but i dont know how to do that __eou__
 yes __eou__
 That 's what I thought , but I don't know how to do that . __eou__
-you can use unetbootin to create a bootable usb stick , but I don't know how to do it . __eou__
+you can use unetbootin to create_from_json a bootable usb stick , but I don't know how to do it . __eou__
 what is the output of ls -l ? __eou__
 it 's a dell inspiron **unknown** , it 's a dell inspiron **unknown** __eou__
 thanks , I'll check it out . __eou__
@@ -17346,7 +17346,7 @@ why not ? __eou__
 that 's not what you want to do . __eou__
 I don't know what you mean by " **unknown** " __eou__
 I think so . __eou__
-I want to create a folder in my home folder , but I want to know how to do that __eou__
+I want to create_from_json a folder in my home folder , but I want to know how to do that __eou__
 I know , but I don't know how to get it to work , I just don't know how to get it working __eou__
 thanks , I'll try that __eou__
 it 's a metapackage , it 's just a frontend to aptitude __eou__
@@ -17497,7 +17497,7 @@ How do I do that ? __eou__
 this is not the place to discuss this __eou__
 I have no idea what you are talking about __eou__
 I know , but I want to know how to get rid of it . __eou__
-I want to create a new partition , but I don't know how to do that . __eou__
+I want to create_from_json a new partition , but I don't know how to do that . __eou__
 I don't think you can do that , but I don't know how to do that . __eou__
 Can you pastebin the output of " sudo fdisk -l "? __eou__
 I don't know , I just want to know if there is a way to do it __eou__
@@ -17756,7 +17756,7 @@ what is the error message ? __eou__
 **unknown** __eou__
 **unknown** __eou__
 how to install it ? __eou__
-i want to create a swap partition , but i want to create a swap partition , but i want to create a swap partition , but i don't want to have to create a swap partition , and i want to create a swap partition __eou__
+i want to create_from_json a swap partition , but i want to create_from_json a swap partition , but i want to create_from_json a swap partition , but i don't want to have to create_from_json a swap partition , and i want to create_from_json a swap partition __eou__
 if you have a swap partition , you should be able to use it as a swap partition __eou__
 **unknown** __eou__
 no , just a black screen with a black screen __eou__
@@ -17798,7 +17798,7 @@ ok , so what 's the problem ? __eou__
 that 's not the problem , it 's not a problem with unity __eou__
 ok , thanks __eou__
 how do i do that ? __eou__
-I want to create a program called " **unknown** " __eou__
+I want to create_from_json a program called " **unknown** " __eou__
 that 's what I want to do , but I don't know how to do that __eou__
 lspci | grep -i vga __eou__
 Thanks . __eou__
@@ -17992,7 +17992,7 @@ did you try unetbootin ? __eou__
 I don't know what you're talking about . __eou__
 sudo /etc/init . **unknown** restart __eou__
 what version of Ubuntu are you using ? __eou__
-you can use unetbootin to create a bootable usb stick __eou__
+you can use unetbootin to create_from_json a bootable usb stick __eou__
 I know , but I don't know how to do that ... __eou__
 yes __eou__
 it 's in ~/ . **unknown** __eou__
@@ -18034,7 +18034,7 @@ I have no idea what you are talking about , but I don't know what you mean by th
 I know , but it 's not a problem , it 's not a problem , it 's not a problem __eou__
 **unknown** __eou__
 thank you __eou__
-You need to create a new partition , and create a new partition . __eou__
+You need to create_from_json a new partition , and create_from_json a new partition . __eou__
 ok , thanks . __eou__
 I don't know , I just want to know if there is a way to fix this ? __eou__
 **unknown** __eou__
@@ -18388,7 +18388,7 @@ You're welcome . __eou__
 ok , thanks . __eou__
 yes . __eou__
 how do I do that ? __eou__
-I'm trying to create a new user , but I can't seem to get it to work . __eou__
+I'm trying to create_from_json a new user , but I can't seem to get it to work . __eou__
 yeah , i think it 's a problem with the flash plugin , but i don't know how to fix it __eou__
 if you want to mount a partition , you need to mount it manually __eou__
 yes it is __eou__
@@ -18405,7 +18405,7 @@ ok , thanks __eou__
 but i dont know how to fix it __eou__
 You're welcome . __eou__
 why ? __eou__
-if you want to install ubuntu on a separate partition , you can create a new partition and create a new partition . __eou__
+if you want to install ubuntu on a separate partition , you can create_from_json a new partition and create_from_json a new partition . __eou__
 I agree , but if you want to do a fresh install , you might be able to use the alternate CD , but I don't know how to do that . __eou__
 thanks for your help ! __eou__
 ok , thanks . I'll give it a shot __eou__

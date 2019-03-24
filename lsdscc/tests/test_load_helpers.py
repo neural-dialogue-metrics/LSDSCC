@@ -11,7 +11,7 @@ from lsdscc.tests import TOTAL_DIALOGS
 from lsdscc.tests import TOTAL_GROUPS
 
 
-class TestLoadDataset(unittest.TestCase):
+class TestLoadHelpers(unittest.TestCase):
 
     def test_files_exist(self):
         self.assertTrue(os.path.isdir(DATA_ROOT))

@@ -9,6 +9,12 @@ Response Generation with Diversity Oriented Evaluation Metrics.
 from nltk.translate.bleu_score import sentence_bleu
 import numpy as np
 
+__all__ = [
+    "maxBLEU",
+    "mean_diversity_score",
+    "probabilistic_diversity_score",
+]
+
 
 def _extended_argmax(iterable):
     """
@@ -29,11 +35,16 @@ def _extended_argmax(iterable):
 
 
 def _compute_alignment(responses, reference_group):
-    # The i-th response is aligned to the alignment[i]-th reference group.
-    # By *aligned to* we mean in plain words, the response is semantically similar to the group.
-    # Note the group is a cluster of semantically similar references.
-    # In other words, ``_argmax_multi_bleu(responses[i], reference_group) == alignment[i]``
-    alignment = set(_argmax_multi_bleu(response, reference_group) for response in responses)
+    """
+    Compute the alignment between the response set and the reference_group.
+    Return a dict. The keys are id of response and the value is the id of a reference set.
+
+    :param responses:
+    :param reference_group:
+    :return:
+    """
+    alignment = {response_id: _argmax_multi_bleu(response, reference_group)
+                 for response_id, response in enumerate(responses)}
     return alignment
 
 
@@ -42,7 +53,7 @@ def mean_diversity_score(responses, reference_group):
     Calculate the MDS (Mean Diversity Score) described by the paper.
 
     MDS is the percentage of members that align to at least one response in a reference_group.
-    A member is said to *align to* a response if the _argmax_multi_bleu of the response and the member yields
+    A member is said to *align to* a response if the maxBLEU of the response and the member yields
     the index of the member within its group. In other words, the member *has* the highest semantic relevance
     to the response within the group. Those special members are counted and then divided by the total number
     of member to yield the MDS score.
@@ -53,6 +64,7 @@ def mean_diversity_score(responses, reference_group):
     :return: the MDS score.
     """
     alignment = _compute_alignment(responses, reference_group)
+    overlap = len(set(alignment.values()))
     return len(alignment) / len(reference_group)
 
 
@@ -68,9 +80,15 @@ def probabilistic_diversity_score(responses, reference_group):
     :return: the PDS score.
     """
     alignment = _compute_alignment(responses, reference_group)
-    numerator = sum(len(reference_group[k]) for k in alignment)
+    overlap = set(alignment.values())
+    numerator = sum(len(reference_group[k]) for k in overlap)
     denominator = sum(len(refs) for refs in reference_group)
     return numerator / denominator
+
+
+def _multi_bleu(response, reference_group):
+    return [sentence_bleu(refs, response,
+                          emulate_multibleu=True) for refs in reference_group]
 
 
 def _argmax_multi_bleu(response, reference_group):
@@ -88,27 +106,15 @@ def _argmax_multi_bleu(response, reference_group):
     2. The group that yields the maximum score is taken as the winner.
     3. The index of the winner is returned.
 
-    :param response: a sentence.
+    :param responses: a sentence.
     :param reference_group: a list of multiple references, each is a list of sentences.
     :return: the index of the group that has the highest semantic relevance to the response.
     """
-    bleu_values = [sentence_bleu(refs, response,
-                                 emulate_multibleu=True) for refs in reference_group]
-    return _extended_argmax(bleu_values)
+    return np.argmax(_multi_bleu(response, reference_group))
 
 
-def cluster_response_sentences(responses, reference_group):
-    """
-    Cluster a list of responses according to their semantic similarity to the members of a group.
-    This procedure can help understand and interpret the result of PDS and MDS.
-
-    :param responses: a list of sentences.
-    :param reference_group: a reference group.
-    :return: a dictionary. key is the cluster number, also being the number of a member of the group.
-    value is a list of responses belonging to this cluster.
-    """
-    clusters = {k: [] for k in range(len(reference_group))}
-    for response in responses:
-        k = _argmax_multi_bleu(response, reference_group)
-        clusters[k].append(response)
-    return clusters
+def maxBLEU(responses, reference_group):
+    return np.mean(
+        np.max(_multi_bleu(response, reference_group))
+        for response in responses
+    )

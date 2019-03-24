@@ -1,4 +1,4 @@
-from lsdscc.dataset import EvalDataset
+from lsdscc.dataset import TrainDataset
 import pickle
 import logging
 import argparse
@@ -10,7 +10,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     logging.info('loading dataset...')
-    dataset = EvalDataset.create_from_json()
+    dataset = TrainDataset.create_from_zip()
 
     with open(args.output_file, 'wb') as f:
         pickle.dump(dataset, f)

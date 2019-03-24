@@ -41,7 +41,7 @@ def compute_multi_bleu(translation, references, ignore_case=False):
     :return: a 4-tuple, BLEU from 1 to 4.
     """
     tmpdir = tempfile.mkdtemp()
-    _logger.info('create tmpdir %s', tmpdir)
+    _logger.info('create_from_json tmpdir %s', tmpdir)
 
     trans_filename = os.path.join(tmpdir, TRANSLATION_NAME)
     with open(trans_filename, 'w') as f:

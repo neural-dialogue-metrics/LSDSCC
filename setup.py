@@ -1,9 +1,11 @@
 from setuptools import setup
 
+__version__ = '0.1.0'
+
 setup(
     name='lsdscc',
-    version='0.1',
-    description='Python implementation of the three metrics provide by LSDSCC',
+    version=__version__,
+    description='Python implementation of the three metrics proposed by LSDSCC',
     url='https://github.com/neural-dialogue-metrics/LSDSCC.git',
     author='cgsdfc',
     author_email='cgsdfc@126.com',
