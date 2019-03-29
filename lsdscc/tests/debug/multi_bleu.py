@@ -38,6 +38,12 @@ ref_1 = [['he', 's', 'also', 'in', 'top', 'five', 'by', 'chris', 'rock'],
 
 hypo = ['the', 'workaholics', 'should', 'be', 'fun', '.']
 
+
+def bleu_without_bp(translation_sentence, reference_corpus):
+    score = our_bleu.bleu_sentence_level(translation_sentence, reference_corpus, smooth=True)
+    return score.bleu / score.brevity_penalty
+
+
 if __name__ == '__main__':
     print('Without smoothing')
     print('our_bleu,ref_0:', our_bleu.bleu_sentence_level(hypo, ref_0))
@@ -51,6 +57,15 @@ if __name__ == '__main__':
     print('nltk_bleu,ref_0:', nltk_bleu.sentence_bleu(ref_0, hypo, smoothing_function=smooth_fn.method4))
     print('nltk_bleu,ref_1:', nltk_bleu.sentence_bleu(ref_1, hypo, smoothing_function=smooth_fn.method4))
 
+    print('Smooth-NIST')
+    print('nltk_bleu,ref_0:', nltk_bleu.sentence_bleu(ref_0, hypo, smoothing_function=smooth_fn.method3))
+    print('nltk_bleu,ref_1:', nltk_bleu.sentence_bleu(ref_1, hypo, smoothing_function=smooth_fn.method3))
+
+    # This gets back to normal
+    print('Without BP,With smoothing')
+    print('ref_0', bleu_without_bp(hypo, ref_0))
+    print('ref_1', bleu_without_bp(hypo, ref_1))
+
 # Without smoothing
 # our_bleu,ref_0: BleuScore(bleu=0.0, geo_mean=0, precisions=[0.8333333333333334, 0.6, 0.25, 0.0], brevity_penalty=0.22313016014842982)
 # our_bleu,ref_1: BleuScore(bleu=0.0, geo_mean=0, precisions=[0.16666666666666666, 0.0, 0.0, 0.0], brevity_penalty=0.6065306597126334)
@@ -59,3 +74,6 @@ if __name__ == '__main__':
 # our_bleu,ref_1: BleuScore(bleu=0.1339801428338312, geo_mean=0.22089591134157885, precisions=[0.2857142857142857, 0.16666666666666666, 0.2, 0.25], brevity_penalty=0.6065306597126334)
 # nltk_bleu,ref_0: 0.08552749803666322
 # nltk_bleu,ref_1: 0.12102159467251643
+# Without BP,With smoothing
+# ref_0 0.488923022434901
+# ref_1 0.22089591134157885
