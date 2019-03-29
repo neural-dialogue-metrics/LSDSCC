@@ -1,6 +1,6 @@
 import unittest
-from lsdscc.helper import make_ref_group
-from lsdscc.helper import parse_response_line
+from lsdscc.ds import make_ref_group
+from lsdscc.ds import parse_response_line
 
 
 class TestToRefGroup(unittest.TestCase):

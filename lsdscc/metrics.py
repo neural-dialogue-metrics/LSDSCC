@@ -7,7 +7,7 @@ import lsdscc.align as _align
 __all__ = [
     "LSDSCCScore",
     "compute_score_on_hypothesis_set",
-    "compute_score_on_hypothesis_corpus",
+    "compute_score_on_corpus",
 ]
 
 _logger = logging.getLogger(__name__)
@@ -58,7 +58,7 @@ def compute_score_on_hypothesis_set(hypothesis_set, reference_set, aligner=None)
     return LSDSCCScore(mds, pds, max_bleu)
 
 
-def compute_score_on_hypothesis_corpus(hypothesis_corpus, reference_corpus, aligner=None):
+def compute_score_on_corpus(hypothesis_corpus, reference_corpus, aligner=None):
     """
     Compute the three metrics on a corpus.
     This effectively compute the mean of scores of individual hypothesis sets.

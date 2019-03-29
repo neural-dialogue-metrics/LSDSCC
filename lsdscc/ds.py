@@ -1,5 +1,10 @@
+"""
+The data structure module.
+"""
 import json
 import logging
+
+from lsdscc.data import TEST_GROUP_JSON
 
 _logger = logging.getLogger(__name__)
 DEFAULT_EOS = '</s>'
@@ -109,13 +114,15 @@ class ReferenceSet:
         return cls([[ref.split() for ref in values] for _, values in sorted_group])
 
     @classmethod
-    def load_json_corpus(cls, filename):
+    def load_json_corpus(cls, filename=None):
         """
         Load a list of ReferenceSet from a json file.
 
         :param filename:
         :return: List[ReferenceSet]
         """
+        if filename is None:
+            filename = TEST_GROUP_JSON
         with open(filename) as f:
             json_data = json.load(f)
         return [cls.from_json(json_dict) for _, json_dict in json_data.items()]
