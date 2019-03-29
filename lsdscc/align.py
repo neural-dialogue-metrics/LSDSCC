@@ -23,7 +23,7 @@ import math
 __all__ = [
     "BleuAligner",
     "NLTKBleuAligner",
-    "NLTKNistAligner"
+    "NLTKNistAligner",
 ]
 
 DEFAULT_MAX_ORDER = 4

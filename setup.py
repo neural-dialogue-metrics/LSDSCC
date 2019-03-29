@@ -21,7 +21,8 @@ setup(
         'lsdscc.tests',
     ],
     package_data={
-        'lsdscc': ['data/*'],
+        # The dataset.zip is not installed currently.
+        'lsdscc': ['data/*.txt', 'data/*.json'],
         'lsdscc.tests': ['data/*'],
     },
     scripts=['bin/lsdscc_metrics.py'],
