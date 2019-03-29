@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__version__ = '0.3.0'
+__version__ = '0.3.1'
 
 setup(
     name='lsdscc',
@@ -22,7 +22,7 @@ setup(
     ],
     package_data={
         # The dataset.zip is not installed currently.
-        'lsdscc': ['data/*.txt', 'data/*.json'],
+        'lsdscc': ['data/*.txt', 'data/*.json', 'data/*.py'],
         'lsdscc.tests': ['data/*'],
     },
     scripts=['bin/lsdscc_metrics.py'],
