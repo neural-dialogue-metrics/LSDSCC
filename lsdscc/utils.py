@@ -1,12 +1,8 @@
-import lsdscc.metrics as _lsdscc_metrics
-from lsdscc.dataset import EvalDataset as _EvalDataset
-import logging
 import collections
-import numpy as np
+import logging
 
 _logger = logging.getLogger(__name__)
 DEFAULT_EOS = '</s>'
-ScoreTuple = collections.namedtuple('ScoreTuple', ['MaxBLEU', 'MDS', 'PDS'])
 
 
 def _split_responses(line, eos=None):
@@ -108,32 +104,3 @@ def _create_response_reference_pairs(dataset, response_file, query_file=None, eo
         query = [line.strip().lower() for line in f.readlines()]
     assert len(query) == len(response)
     return [(res, dataset[q]) for res, q in zip(response, query)]
-
-
-def run_all_metrics(response_file, query_file=None, eos=None):
-    """
-    Run the three metrics (MaxBLEU, MDS, PDS) on the response_file.
-    Return the average of each of them.
-
-    :param query_file:
-    :param response_file:
-    :param eos:
-    :return:
-    """
-
-    dataset = _EvalDataset.create_from_pickle()
-    response_reference_pairs = _create_response_reference_pairs(dataset, response_file, query_file, eos)
-
-    def apply_metric(metric):
-        return np.mean([metric(hy, ref) for hy, ref in response_reference_pairs])
-
-    _logger.info('running MDS...')
-    MDS = apply_metric(_lsdscc_metrics.mean_diversity_score)
-
-    _logger.info('running PDS...')
-    PDS = apply_metric(_lsdscc_metrics.probabilistic_diversity_score)
-
-    _logger.info('running MaxBLEU...')
-    maxBLEU = apply_metric(_lsdscc_metrics.max_bleu_score)
-
-    return ScoreTuple(MaxBLEU=maxBLEU, MDS=MDS, PDS=PDS)
