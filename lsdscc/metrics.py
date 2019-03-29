@@ -15,7 +15,7 @@ _logger = logging.getLogger(__name__)
 LSDSCCScore = collections.namedtuple('LSDSCCScore', ['mds', 'pds', 'max_bleu'])
 
 
-def _multi_bleu(hypothesis, reference_set, aligner=None):
+def _multi_bleu(hypothesis, reference_set, aligner):
     """
     Compute a list of scores with the aligner.
 
@@ -25,8 +25,6 @@ def _multi_bleu(hypothesis, reference_set, aligner=None):
     and a list of references.
     :return: List[float]
     """
-    if aligner is None:
-        aligner = _align.BleuAligner()
     return [aligner(hypothesis, refs) for refs in reference_set]
 
 
@@ -40,6 +38,9 @@ def compute_score_on_hypothesis_set(hypothesis_set, reference_set, aligner=None)
     and a list of references.
     :return: LSDSCCScore.
     """
+    if aligner is None:
+        aligner = _align.BleuAligner()
+
     alignment = set()
     max_bleu_list = []
 
