@@ -1,16 +1,12 @@
 """
 Implement the three metrics described in the paper LSDSCC: a Large Scale Domain-Specific Conversational Corpus for
 Response Generation with Diversity Oriented Evaluation Metrics.
-
-- MaxBLEU
-- MDS
-- PDS
 """
 from nltk.translate.bleu_score import sentence_bleu
 import numpy as np
 
 __all__ = [
-    "maxBLEU",
+    "max_bleu_score",
     "mean_diversity_score",
     "probabilistic_diversity_score",
 ]
@@ -35,7 +31,7 @@ def mean_diversity_score(responses, reference_group):
     Calculate the MDS (Mean Diversity Score) described by the paper.
 
     MDS is the percentage of members that align to at least one response in a reference_group.
-    A member is said to *align to* a response if the maxBLEU of the response and the member yields
+    A member is said to *align to* a response if the max_bleu_score of the response and the member yields
     the index of the member within its group. In other words, the member *has* the highest semantic relevance
     to the response within the group. Those special members are counted and then divided by the total number
     of member to yield the MDS score.
@@ -47,7 +43,7 @@ def mean_diversity_score(responses, reference_group):
     """
     alignment = _compute_alignment(responses, reference_group)
     overlap = len(set(alignment.values()))
-    return len(alignment) / len(reference_group)
+    return overlap / len(reference_group)
 
 
 def probabilistic_diversity_score(responses, reference_group):
@@ -88,15 +84,19 @@ def _argmax_multi_bleu(response, reference_group):
     2. The group that yields the maximum score is taken as the winner.
     3. The index of the winner is returned.
 
-    :param responses: a sentence.
+    :param response: a sentence.
     :param reference_group: a list of multiple references, each is a list of sentences.
     :return: the index of the group that has the highest semantic relevance to the response.
     """
     return np.argmax(_multi_bleu(response, reference_group))
 
 
-def maxBLEU(responses, reference_group):
-    return np.mean(
+def max_bleu_score(responses, reference_group):
+    return np.mean([
         np.max(_multi_bleu(response, reference_group))
         for response in responses
-    )
+    ])
+
+
+class Evaluator:
+    pass

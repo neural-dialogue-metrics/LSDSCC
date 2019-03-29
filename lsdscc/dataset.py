@@ -24,18 +24,6 @@ _TRAIN_PERCENTAGE = 0.85
 _logger = logging.getLogger(__name__)
 
 
-def _process_reference_group(group):
-    """
-    Process a reference_group from *raw* data loaded from json for use in Python.
-    :param group: dict. key is id of a subgroup. value is a list of string as the references of a subgroup.
-    :return: a list of subgroups (members). Each subgroup is a list of sentences.
-    Each sentence is a list of tokens. Every sentence in the raw data is already tokenized so we can
-    simply split it.
-    """
-    new_group = []
-    for member in group.values():
-        new_group.append([ref.split() for ref in member])
-    return new_group
 
 
 def _load_reference_groups():
@@ -117,7 +105,7 @@ class TrainDataset(collections.namedtuple('TrainDataset', ['training_corpus', 'v
     __repr__ = object.__repr__
 
 
-class EvalDataset(collections.namedtuple('EvalDataset', ['reference_groups', 'test_queries'])):
+class EvalDataset:
     """
     The dataset used for evaluation.
 
@@ -128,6 +116,10 @@ class EvalDataset(collections.namedtuple('EvalDataset', ['reference_groups', 'te
 
         test_queries: A list of queries, the keys of the reference_groups.
     """
+
+    def __init__(self, reference_groups, test_queries):
+        self.reference_groups = reference_groups
+        self.test_queries = test_queries
 
     @classmethod
     def create_from_json(cls):
@@ -161,3 +153,12 @@ class EvalDataset(collections.namedtuple('EvalDataset', ['reference_groups', 'te
 
     def _get_test_query_at(self, index):
         return self.test_queries[index]
+
+    def __contains__(self, query):
+        return self.reference_groups.__contains__(query)
+
+    def __len__(self):
+        return len(self.reference_groups)
+
+    def __getitem__(self, item):
+        return self.reference_groups.__getitem__(item)

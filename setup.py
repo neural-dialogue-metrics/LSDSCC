@@ -22,7 +22,7 @@ setup(
     scripts=[],
     classifiers=[
         'Intended Audience :: Science/Research',
-        'License :: OSI Approved :: Apache-v2',
+        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3',
         'Topic :: Text Processing :: Linguistic',
     ],

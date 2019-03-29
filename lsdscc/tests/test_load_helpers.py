@@ -7,8 +7,8 @@ from lsdscc.dataset import DATASET_ZIP_FILE
 from lsdscc.dataset import GROUP_FILE
 from lsdscc.dataset import DATA_ROOT
 
-from lsdscc.tests import TOTAL_DIALOGS
-from lsdscc.tests import TOTAL_GROUPS
+TOTAL_DIALOGS = 738095
+TOTAL_GROUPS = 299
 
 
 class TestLoadHelpers(unittest.TestCase):
