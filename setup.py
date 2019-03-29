@@ -10,10 +10,11 @@ setup(
     author='cgsdfc',
     author_email='cgsdfc@126.com',
     keywords=[
-        'NL', 'CL', 'MT',
+        'NL', 'CL', 'MT', 'NLG',
         'natural language processing',
         'computational linguistics',
         'machine translation',
+        'natural language generation',
     ],
     packages=[
         'lsdscc',

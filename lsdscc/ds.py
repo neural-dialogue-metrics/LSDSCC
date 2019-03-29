@@ -71,6 +71,7 @@ class HypothesisSet:
         :param eos:
         :return:
         """
+        _logger.info('loading hypothesis corpus %s', filename)
         with open(filename) as f:
             return [cls.from_line(line, eos) for line in f.readlines()]
 
@@ -95,7 +96,17 @@ class ReferenceSet:
 
     @property
     def n_references(self):
+        """
+        Return the total number of references.
+        """
         return sum(len(refs) for refs in self._reference_set)
+
+    @property
+    def query(self):
+        """
+        Return the associated query (if any).
+        """
+        return self._query
 
     def __repr__(self):
         return '<%s with %d groups, %d references>' % (
@@ -133,11 +144,13 @@ class ReferenceSet:
         """
         Load a list of ReferenceSet from a json file.
 
-        :param filename:
+        :param filename: the file in json format. default to load the builtin lsdscc
+        test set.
         :return: List[ReferenceSet]
         """
         if filename is None:
             filename = TEST_GROUP_JSON
+        _logger.info('loading reference corpus %s', filename)
         with open(filename) as f:
             json_data = json.load(f)
         return [cls.from_json(json_dict, query) for query, json_dict in json_data.items()]
