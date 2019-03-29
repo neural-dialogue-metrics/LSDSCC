@@ -1,106 +1,101 @@
-import collections
+import json
 import logging
 
 _logger = logging.getLogger(__name__)
 DEFAULT_EOS = '</s>'
 
+__all__ = [
+    "HypothesisSet",
+    "ReferenceSet",
+]
 
-def _split_responses(line, eos=None):
+
+class HypothesisSet:
     """
-    Turn a line into a list of response.
-    Each response is split into a list of tokens.
-
-    :param line: str.
-    :return: a list of sentences.
+    This a simple wrapper of a list of sentence representing the hypothesis set.
+    This class makes the headache of thinking of deeply-nested list less killing.
     """
-    if eos is None:
-        eos = DEFAULT_EOS
-    responses = line.split(eos)
-    return [response.strip().split() for response in responses]
+
+    def __init__(self, hypothesis_sentences):
+        self._hypothesis_sentences = hypothesis_sentences
+        pass
+
+    def __iter__(self):
+        return iter(self._hypothesis_sentences)
+
+    def __len__(self):
+        """
+        Return the number of hypotheses in the set.
+
+        :return:
+        """
+        return len(self._hypothesis_sentences)
+
+    def __getitem__(self, item):
+        return self._hypothesis_sentences[item]
+
+    def __str__(self):
+        return "\n".join("%d: %r" % (i, h) for i, h in enumerate(self._hypothesis_sentences))
+
+    def __repr__(self):
+        return '<%s with %d sentences>' % (self.__class__.__name__, len(self))
+
+    @classmethod
+    def from_line(cls, line, eos=None):
+        if eos is None:
+            eos = DEFAULT_EOS
+        hypothesis = line.split(eos)
+        return cls(
+            [sentence.strip().split() for sentence in hypothesis]
+        )
+
+    @classmethod
+    def load_corpus(cls, filename, eos=None):
+        with open(filename) as f:
+            return [cls.from_line(line, eos) for line in f.readlines()]
 
 
-def parse_response_line(line, eos=None):
+class ReferenceSet:
     """
-    Parse a single line to a response set.
-
-    :param line:
-    :param eos:
-    :return:
+    This class represents a 2-level multiple reference group.
     """
-    return _split_responses(line, eos)
 
+    def __init__(self, annotated_refs):
+        self._reference_set = annotated_refs
 
-def parse_response_file(filename, eos=None):
-    """
-    Parse a response file into a list of response set.
-    The format of the response file:
-        1. one line for one response set.
-        2. responses in a response set are separated by `eos`.
+    def __len__(self):
+        return len(self._reference_set)
 
-    Example of response file:
+    def __iter__(self):
+        return iter(self._reference_set)
 
-        This is response 1 of set 1 </s> This is response 2
-        This is response 3 </s> This is response 4 </s> one more response
-        A single response on its own line
+    def __getitem__(self, item):
+        return self._reference_set[item]
 
-    :param filename: the response file.
-    :param eos: the *end-of-sentence* token used to separate responses situated in one line.
-    :return: Nested list of sentences.
-    """
-    _logger.info('loading response_file %s', filename)
+    @classmethod
+    def from_json(cls, json_dict):
+        """
+          Turn a json dict representing a reference group into the format used by us.
+          A reference group has many subgroups, each of which is semantically independent to one another.
+          A subgroup has many in-group sentences, each of which shares a similar semantic with one another.
+          The structure of a reference group can be viewed as a superset of semantic clusters of references.
 
-    with open(filename) as f:
-        return [_split_responses(line, eos) for line in f.readlines()]
+          The format of the json dict is:
+              1. The key is a str -- the subgroup id.
+              2. The value is a list of str -- the member references of a subgroup.
 
+          Our format is:
+              1. The dict is replaced by a list. The order of the items follows the keys of the json dict.
+              2. Each sentence str is split into a list.
 
-def make_ref_group(json_data):
-    """
-    Turn a json dict representing a reference group into the format used by us.
-    A reference group has many subgroups, each of which is semantically independent to one another.
-    A subgroup has many in-group sentences, each of which shares a similar semantic with one another.
-    The structure of a reference group can be viewed as a superset of semantic clusters of references.
+          :param json_dict: dict.
+          :return: a nested list.
+          """
+        sorted_group = sorted(json_dict.items(), key=lambda kv: int(kv[0]))
+        return cls([[ref.split() for ref in values] for _, values in sorted_group])
 
-    The format of the json dict is:
-        1. The key is a str -- the subgroup id.
-        2. The value is a list of str -- the member references of a subgroup.
-
-    Our format is:
-        1. The dict is replaced by a list. The order of the items follows the keys of the json dict.
-        2. Each sentence str is split into a list.
-
-    :param json_data: dict.
-    :return: a nested list.
-    """
-    sorted_group = sorted(json_data.items(), key=lambda kv: int(kv[0]))
-    return [[ref.split() for ref in values] for _, values in sorted_group]
-
-
-def make_annotated_refs(json_data):
-    """
-    Turn a json dict representing an annotated references into the format used by us.
-
-    The format of the json dict is:
-        1. The key is a str -- the query.
-        2. The value is a dict -- as described by the input of make_ref_group.
-
-    Our format is:
-        1. A list of 2-tuple.
-        2. Each tuple is (query:str, list:make_ref_group())
-
-    :param json_data:
-    :return:
-    """
-    return [(query, make_ref_group(refs)) for query, refs in json_data.items()]
-
-
-def _create_response_reference_pairs(dataset, response_file, query_file=None, eos=None):
-    response = parse_response_file(response_file, eos)
-
-    if query_file is None:
-        # If no query_file, use the natural order of the response_file.
-        return [(res, dataset[i]) for i, res in enumerate(response)]
-    # The order of query_file is used.
-    with open(query_file) as f:
-        query = [line.strip().lower() for line in f.readlines()]
-    assert len(query) == len(response)
-    return [(res, dataset[q]) for res, q in zip(response, query)]
+    @classmethod
+    def load_json_corpus(cls, filename):
+        with open(filename) as f:
+            json_data = json.load(f)
+        return [cls.from_json(json_dict) for _, json_dict in json_data.items()]
