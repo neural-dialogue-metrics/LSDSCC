@@ -116,24 +116,39 @@ class ReferenceSet:
     @classmethod
     def from_json(cls, json_dict, query=None):
         """
-          Turn a json dict representing a reference group into the format used by us.
-          A reference group has many subgroups, each of which is semantically independent to one another.
-          A subgroup has many in-group sentences, each of which shares a similar semantic with one another.
-          The structure of a reference group can be viewed as a superset of semantic clusters of references.
+        Turn a json dict representing a reference group into the format used by us.
+        A reference group has many subgroups, each of which is semantically independent to one another.
+        A subgroup has many in-group sentences, each of which shares a similar semantic with one another.
+        The structure of a reference group can be viewed as a superset of semantic clusters of references.
 
-          The format of the json dict is:
-              1. The key is a str -- the subgroup id.
-              2. The value is a list of str -- the member references of a subgroup.
+        The format of the json dict is:
+          1. The key is a str -- the subgroup id.
+          2. The value is a list of str -- the member references of a subgroup.
 
-          Our format is:
-              1. The dict is replaced by a list. The order of the items follows the keys of the json dict.
-              2. Each sentence str is split into a list.
+        Our format is:
+          1. The dict is replaced by a list. The order of the items follows the keys of the json dict.
+          2. Each sentence str is split into a list.
 
-          :param query:
-          :param json_dict: dict.
-          :return: a nested list.
-          """
-        sorted_group = sorted(json_dict.items(), key=lambda kv: int(kv[0]))
+        :param query:
+        :param json_dict: dict.
+        :return: a nested list.
+        """
+        max_index = len(json_dict) - 1
+
+        def get_key(k):
+            """
+            Turn a string that may not be a valid int into unique key.
+            :param k:
+            :return:
+            """
+            nonlocal max_index
+            try:
+                return int(k)
+            except ValueError:
+                max_index += 1
+                return max_index
+
+        sorted_group = sorted(json_dict.items(), key=lambda kv: get_key(kv[0]))
         return cls(
             reference_set=[[ref.split() for ref in values] for _, values in sorted_group],
             query=query,
