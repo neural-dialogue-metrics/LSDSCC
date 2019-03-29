@@ -24,8 +24,6 @@ _TRAIN_PERCENTAGE = 0.85
 _logger = logging.getLogger(__name__)
 
 
-
-
 def _load_reference_groups():
     """
     Load and process the human annotated query-response-groups from json format.
