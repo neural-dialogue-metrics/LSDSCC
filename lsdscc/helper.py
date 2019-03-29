@@ -42,6 +42,13 @@ class HypothesisSet:
 
     @classmethod
     def from_line(cls, line, eos=None):
+        """
+        Create a HypothesisSet from a line of string.
+
+        :param line:
+        :param eos:
+        :return:
+        """
         if eos is None:
             eos = DEFAULT_EOS
         hypothesis = line.split(eos)
@@ -51,6 +58,13 @@ class HypothesisSet:
 
     @classmethod
     def load_corpus(cls, filename, eos=None):
+        """
+        Load a list of HypothesisSet from a plain text file.
+
+        :param filename:
+        :param eos:
+        :return:
+        """
         with open(filename) as f:
             return [cls.from_line(line, eos) for line in f.readlines()]
 
@@ -96,6 +110,12 @@ class ReferenceSet:
 
     @classmethod
     def load_json_corpus(cls, filename):
+        """
+        Load a list of ReferenceSet from a json file.
+
+        :param filename:
+        :return: List[ReferenceSet]
+        """
         with open(filename) as f:
             json_data = json.load(f)
         return [cls.from_json(json_dict) for _, json_dict in json_data.items()]

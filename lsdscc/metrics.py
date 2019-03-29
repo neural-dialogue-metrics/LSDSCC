@@ -1,20 +1,18 @@
 import collections
 import logging
-
 import numpy as np
 
 import lsdscc.align as _align
 
 __all__ = [
     "LSDSCCScore",
-     "compute_score_on_hypothesis_set",
+    "compute_score_on_hypothesis_set",
     "compute_score_on_hypothesis_corpus",
 ]
 
 _logger = logging.getLogger(__name__)
 
 LSDSCCScore = collections.namedtuple('LSDSCCScore', ['mds', 'pds', 'max_bleu'])
-
 
 
 def _multi_bleu(hypothesis, reference_set, aligner=None):

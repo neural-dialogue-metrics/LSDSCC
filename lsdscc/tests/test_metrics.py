@@ -3,9 +3,9 @@ import logging
 import pathlib
 import unittest
 
-import lsdscc.utils as utils
+import lsdscc.helper as utils
 from lsdscc.metrics import compute_score_on_hypothesis_set
-from lsdscc.utils import load_response_corpus
+from lsdscc.helper import load_response_corpus
 
 DATA_ROOT = pathlib.Path(__file__).parent / 'data'
 assert DATA_ROOT.is_dir()
