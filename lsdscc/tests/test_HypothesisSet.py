@@ -1,6 +1,6 @@
 import unittest
 from lsdscc.ds import HypothesisSet
-from lsdscc.tests.data import RESPONSE_FILE, N_HYPOTHESES
+from lsdscc.tests.data import HYPOTHESIS_FILE, N_HYPOTHESES
 
 
 class TestHypothesisSet(unittest.TestCase):
@@ -14,7 +14,7 @@ class TestHypothesisSet(unittest.TestCase):
         self.assertEqual(list(hs), ['a'.split(), 'b'.split()])
 
     def test_load_corpus(self):
-        corpus = HypothesisSet.load_corpus(RESPONSE_FILE)
+        corpus = HypothesisSet.load_corpus(HYPOTHESIS_FILE)
         self.assertEqual(len(corpus), 1, msg='one element corpus')
         hs = corpus[0]
         self.assertEqual(len(hs), N_HYPOTHESES)

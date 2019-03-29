@@ -1,6 +1,7 @@
 """
 The data structure module.
 """
+import io
 import json
 import logging
 
@@ -22,11 +23,11 @@ class HypothesisSet:
     """
 
     def __init__(self, hypothesis_sentences):
-        self._hypothesis_sentences = hypothesis_sentences
+        self._hypothesis_set = hypothesis_sentences
         pass
 
     def __iter__(self):
-        return iter(self._hypothesis_sentences)
+        return iter(self._hypothesis_set)
 
     def __len__(self):
         """
@@ -34,13 +35,13 @@ class HypothesisSet:
 
         :return:
         """
-        return len(self._hypothesis_sentences)
+        return len(self._hypothesis_set)
 
     def __getitem__(self, item):
-        return self._hypothesis_sentences[item]
+        return self._hypothesis_set[item]
 
     def __str__(self):
-        return "\n".join("%d: %r" % (i, h) for i, h in enumerate(self._hypothesis_sentences))
+        return "\n".join("%d: %r" % (i, h) for i, h in enumerate(self._hypothesis_set))
 
     def __repr__(self):
         return '<%s with %d hypotheses>' % (self.__class__.__name__, len(self))
@@ -79,8 +80,9 @@ class ReferenceSet:
     This class represents a 2-level multiple reference group.
     """
 
-    def __init__(self, annotated_refs):
-        self._reference_set = annotated_refs
+    def __init__(self, reference_set, query=None):
+        self._reference_set = reference_set
+        self._query = query
 
     def __len__(self):
         return len(self._reference_set)
@@ -91,8 +93,17 @@ class ReferenceSet:
     def __getitem__(self, item):
         return self._reference_set[item]
 
+    @property
+    def n_references(self):
+        return sum(len(refs) for refs in self._reference_set)
+
+    def __repr__(self):
+        return '<%s with %d groups, %d references>' % (
+            self.__class__.__name__, len(self), self.n_references
+        )
+
     @classmethod
-    def from_json(cls, json_dict):
+    def from_json(cls, json_dict, query=None):
         """
           Turn a json dict representing a reference group into the format used by us.
           A reference group has many subgroups, each of which is semantically independent to one another.
@@ -107,11 +118,15 @@ class ReferenceSet:
               1. The dict is replaced by a list. The order of the items follows the keys of the json dict.
               2. Each sentence str is split into a list.
 
+          :param query:
           :param json_dict: dict.
           :return: a nested list.
           """
         sorted_group = sorted(json_dict.items(), key=lambda kv: int(kv[0]))
-        return cls([[ref.split() for ref in values] for _, values in sorted_group])
+        return cls(
+            reference_set=[[ref.split() for ref in values] for _, values in sorted_group],
+            query=query,
+        )
 
     @classmethod
     def load_json_corpus(cls, filename=None):
@@ -125,4 +140,13 @@ class ReferenceSet:
             filename = TEST_GROUP_JSON
         with open(filename) as f:
             json_data = json.load(f)
-        return [cls.from_json(json_dict) for _, json_dict in json_data.items()]
+        return [cls.from_json(json_dict, query) for query, json_dict in json_data.items()]
+
+    def __str__(self):
+        with io.StringIO() as f:
+            print('query: %s' % self._query, file=f)
+            for i, refs in enumerate(self._reference_set):
+                print('group-%d:' % i, file=f)
+                for j, reference in enumerate(refs):
+                    print('  %d: %r' % (j, reference), file=f)
+            return f.getvalue()
