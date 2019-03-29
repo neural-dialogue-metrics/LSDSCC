@@ -43,7 +43,7 @@ class HypothesisSet:
         return "\n".join("%d: %r" % (i, h) for i, h in enumerate(self._hypothesis_sentences))
 
     def __repr__(self):
-        return '<%s with %d sentences>' % (self.__class__.__name__, len(self))
+        return '<%s with %d hypotheses>' % (self.__class__.__name__, len(self))
 
     @classmethod
     def from_line(cls, line, eos=None):

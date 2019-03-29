@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__version__ = '0.2.0'
+__version__ = '0.3.0'
 
 setup(
     name='lsdscc',
@@ -15,11 +15,15 @@ setup(
         'computational linguistics',
         'machine translation',
     ],
-    packages=['lsdscc'],
+    packages=[
+        'lsdscc',
+        'lsdscc.tests',
+    ],
     package_data={
         'lsdscc': ['data/*'],
+        'lsdscc.tests': ['data/*'],
     },
-    scripts=[],
+    scripts=['bin/lsdscc_metrics.py'],
     classifiers=[
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: Apache Software License',
