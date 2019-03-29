@@ -4,8 +4,8 @@ from lsdscc import HypothesisSet, ReferenceSet
 from lsdscc import compute_score_on_corpus
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('hypothesis_file', help='file containing responses to be evaluate')
+    parser = argparse.ArgumentParser(description='evaluate diversity oriented metrics of LSDSCC')
+    parser.add_argument('hypothesis_file', help='file containing responses to be evaluated')
     parser.add_argument('--eos', '-e', help='end-of-sentence indicator to use in the response file')
     parser.add_argument('--reference_file', '-r', help='custom reference corpus to use. (in json format)')
     args = parser.parse_args()
