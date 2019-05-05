@@ -5,7 +5,7 @@ import io
 import json
 import logging
 
-from lsdscc.data import TEST_GROUP_JSON
+from lsdscc.data import default_reference_set
 
 _logger = logging.getLogger(__name__)
 DEFAULT_EOS = '</s>'
@@ -164,7 +164,7 @@ class ReferenceSet:
         :return: List[ReferenceSet]
         """
         if filename is None:
-            filename = TEST_GROUP_JSON
+            filename = default_reference_set
         _logger.info('loading reference corpus %s', filename)
         with open(filename) as f:
             json_data = json.load(f)

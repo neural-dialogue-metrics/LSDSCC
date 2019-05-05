@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__version__ = '0.3.5'
+from lsdscc import __version__
 
 setup(
     name='lsdscc',
