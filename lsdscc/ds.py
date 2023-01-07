@@ -1,3 +1,25 @@
+# MIT License
+#
+# Copyright (c) 2019 Cong Feng.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 """
 The data structure module.
 """
@@ -8,7 +30,7 @@ import logging
 from lsdscc.data import default_reference_set
 
 _logger = logging.getLogger(__name__)
-DEFAULT_EOS = '</s>'
+DEFAULT_EOS = "</s>"
 
 __all__ = [
     "HypothesisSet",
@@ -44,7 +66,7 @@ class HypothesisSet:
         return "\n".join("%d: %r" % (i, h) for i, h in enumerate(self._hypothesis_set))
 
     def __repr__(self):
-        return '<%s with %d hypotheses>' % (self.__class__.__name__, len(self))
+        return "<%s with %d hypotheses>" % (self.__class__.__name__, len(self))
 
     @classmethod
     def from_line(cls, line, eos=None):
@@ -58,9 +80,7 @@ class HypothesisSet:
         if eos is None:
             eos = DEFAULT_EOS
         hypothesis = line.split(eos)
-        return cls(
-            [sentence.strip().split() for sentence in hypothesis]
-        )
+        return cls([sentence.strip().split() for sentence in hypothesis])
 
     @classmethod
     def load_corpus(cls, filename, eos=None):
@@ -71,7 +91,7 @@ class HypothesisSet:
         :param eos:
         :return:
         """
-        _logger.info('loading hypothesis corpus %s', filename)
+        _logger.info("loading hypothesis corpus %s", filename)
         with open(filename) as f:
             return [cls.from_line(line, eos) for line in f.readlines()]
 
@@ -109,8 +129,10 @@ class ReferenceSet:
         return self._query
 
     def __repr__(self):
-        return '<%s with %d groups, %d references>' % (
-            self.__class__.__name__, len(self), self.n_references
+        return "<%s with %d groups, %d references>" % (
+            self.__class__.__name__,
+            len(self),
+            self.n_references,
         )
 
     @classmethod
@@ -150,7 +172,9 @@ class ReferenceSet:
 
         sorted_group = sorted(json_dict.items(), key=lambda kv: get_key(kv[0]))
         return cls(
-            reference_set=[[ref.split() for ref in values] for _, values in sorted_group],
+            reference_set=[
+                [ref.split() for ref in values] for _, values in sorted_group
+            ],
             query=query,
         )
 
@@ -165,16 +189,18 @@ class ReferenceSet:
         """
         if filename is None:
             filename = default_reference_set
-        _logger.info('loading reference corpus %s', filename)
+        _logger.info("loading reference corpus %s", filename)
         with open(filename) as f:
             json_data = json.load(f)
-        return [cls.from_json(json_dict, query) for query, json_dict in json_data.items()]
+        return [
+            cls.from_json(json_dict, query) for query, json_dict in json_data.items()
+        ]
 
     def __str__(self):
         with io.StringIO() as f:
-            print('query: %s' % self._query, file=f)
+            print("query: %s" % self._query, file=f)
             for i, refs in enumerate(self._reference_set):
-                print('group-%d:' % i, file=f)
+                print("group-%d:" % i, file=f)
                 for j, reference in enumerate(refs):
-                    print('  %d: %r' % (j, reference), file=f)
+                    print("  %d: %r" % (j, reference), file=f)
             return f.getvalue()

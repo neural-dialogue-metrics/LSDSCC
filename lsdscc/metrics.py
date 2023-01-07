@@ -1,3 +1,25 @@
+# MIT License
+#
+# Copyright (c) 2019 Cong Feng.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 import collections
 import logging
 import numpy as np
@@ -12,7 +34,7 @@ __all__ = [
 
 _logger = logging.getLogger(__name__)
 
-LSDSCCScore = collections.namedtuple('LSDSCCScore', ['mds', 'pds', 'max_bleu'])
+LSDSCCScore = collections.namedtuple("LSDSCCScore", ["mds", "pds", "max_bleu"])
 
 
 def _multi_bleu(hypothesis, reference_set, aligner):
@@ -47,7 +69,7 @@ def compute_score_on_hypothesis_set(hypothesis_set, reference_set, aligner=None)
     for h_i, h in enumerate(hypothesis_set):
         bleu_scores = _multi_bleu(h, reference_set, aligner)
         k = np.argmax(bleu_scores)
-        _logger.info('hypothesis %d is aligned to ref_group %d', h_i, k)
+        _logger.info("hypothesis %d is aligned to ref_group %d", h_i, k)
         alignment.add(k)
         max_bleu = max(bleu_scores)
         max_bleu_list.append(max_bleu)
